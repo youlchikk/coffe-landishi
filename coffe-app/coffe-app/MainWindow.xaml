@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:coffe_app"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Grid Margin="0,0,0,7"/>
 </Window>

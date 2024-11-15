@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = coffe_app
-build_property.ProjectDir = C:\KP_KPO\koffe-landishi\coffe-app\coffe-app\
+build_property.ProjectDir = C:\coffe-app\coffe-landishi\coffe-app\coffe-app\
