@@ -1,0 +1,6 @@
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\coffe-app.csproj.AssemblyReference.cache
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\Profile.g.cs
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\App.g.cs
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\coffe-app_MarkupCompile.cache
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\coffe-app_MarkupCompile.lref
