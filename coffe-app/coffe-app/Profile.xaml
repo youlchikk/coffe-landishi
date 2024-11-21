@@ -1,14 +1,27 @@
-﻿<Page x:Class="coffe_app.Profile"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:coffe_app"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Profile">
-
-    <Grid>
-        
+﻿<Window x:Class="coffe_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coffe_app"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FFF3D9F2">
+    <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Height="37" Width="110" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
+        <Label Content="Мой профиль" HorizontalAlignment="Left" Margin="312,10,0,0" VerticalAlignment="Top" Height="41" Width="196" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="41,371,0,0" VerticalAlignment="Top" Height="37" Width="137" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="41,51,0,0" VerticalAlignment="Top" Width="188" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+        <Image Margin="41,57,542,122" Source="/Image3.png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Margin="291,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" Height="21"/>
+        <TextBox HorizontalAlignment="Left" Margin="291,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" Height="21"/>
+        <TextBox HorizontalAlignment="Left" Margin="291,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" Height="21"/>
+        <TextBox HorizontalAlignment="Left" Margin="291,284,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" Height="21"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Margin="291,116,0,0" VerticalAlignment="Top" Height="48" Width="329" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Label Content="Адрес электронной почты" HorizontalAlignment="Left" Margin="291,183,0,0" VerticalAlignment="Top" Height="48" Width="329" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Label Content="Дата рождения" HorizontalAlignment="Left" Margin="291,249,0,0" VerticalAlignment="Top" Height="48" Width="329" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="291,56,0,0" VerticalAlignment="Top" Height="47" Width="329" FontFamily="Monotype Corsiva" FontSize="22"/>
     </Grid>
-</Page>
+</Window>
