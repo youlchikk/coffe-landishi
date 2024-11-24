@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\
 coffe_app
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\App.xaml
+C:\coffe-app\coffe-landishi\coffe-app\coffe-app\App.xaml
 2-296811392
 
 9-280857128
-195-446918232
+1951344290917
 MainWindow.xaml;Profile.xaml;
 
-False
+True
 

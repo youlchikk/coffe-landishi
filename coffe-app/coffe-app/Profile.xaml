@@ -1,11 +1,11 @@
-﻿<Window x:Class="coffe_app.MainWindow"
+﻿<Window x:Class="coffe_app.Profile"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:coffe_app"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FFF3D9F2">
+        Title="Profile" Height="450" Width="800" Background="#FFF3D9F2">
     <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
