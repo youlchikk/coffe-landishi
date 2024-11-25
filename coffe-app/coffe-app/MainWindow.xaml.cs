@@ -18,7 +18,20 @@ namespace coffe_app
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        { // Ваш код обработки нажатия кнопки здесь 
+        }
+        private void OpenProfile_Click(object sender, RoutedEventArgs e) 
+        {
+            Profile profileWindow = new Profile(this); 
+            profileWindow.Show();
+            this.Hide();
+        }
+        private void Exit_Click(object sender, RoutedEventArgs e) 
+        { 
+            Application.Current.Shutdown(); 
         }
     }
 }

@@ -10,9 +10,9 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Выход" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Height="37" Width="110" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Height="37" Width="110" RenderTransformOrigin="0.503,0.503" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
         <Label Content="Мой профиль" HorizontalAlignment="Left" Margin="312,10,0,0" VerticalAlignment="Top" Height="41" Width="196" FontFamily="Monotype Corsiva" FontSize="22"/>
-        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="41,371,0,0" VerticalAlignment="Top" Height="37" Width="137" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
+        <Button Content="В главное меню" HorizontalAlignment="Left" Margin="41,371,0,0" VerticalAlignment="Top" Height="37" Width="137" RenderTransformOrigin="0.503,0.503" Click="BackToMain_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
         <Image HorizontalAlignment="Left" Height="164" Margin="41,51,0,0" VerticalAlignment="Top" Width="188" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
         <Image Margin="41,57,542,122" Source="/Image3.png" Stretch="Fill"/>
         <TextBox HorizontalAlignment="Left" Margin="291,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376" Height="21"/>

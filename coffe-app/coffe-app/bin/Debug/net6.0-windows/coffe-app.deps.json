@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "coffe-app/1.0.0": {
+        "dependencies": {
+          "MenuDLL": "1.0.0"
+        },
         "runtime": {
           "coffe-app.dll": {}
+        }
+      },
+      "MenuDLL/1.0.0": {
+        "runtime": {
+          "MenuDLL.dll": {}
         }
       }
     }
   },
   "libraries": {
     "coffe-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MenuDLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

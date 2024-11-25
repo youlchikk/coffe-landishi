@@ -18,11 +18,25 @@ namespace coffe_app
     /// <summary>
     /// Логика взаимодействия для Profile.xaml
     /// </summary>
-    public partial class Profile : Page
+    public partial class Profile : Window
     {
-        public Profile()
+        private MainWindow mainWindow;
+        public Profile(MainWindow mainWindow)
         {
             InitializeComponent();
+            this.mainWindow = mainWindow;
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        { // Ваш код обработки нажатия кнопки здесь
+        }
+        private void BackToMain_Click(object sender, RoutedEventArgs e) 
+        { 
+            mainWindow.Show(); 
+            this.Close(); 
+        }
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }
