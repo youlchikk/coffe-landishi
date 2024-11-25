@@ -11,7 +11,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Button Content="Выход" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Height="37" Width="110" RenderTransformOrigin="0.503,0.503" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
-        <Button HorizontalAlignment="Left" Margin="21,118,0,0" VerticalAlignment="Top" Height="33" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Меню" BorderBrush="#FFECB7FF"/>
+        <Button HorizontalAlignment="Left" Margin="21,118,0,0" VerticalAlignment="Top" Height="33" Width="174" RenderTransformOrigin="0.503,0.503" Click="Menu_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Меню" BorderBrush="#FFECB7FF"/>
         <Button HorizontalAlignment="Left" Margin="21,179,0,0" VerticalAlignment="Top" Height="33" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Акции" BorderBrush="#FFECB7FF"/>
         <Button Content="Окно заказа" HorizontalAlignment="Left" Margin="21,239,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
         <Button HorizontalAlignment="Left" Margin="21,360,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Отслеживание заказа" BorderBrush="#FFECB7FF"/>
@@ -19,5 +19,4 @@
         <Button Content="Новости" HorizontalAlignment="Left" Margin="21,298,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.499,0.531" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
         <Label Content="Кофейня &quot;Ландыши&quot;" HorizontalAlignment="Left" Margin="312,10,0,0" VerticalAlignment="Top" Height="41" Width="196" FontFamily="Monotype Corsiva" FontSize="22"/>
     </Grid>
-
 </Window>

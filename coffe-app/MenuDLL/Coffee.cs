@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MenuDLL
 {
-    abstract class Coffee
+    public abstract class Coffee
     {
         public abstract void createWithChocolateSyrup();
         public abstract void createWithBananaSyrup();
@@ -61,7 +61,7 @@ namespace MenuDLL
 
     }
 
-    class Americano: Coffee
+    public class Americano: Coffee
     {
         public override void createWithChocolateSyrup() { }
         public override void createWithBananaSyrup() { }
@@ -70,7 +70,7 @@ namespace MenuDLL
         public override void createWithCaramelSyrup() { }
     }
 
-    class Cappuccino : Coffee
+    public class Cappuccino : Coffee
     {
         public override void createWithChocolateSyrup() { }
         public override void createWithBananaSyrup() { }
@@ -79,7 +79,7 @@ namespace MenuDLL
         public override void createWithCaramelSyrup() { }
     }
 
-    class FlatWhite : Coffee
+    public class FlatWhite : Coffee
     {
         public override void createWithChocolateSyrup() { }
         public override void createWithBananaSyrup() { }
@@ -88,7 +88,7 @@ namespace MenuDLL
         public override void createWithCaramelSyrup() { }
     }
 
-    class Latte: Coffee
+    public class Latte: Coffee
     {
         public override void createWithChocolateSyrup() { }
         public override void createWithBananaSyrup() { }
@@ -97,7 +97,7 @@ namespace MenuDLL
         public override void createWithCaramelSyrup() { }
     }
 
-    class Raf : Coffee
+    public class Raf : Coffee
     {
         public override void createWithChocolateSyrup() { }
         public override void createWithBananaSyrup() { }

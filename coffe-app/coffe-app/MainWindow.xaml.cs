@@ -29,6 +29,12 @@ namespace coffe_app
             profileWindow.Show();
             this.Hide();
         }
+        private void Menu_Click(object sender, RoutedEventArgs e)
+        {
+            Menu menuWindow = new Menu(this);
+            menuWindow.Show();
+            this.Hide();
+        }
         private void Exit_Click(object sender, RoutedEventArgs e) 
         { 
             Application.Current.Shutdown(); 

@@ -16,7 +16,10 @@
       },
       "MenuDLL/1.0.0": {
         "runtime": {
-          "MenuDLL.dll": {}
+          "MenuDLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
