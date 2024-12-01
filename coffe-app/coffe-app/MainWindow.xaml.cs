@@ -53,7 +53,7 @@ namespace coffe_app
             IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
 
           //  Console.WriteLine("Введите команду (register/login):");
-            string command = "register";
+            string command = "login";
          //   Console.WriteLine("Введите имя пользователя:");
             string username = "youlchikk";
             string phone = "3863055";
@@ -62,8 +62,8 @@ namespace coffe_app
          //   Console.WriteLine("Введите пароль:");
             string password = "password";
 
-            string message = $"{command}|{username}|{phone}|{email}|{birthdate}|{password}";
-  
+          //   string message = $"{command}|{username}|{phone}|{email}|{birthdate}|{password}";
+            string message = $"{command}|{username}|{password}";
             byte[] data = Encoding.UTF8.GetBytes(message);
 
             s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);
@@ -71,7 +71,7 @@ namespace coffe_app
             byte[] byteRec = new byte[512];
             EndPoint serverEndPoint = new IPEndPoint(IPAddress.Any, 0);
             int response = s1.ReceiveFrom(byteRec, byteRec.Length, SocketFlags.None, ref serverEndPoint);
-            MessageBox.Show(Convert.ToString(response));
+            MessageBox.Show(Encoding.UTF8.GetString(byteRec, 0, byteRec.Length));
           //  Console.WriteLine($"Ответ сервера: {response}");
         }
     }
