@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace MenuDLL
 {
-    abstract class Tea
+    public abstract class Tea: Menu
     {
         protected bool HotOrCold { get; set; }
-        protected double[] price { get; set; }
-        protected double[] volume { get; set; }
+        protected double price { get; set; }
+        protected double volume { get; set; }
         protected string description { get; set; }
     }
 
-    class TeaWithoutSyrup : Tea
+    public class TeaWithoutSyrup : Tea
     {
-        public TeaWithoutSyrup(bool HotOrCold, double[] price, double[] volume) 
+        public TeaWithoutSyrup(bool HotOrCold, double price, double volume) 
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -25,9 +25,9 @@ namespace MenuDLL
         }
     }
 
-    class TeaWithChocolateSyrup : Tea
+    public class TeaWithChocolateSyrup : Tea
     {
-        public TeaWithChocolateSyrup(bool HotOrCold, double[] price, double[] volume)
+        public TeaWithChocolateSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -36,9 +36,9 @@ namespace MenuDLL
         }
     }
 
-    class TeaWithBananaSyrup : Tea
+    public class TeaWithBananaSyrup : Tea
     {
-        public TeaWithBananaSyrup(bool HotOrCold, double[] price, double[] volume)
+        public TeaWithBananaSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -47,9 +47,9 @@ namespace MenuDLL
         }
     }
 
-    class TeaWithLavenderSyrup : Tea
+    public class TeaWithLavenderSyrup : Tea
     {
-        public TeaWithLavenderSyrup(bool HotOrCold, double[] price, double[] volume)
+        public TeaWithLavenderSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -58,9 +58,9 @@ namespace MenuDLL
         }
     }
 
-    class TeaWithRaspberrySyrup : Tea
+    public class TeaWithRaspberrySyrup : Tea
     {
-        public TeaWithRaspberrySyrup(bool HotOrCold, double[] price, double[] volume)
+        public TeaWithRaspberrySyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -69,9 +69,9 @@ namespace MenuDLL
         }
     }
 
-    class TeaWithCaramelSyrup : Tea
+    public class TeaWithCaramelSyrup : Tea
     {
-        public TeaWithCaramelSyrup(bool HotOrCold, double[] price, double[] volume)
+        public TeaWithCaramelSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;

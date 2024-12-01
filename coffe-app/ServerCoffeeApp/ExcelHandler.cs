@@ -14,7 +14,7 @@ namespace ServerCoffeeApp
 
         public static string filePath = "../../Users.xlsx";
 
-        public static bool RegisterUser(string username, string phone, string email, string birthdate, string password)
+        public static bool RegisterUser(string username, string phone, string email, string birthdate, string password, string admin)
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
 
@@ -35,6 +35,7 @@ namespace ServerCoffeeApp
                 worksheet.Cells[newRow, 3].Value = email;
                 worksheet.Cells[newRow, 4].Value = birthdate;
                 worksheet.Cells[newRow, 5].Value = password;
+                worksheet.Cells[newRow, 6].Value = admin;
                 package.Save();
             }
             return true;
@@ -49,6 +50,23 @@ namespace ServerCoffeeApp
                 for (int row = 2; row <= worksheet.Dimension.End.Row; row++)
                 {
                     if (worksheet.Cells[row, 1].Text == username && worksheet.Cells[row, 5].Text == password)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public static bool checkAdmin(string username)
+        {
+            OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+            using (var package = new ExcelPackage(new FileInfo(filePath)))
+            {
+                var worksheet = package.Workbook.Worksheets["Лист1"];
+                for (int row = 2; row <= worksheet.Dimension.End.Row; row++)
+                {
+                    if (worksheet.Cells[row, 1].Text == username && worksheet.Cells[row, 6].Text == "admin")
                     {
                         return true;
                     }

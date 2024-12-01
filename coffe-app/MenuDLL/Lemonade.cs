@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace MenuDLL
 {
-    abstract class Lemonade
+    public abstract class Lemonade: Menu
     {
         protected bool HotOrCold { get; set; }
-        protected double[] price { get; set; }
-        protected double[] volume { get; set; }
+        protected double price { get; set; }
+        protected double volume { get; set; }
         protected string description { get; set; }
     }
 
-    class LemonadeWithoutSyrup : Lemonade
+    public class LemonadeWithoutSyrup : Lemonade
     {
-        public LemonadeWithoutSyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithoutSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -25,9 +25,9 @@ namespace MenuDLL
         }
     }
 
-    class LemonadeWithChocolateSyrup : Lemonade
+    public class LemonadeWithChocolateSyrup : Lemonade
     {
-        public LemonadeWithChocolateSyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithChocolateSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -36,9 +36,9 @@ namespace MenuDLL
         }
     }
 
-    class LemonadeWithBananaSyrup : Lemonade
+    public class LemonadeWithBananaSyrup : Lemonade
     {
-        public LemonadeWithBananaSyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithBananaSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -47,9 +47,9 @@ namespace MenuDLL
         }
     }
 
-    class LemonadeWithLavenderSyrup : Lemonade
+    public class LemonadeWithLavenderSyrup : Lemonade
     {
-        public LemonadeWithLavenderSyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithLavenderSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -58,9 +58,9 @@ namespace MenuDLL
         }
     }
 
-    class LemonadeWithRaspberrySyrup : Lemonade
+    public class LemonadeWithRaspberrySyrup : Lemonade
     {
-        public LemonadeWithRaspberrySyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithRaspberrySyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
@@ -69,9 +69,9 @@ namespace MenuDLL
         }
     }
 
-    class LemonadeWithCaramelSyrup : Lemonade
+    public class LemonadeWithCaramelSyrup : Lemonade
     {
-        public LemonadeWithCaramelSyrup(bool HotOrCold, double[] price, double[] volume)
+        public LemonadeWithCaramelSyrup(bool HotOrCold, double price, double volume)
         {
             this.HotOrCold = HotOrCold;
             this.price = price;
