@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
 using coffe_app.logic; // Подключаем ваше пространство имен
+using MenuDLL;
 
 namespace coffe_app
 {
@@ -12,7 +13,7 @@ namespace coffe_app
     {
         private string selectedCulture;
         private MainWindow mainWindow;
-        private List<Promotion> promotions; // Список акций
+       // private List<Promotion> promotions; // Список акций
 
         public Promotions(string culture, MainWindow mainWindow)
         {
@@ -49,15 +50,15 @@ namespace coffe_app
         private void LoadPromotions()
         {
             // Пример создания объектов Promotion и их добавления в список
-            promotions = new List<Promotion>
+          //  promotions = new List<Promotion>
             {
-                new Promotion { conditions = "Скидка 10%", price = "Скидка на все напитки до конца месяца!", startDate = "01.01.2025", endtDate = "31.01.2025" },
-                new Promotion { conditions = "2 по цене 1", price = "Купите один кофе и получите второй бесплатно!", startDate = "01.02.2025", endtDate = "28.02.2025" },
+              //  new Promotion { conditions = "Скидка 10% Скидка на все напитки до конца месяца!", price = 9.9, startDate = "01.01.2025", endtDate = "31.01.2025" },
+               // new Promotion { conditions = "2 по цене 1  Купите один кофе и получите второй бесплатно!", price = 5, startDate = "01.02.2025", endtDate = "28.02.2025" },
             };
 
-            foreach (var promotion in promotions)
+          //  foreach (var promotion in promotions)
             {
-                PromotionsListBox.Items.Add(CreatePromotionItem(promotion));
+          //      PromotionsListBox.Items.Add(CreatePromotionItem(promotion));
             }
         }
 
@@ -75,7 +76,7 @@ namespace coffe_app
 
             var descriptionBlock = new TextBlock
             {
-                Text = promotion.price,
+              //  Text = promotion.price,
                 FontSize = 14,
                 VerticalAlignment = VerticalAlignment.Center,
                 Margin = new Thickness(0, 5, 0, 0)

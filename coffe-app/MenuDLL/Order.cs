@@ -16,9 +16,9 @@ namespace MenuDLL
         public int status { get; set; }          // принят - 1, готовится - 2, готов - 3, выдан - 4 
         public bool pay { get; set; }          // true - оплачен, false - не оплачен
 
-        private Menu[] components { get; set; }
+        public List <Menu> components = new List <Menu> ();
 
-        public Order(string username, double price, Menu[] components) 
+        public Order(string username, double price, List <Menu> components) 
         { 
             this.username = username;
             this.price = price;
@@ -41,6 +41,15 @@ namespace MenuDLL
                 ////    СОХРАНЕНИЕ В АРХИВ
             }
 
+        }
+
+        public void addPromotion(Promotion promotion)              // метод добавления акции к заказу
+        {
+            this.price += promotion.price;
+            for(int i = 0; i < promotion.structure.Length; i++)
+            {
+                this.components.Add(promotion.structure[i]);
+            }
         }
     }
 }
