@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\coffe-app\\coffe-landishi\\coffe-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\servercoffeeapp\\excelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\excelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\servercoffeeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 444,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,77 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml.cs",
-              "RelativeDocumentMoniker": "coffe-app\\Menu.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml.cs",
-              "RelativeToolTip": "coffe-app\\Menu.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T20:21:10.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.xaml",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml",
-              "RelativeDocumentMoniker": "coffe-app\\Menu.xaml",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml*",
-              "RelativeToolTip": "coffe-app\\Menu.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-25T20:04:08.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "coffe-app\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml.cs",
+              "RelativeToolTip": "coffe-app\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAawEgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:13:53.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Profile.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Profile.xaml.cs",
-              "RelativeDocumentMoniker": "coffe-app\\Profile.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Profile.xaml.cs",
-              "RelativeToolTip": "coffe-app\\Profile.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:12:24.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Profile.xaml",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Profile.xaml",
-              "RelativeDocumentMoniker": "coffe-app\\Profile.xaml",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Profile.xaml",
-              "RelativeToolTip": "coffe-app\\Profile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-15T12:03:05.838Z",
+              "WhenOpened": "2024-11-29T11:16:45.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "coffe-app\\MainWindow.xaml",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml*",
-              "RelativeToolTip": "coffe-app\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T09:35:35.127Z",
+              "Title": "ExcelHandler.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ExcelHandler.cs",
+              "RelativeDocumentMoniker": "ServerCoffeeApp\\ExcelHandler.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ExcelHandler.cs",
+              "RelativeToolTip": "ServerCoffeeApp\\ExcelHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:54:29.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UdpServer.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "RelativeDocumentMoniker": "ServerCoffeeApp\\UdpServer.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "RelativeToolTip": "ServerCoffeeApp\\UdpServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:54:17.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\Program.cs",
+              "RelativeDocumentMoniker": "ServerCoffeeApp\\Program.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\Program.cs",
+              "RelativeToolTip": "ServerCoffeeApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:54:14.778Z",
               "EditorCaption": ""
             }
           ]

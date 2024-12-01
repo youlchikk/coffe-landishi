@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:coffe_app"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="#FFF3D9F2">
-    <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
+    <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.501,0.499">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
