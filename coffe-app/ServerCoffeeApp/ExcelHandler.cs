@@ -14,7 +14,7 @@ namespace ServerCoffeeApp
 
         public static string filePath = "../../Users.xlsx";
         public static string filePathArchive = "../../Аrchive.xlsx";
-        public static bool RegisterUser(string username, string phone, string email, string birthdate, string password, string admin)
+        public static bool RegisterUser(string username, string phone, string email, string birthdate, string password, string admin = "user")
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
 
