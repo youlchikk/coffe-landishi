@@ -13,6 +13,9 @@
       },
       "ServerCoffeeApp/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "MenuDLL": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ServerCoffeeApp.dll": {}
         },

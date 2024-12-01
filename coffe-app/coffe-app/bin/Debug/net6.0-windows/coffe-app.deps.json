@@ -21,6 +21,9 @@
         }
       },
       "ServerCoffeeApp/1.0.0": {
+        "dependencies": {
+          "MenuDLL": "1.0.0"
+        },
         "runtime": {
           "ServerCoffeeApp.exe": {}
         }

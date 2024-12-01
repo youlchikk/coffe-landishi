@@ -96,7 +96,11 @@
         "projectPath": "C:\\KP_KPO\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ServerCoffeeApp.csproj",
         "frameworks": {
           "net472": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\KP_KPO\\coffe-landishi\\coffe-app\\MenuDLL\\MenuDLL.csproj": {
+                "projectPath": "C:\\KP_KPO\\coffe-landishi\\coffe-app\\MenuDLL\\MenuDLL.csproj"
+              }
+            }
           }
         }
       },

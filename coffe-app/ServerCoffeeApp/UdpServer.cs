@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using MenuDLL;
+using System.Text.Json;
+using System.Xml.Linq;
+using System.Text.Json.Serialization;
 
 namespace ServerCoffeeApp
 {
@@ -15,6 +19,8 @@ namespace ServerCoffeeApp
         private static int PORT = 11000; // Порт для прослушивания
         private static int SIZE = 512; // Размер буфера для сообщений
         private UdpClient udpClient;
+
+        public List <Order> aktiveOrder = new List <Order> ();
 
         public void Start()
         {
@@ -64,18 +70,42 @@ namespace ServerCoffeeApp
             string[] parts = message.Split('|');
 
             // Обработка команды регистрации
-            if (parts[0] == "register")
+            if (parts[0] == "register")                     // команда для регистрации       username + phone + email + birthdate + password + admin
             {
                 return checkRegister(parts[1], parts[2], parts[3], parts[4], parts[5], parts[6]);
             }
             // Обработка команды аутентификации
-            else if (parts[0] == "login")
+            else if (parts[0] == "login")                     // команда для аутентификации         username + password
             {
                 return checkAuthenticate(parts[1], parts[2]);
             }
-            else if (parts[0] == "admin?")
+            else if (parts[0] == "admin?")                    // команда для проверки администратор/обычный пользователь      username
             {
                 return checkAdminOrUser(parts[1]);
+            }
+            else if (parts[0] == "checkUser")                   // команда для передачи данных о пользователе     username
+            {
+                return checkUser(parts[1]);
+            }
+            else if(parts[0] == "createOrder")                      // команда для создания заказа       username + json
+            {
+                return AddNewOrder(parts[1], parts[2]);
+            }
+            else if (parts[0] == "PaymentOrder")                    // команда для подтверждения оплаты заказа      username
+            {
+                return paymentOrder(parts[1]);
+            }
+            else if (parts[0] == "nextStatusOrder")                    // команда для обновления статуса заказа      username
+            {
+                return nextStatusOrder(parts[1]);
+            }
+            else if (parts[0] == "detailsOrder")                    // команда для получения деталей заказа      username
+            {
+                return detailsOrder(parts[1]);
+            }
+            else if (parts[0] == "deleteOrder")                    // команда для удаления заказа и добавления его в архив      username
+            {
+                return deleteOrder(parts[1]);
             }
             Console.WriteLine("Неизвестная команда");
             return "Неизвестная команда";
@@ -125,5 +155,128 @@ namespace ServerCoffeeApp
                 return "пользователь";
             }
         }
+
+        string checkUser(string username)
+        {
+            string details = ExcelHandler.GetUserDetails(username);
+            if (details == null)
+            {
+                Console.WriteLine(username + ": пользователь не найден");
+                return "пользователь не найден";
+            }
+            return details;
+        }
+
+        string AddNewOrder(string username, string dataRec) 
+        {
+            try
+            {
+                // Десериализация JSON в объект
+                Order receivedObject = JsonSerializer.Deserialize<Order>(dataRec);
+                aktiveOrder.Add(receivedObject);
+                Console.WriteLine(username + ": заказ успешно добавлен");
+                return "заказ успешно добавлен";
+            }
+            catch
+            {
+                Console.WriteLine(username + ": ошибка при добавлении заказа");
+                return "ошибка при добавлении заказа";
+            }
+        }
+
+        string paymentOrder(string username)
+        {
+            try
+            {
+                for (int i = 0; i < aktiveOrder.Count; i++)
+                {
+                    if (aktiveOrder[i].username == username)
+                    {
+                        aktiveOrder[i].payment();
+                        Console.WriteLine(username + ": оплата успешно подтверждена");
+                        return "оплата успешно подтверждена";
+                    }
+                }
+                Console.WriteLine(username + ": заказ не найден");
+                return "заказ не найден";
+            }
+            catch
+            {
+                Console.WriteLine(username + ": ошибка при подтверждении оплаты заказа");
+                return "ошибка при подтверждении оплаты";
+            }
+        }
+
+        string nextStatusOrder(string username)
+        {
+            try
+            {
+                for (int i = 0; i < aktiveOrder.Count; i++)
+                {
+                    if (aktiveOrder[i].username == username)
+                    {
+                        aktiveOrder[i].payment();
+                        Console.WriteLine(username + ": статус оуспешно обновлен");
+                        return "статус оуспешно обновлен";
+                    }
+                }
+                Console.WriteLine(username + ": заказ не найден");
+                return "заказ не найден";
+            }
+            catch
+            {
+                Console.WriteLine(username + ": ошибка при обновлении статуса заказа");
+                return "ошибка при обновлении статуса заказа";
+            }
+        }
+
+        string detailsOrder(string username)
+        {
+            try
+            {
+                for (int i = 0; i < aktiveOrder.Count; i++)
+                {
+                    if (aktiveOrder[i].username == username)
+                    {
+                        string jsonString = JsonSerializer.Serialize(aktiveOrder[i]);
+
+                        Console.WriteLine(username + ": данные о заказе успешно получены");
+                        return jsonString;
+                    }
+                }
+                Console.WriteLine(username + ": заказ не найден");
+                return "заказ не найден";
+            }
+            catch
+            {
+                Console.WriteLine(username + ": ошибка при получении данных о заказе");
+                return "ошибка при получении данных о заказе";
+            }
+        }
+
+        string deleteOrder(string username)
+        {
+            try
+            {
+                for (int i = 0; i < aktiveOrder.Count; i++)
+                {
+                    if (aktiveOrder[i].username == username)
+                    {
+                        ExcelHandler.AddToArchive(aktiveOrder[i].username, DateTime.Now.ToString("yyyy-MM-dd"), aktiveOrder[i].price);
+                        aktiveOrder.RemoveAt(i);
+                        Console.WriteLine(username + ": заказ удален, данные занесены в архив");
+                        return "заказ удален, данные занесены в архив";
+                    }
+                }
+                Console.WriteLine(username + ": заказ не найден");
+                return "заказ не найден";
+            }
+            catch
+            {
+                Console.WriteLine(username + ": ошибка при удалении заказа");
+                return "ошибка при удалении заказа";
+            }
+        }
+
     }
 }
