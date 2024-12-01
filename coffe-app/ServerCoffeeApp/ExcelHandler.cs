@@ -12,7 +12,7 @@ namespace ServerCoffeeApp
     public static class ExcelHandler
     {
 
-        public static string filePath = "Users.xlsx";
+        public static string filePath = "../../Users.xlsx";
 
         public static bool RegisterUser(string username, string phone, string email, string birthdate, string password)
         {
@@ -48,7 +48,7 @@ namespace ServerCoffeeApp
                 var worksheet = package.Workbook.Worksheets["Лист1"];
                 for (int row = 2; row <= worksheet.Dimension.End.Row; row++)
                 {
-                    if (worksheet.Cells[row, 1].Text == username && worksheet.Cells[row, 2].Text == password)
+                    if (worksheet.Cells[row, 1].Text == username && worksheet.Cells[row, 5].Text == password)
                     {
                         return true;
                     }

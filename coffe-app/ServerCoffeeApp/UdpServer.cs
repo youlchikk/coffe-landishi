@@ -17,7 +17,7 @@ namespace ServerCoffeeApp
 
         public void Start()
         {
-            Console.WriteLine("Server started...");
+            Console.WriteLine("Сервер активен...\n");
 
             Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);  //объявление сокета с протоколом UDP
             IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, PORT);  //объявление конечной точки сетевого соединения
@@ -29,11 +29,13 @@ namespace ServerCoffeeApp
                 byte[] byteRec = new byte[SIZE]; // буфер для сообщений от клиентов 
                 // получаем данные из связанного объекта        
                 int lenBytesReceived = s1.ReceiveFrom(byteRec, ref clientEndPoint);
+                Console.WriteLine("получено сообщение от клиента");
                 // декодируем все байты из указанного массива байтов в строку 
                 dataRec += Encoding.UTF8.GetString(byteRec, 0, lenBytesReceived);
                 string response = HandleRequest(dataRec);
                 byte[] responseData = Encoding.UTF8.GetBytes(response);
                 s1.SendTo(responseData, clientEndPoint);
+                Console.WriteLine();
             }
         }
 
@@ -53,27 +55,42 @@ namespace ServerCoffeeApp
 
             if (command == "register")
             {
-                if (ExcelHandler.RegisterUser(username, phone, email, birthdate, password))
-                {
-                    return "Registration successful";
-                }
-                else
-                {
-                    return "User already exists";
-                }
+                return checkRegister(username, phone, email, birthdate, password);
             }
             else if (command == "login")
             {
-                if (ExcelHandler.AuthenticateUser(username, password))
-                {
-                    return "Login successful";
-                }
-                else
-                {
-                    return "Invalid credentials";
-                }
+                return checkAuthenticate(username, password);
             }
-            return "Unknown command";
+            Console.WriteLine("Неизвестная команда");
+            return "Неизвестная команда";
+        }
+
+        string checkRegister(string username, string phone, string email, string birthdate, string password)
+        {
+            if (ExcelHandler.RegisterUser(username, phone, email, birthdate, password))
+            {
+                Console.WriteLine(username + ": регистрация успешна");
+                return "Регистрация успешна";
+            }
+            else
+            {
+                Console.WriteLine(username + ": пользователь с таким логином уже зарегестрирован");
+                return "Пользователь с таким логином уже зарегестрирован";
+            }
+        }
+
+        string checkAuthenticate(string username, string password)
+        {
+            if (ExcelHandler.AuthenticateUser(username, password))
+            {
+                Console.WriteLine(username + ": аутентификация успешна");
+                return "Аутентификация успешна";
+            }
+            else
+            {
+                Console.WriteLine(username + ": ошибка аутентификации");
+                return "Ошибка аутентификации";
+            }
         }
     }
 }
