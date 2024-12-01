@@ -1,0 +1,32 @@
+﻿<Window x:Class="coffe_app.News"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coffe_app"
+        mc:Ignorable="d"
+        Title="Новости" Height="450" Width="800" Background="#FFF3D9F2">
+    <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- News Content -->
+        <StackPanel Grid.Row="0" Margin="10,10,10,10">
+            <Label Name="NewsLabel" Content="Новости" HorizontalAlignment="Center" VerticalAlignment="Top" Height="41" FontFamily="Monotype Corsiva" FontSize="24"/>
+            <StackPanel Orientation="Vertical" Name="NewsPanel">
+                <!-- News items will be added here dynamically -->
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Bottom Buttons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
+        <Button x:Name="BackToMainButton" Content="В главное меню" Click="BackToMain_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="45,2,581,10" Grid.Row="1"/>
+        <Button x:Name="ExitButton" Content="Выход" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="606,2,20,10" Grid.Row="1"/>
+        <Button x:Name="AddNewsButton" Content="Добавить новость" Click="OpenAddNewsWindow_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="327,1,299,11" Grid.Row="1"/>
+    </Grid>
+</Window>

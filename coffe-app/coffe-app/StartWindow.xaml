@@ -1,0 +1,124 @@
+﻿<Window
+    x:Class="coffe_app.StartWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Авторизация и Регистрация"
+    Width="800"
+    Height="450"
+    Background="#FFF3D9F2"
+    FontFamily="Monotype Corsiva"
+    FontSize="20">
+    <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
+        <ComboBox
+            Name="LanguageComboBox"
+            Width="120"
+            Margin="10"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            SelectionChanged="LanguageComboBox_SelectionChanged">
+            <ComboBoxItem Content="Русский" Tag="ru-RU" />
+            <ComboBoxItem Content="English" Tag="en-US" />
+        </ComboBox>
+        <TabControl Margin="10,50,10,10" Background="#FFF3D9F2">
+            <TabItem Name="LoginTab" Header="Вход">
+                <Grid Background="#FFF3D9F2">
+                    <StackPanel>
+                        <Label
+                            Name="LoginUsernamePlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Логин" />
+                        <TextBox
+                            Name="LoginUsername"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Label
+                            Name="LoginPasswordPlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Пароль" />
+                        <PasswordBox
+                            Name="LoginPassword"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Button
+                            Name="LoginButton"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Click="LoginButton_Click"
+                            Content="Далее"
+                            Cursor="Hand" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Name="RegisterTab" Header="Регистрация">
+                <Grid Background="#FFF3D9F2">
+                    <StackPanel>
+                        <Label
+                            Name="RegisterUsernamePlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Имя пользователя" />
+                        <TextBox
+                            Name="RegisterUsername"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Label
+                            Name="RegisterPhonePlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Номер телефона" />
+                        <TextBox
+                            Name="RegisterPhone"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Label
+                            Name="RegisterEmailPlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Адрес электронной почты" />
+                        <TextBox
+                            Name="RegisterEmail"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Label
+                            Name="RegisterBirthdatePlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Дата рождения" />
+                        <DatePicker
+                            x:Name="RegisterBirthdate"
+                            Background="#FFEA90F3"
+                            BorderBrush="#FFECB7FF" Width="290" RenderTransformOrigin="0.492,0.594" HorizontalAlignment="Left" />
+                        <Label
+                            Name="RegisterPasswordPlaceholder"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Content="Пароль" />
+                        <PasswordBox
+                            Name="RegisterPassword"
+                            Background="#FFF3D9F2"
+                            BorderBrush="#FFECB7FF" />
+                        <Button
+                            Name="RegisterButton"
+                            Background="#FFF5ACFF"
+                            BorderBrush="#FFECB7FF"
+                            Click="RegisterButton_Click"
+                            Content="Далее"
+                            Cursor="Hand" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button
+            Name="ExitButton"
+            Width="80"
+            Margin="10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="ExitButton_Click"
+            Content="Выход" />
+    </Grid>
+</Window>

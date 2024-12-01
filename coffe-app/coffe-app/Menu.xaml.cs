@@ -1,19 +1,48 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Markup;
 using MenuDLL; // Подключаем библиотеку MenuDLL
 
 namespace coffe_app
 {
     public partial class Menu : Window
     {
+        private string selectedCulture;
         private MainWindow mainWindow;
 
-        public Menu(MainWindow mainWindow)
+        public Menu(string culture, MainWindow mainWindow)
         {
             InitializeComponent();
+            selectedCulture = culture;
             this.mainWindow = mainWindow;
+            this.Language = XmlLanguage.GetLanguage(selectedCulture);
+            ApplyLanguageResources();
             LoadMenuItems();
+        }
+
+        private void ApplyLanguageResources()
+        {
+            ResourceDictionary dict = new ResourceDictionary();
+            switch (selectedCulture)
+            {
+                case "ru-RU":
+                    dict.Source = new Uri("Resources/StringResources.ru-RU.xaml", UriKind.Relative);
+                    break;
+                case "en-US":
+                default:
+                    dict.Source = new Uri("Resources/StringResources.en-US.xaml", UriKind.Relative);
+                    break;
+            }
+            this.Resources.MergedDictionaries.Clear();
+            this.Resources.MergedDictionaries.Add(dict);
+
+            // Обновляем текстовые метки для всех элементов
+            MenuLabel.Content = FindResource("Menu").ToString();
+            OrderWindowButton.Content = FindResource("OrderWindow").ToString();
+            ExitButton.Content = FindResource("Exit").ToString();
+            BackToMainButton.Content = FindResource("Back").ToString();
         }
 
         private void LoadMenuItems()

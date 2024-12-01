@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MenuDLL\MenuDLL.csproj" />
+    <ProjectReference Include="..\ServerCoffeeApp\ServerCoffeeApp.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\coffe-app\coffe-landishi\coffe-app\coffe-app\App.xaml
-3-512065042
+91404365324
 
-81310610652
-195-974918915
-MainWindow.xaml;Menu.xaml;Profile.xaml;
+121624498987
+196-1210587714
+AddNews.xaml;MainWindow.xaml;Menu.xaml;News.xaml;Profile.xaml;Promotions.xaml;Resources\StringResources.en-US.xaml;Resources\StringResources.ru-RU.xaml;StartWindow.xaml;
 
 False
 

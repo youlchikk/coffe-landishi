@@ -15,6 +15,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Button
+            Name="ExitButton"
             Width="110"
             Height="37"
             Margin="655,371,0,0"
@@ -28,6 +29,7 @@
             FontSize="20"
             RenderTransformOrigin="0.503,0.503" />
         <Label
+            Name="ProfileLabel"
             Width="196"
             Height="41"
             Margin="312,10,0,0"
@@ -37,6 +39,7 @@
             FontFamily="Monotype Corsiva"
             FontSize="22" />
         <Button
+            Name="BackToMainButton"
             Width="137"
             Height="37"
             Margin="41,371,0,0"
@@ -49,80 +52,73 @@
             FontFamily="Monotype Corsiva"
             FontSize="20"
             RenderTransformOrigin="0.503,0.503" />
-        <Image
-            Width="188"
-            Height="164"
-            Margin="41,51,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" />
-        <Image
-            Margin="41,57,542,122"
-            Source="/Image3.png"
-            Stretch="Fill" />
         <TextBox
-            Width="376"
+            Width="611"
             Height="21"
-            Margin="291,95,0,0"
+            Margin="56,95,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Text=""
             TextWrapping="Wrap" />
         <TextBox
-            Width="376"
+            Width="611"
             Height="21"
-            Margin="291,157,0,0"
+            Margin="56,157,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Text=""
             TextWrapping="Wrap" />
         <TextBox
-            Width="376"
+            Width="611"
             Height="21"
-            Margin="291,223,0,0"
+            Margin="56,223,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Text=""
             TextWrapping="Wrap" />
         <TextBox
-            Width="376"
+            Width="611"
             Height="21"
-            Margin="291,284,0,0"
+            Margin="56,284,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Text=""
             TextWrapping="Wrap" />
         <Label
-            Width="329"
+            Name="NumberLabel"
+            Width="535"
             Height="48"
-            Margin="291,116,0,0"
+            Margin="56,116,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Номер телефона"
             FontFamily="Monotype Corsiva"
             FontSize="22" />
         <Label
-            Width="329"
+            Name="EmailLabel"
+            Width="535"
             Height="48"
-            Margin="291,183,0,0"
+            Margin="56,183,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Адрес электронной почты"
             FontFamily="Monotype Corsiva"
             FontSize="22" />
         <Label
-            Width="329"
+            Name="BirthdayLabel"
+            Width="535"
             Height="48"
-            Margin="291,249,0,0"
+            Margin="56,249,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Дата рождения"
             FontFamily="Monotype Corsiva"
             FontSize="22" />
         <Label
-            Width="329"
+            Name="NameLabel"
+            Width="535"
             Height="47"
-            Margin="291,56,0,0"
+            Margin="56,56,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="Имя"

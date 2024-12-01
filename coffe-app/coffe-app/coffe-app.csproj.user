@@ -7,21 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddNews.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="News.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Profile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Promotions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StartWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddNews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Menu.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="News.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Promotions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\StringResources.en-US.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\StringResources.ru-RU.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StartWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -10,6 +10,15 @@
         "runtime": {
           "bin/placeholder/MenuDLL.dll": {}
         }
+      },
+      "ServerCoffeeApp/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ServerCoffeeApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServerCoffeeApp.dll": {}
+        }
       }
     }
   },
@@ -18,11 +27,17 @@
       "type": "project",
       "path": "../MenuDLL/MenuDLL.csproj",
       "msbuildProject": "../MenuDLL/MenuDLL.csproj"
+    },
+    "ServerCoffeeApp/1.0.0": {
+      "type": "project",
+      "path": "../ServerCoffeeApp/ServerCoffeeApp.csproj",
+      "msbuildProject": "../ServerCoffeeApp/ServerCoffeeApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "MenuDLL >= 1.0.0"
+      "MenuDLL >= 1.0.0",
+      "ServerCoffeeApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,6 +74,9 @@
           "projectReferences": {
             "C:\\coffe-app\\coffe-landishi\\coffe-app\\MenuDLL\\MenuDLL.csproj": {
               "projectPath": "C:\\coffe-app\\coffe-landishi\\coffe-app\\MenuDLL\\MenuDLL.csproj"
+            },
+            "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ServerCoffeeApp.csproj": {
+              "projectPath": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ServerCoffeeApp.csproj"
             }
           }
         }

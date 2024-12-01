@@ -9,11 +9,11 @@ namespace coffe_app.logic
 {
     internal class Promotion
     {
-        private string conditions { get; set; }
-        private Menu[] structure { get; set; }
-        private string price { get; set; }
-        private string startDate { get; set; }
-        private string endtDate { get; set; }
+        public string conditions { get; set; }
+        public Menu[] structure { get; set; }
+        public string price { get; set; }
+        public string startDate { get; set; }
+        public string endtDate { get; set; }
 
         public Promotion() { }
 

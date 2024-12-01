@@ -18,7 +18,7 @@
 
         <!-- Menu Content -->
         <StackPanel Grid.Row="0" Grid.Column="1" Margin="10,10,10,10">
-            <Label Content="Меню Кофейни" HorizontalAlignment="Center" VerticalAlignment="Top" Height="41" FontFamily="Monotype Corsiva" FontSize="24"/>
+            <Label Name="MenuLabel" Content="Меню Кофейни" HorizontalAlignment="Center" VerticalAlignment="Top" Height="41" FontFamily="Monotype Corsiva" FontSize="24"/>
             <StackPanel Orientation="Vertical" Name="MenuItemsPanel">
                 <!-- Menu items will be added here dynamically -->
             </StackPanel>
@@ -26,9 +26,9 @@
 
         <!-- Bottom Buttons -->
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="22,0,0,0" Height="34" Width="562">
-            <Button Content="В окно заказа" Height="34" Width="174" Click="OrderWindow_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
+            <Button Name="OrderWindowButton" Content="В окно заказа" Height="34" Width="174" Click="OrderWindow_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
         </StackPanel>
-        <Button Content="Выход" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Grid.Column="1" Margin="515,373,53,0" Grid.RowSpan="2"/>
-        <Button Content="В главное меню" Click="BackToMain_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Grid.Column="1" Margin="267,373,301,0" Grid.RowSpan="2"/>
+        <Button Name="ExitButton" Content="Выход" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Grid.Column="1" Margin="515,373,53,0" Grid.RowSpan="2"/>
+        <Button Name="BackToMainButton" Content="В главное меню" Click="BackToMain_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Grid.Column="1" Margin="267,373,301,0" Grid.RowSpan="2"/>
     </Grid>
 </Window>
