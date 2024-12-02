@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace MenuDLL
 {
-    public class Menu
+    abstract public class Menu
     {
-        private double price { get; set; }
-        private double volume { get; set; }
-        private bool HotOrCold { get; set; }
+        protected double price { get; set; }
+        protected double volume { get; set; }
+        protected bool HotOrCold { get; set; }
+        protected string description { get; set; }
 
-        public Menu(double price, double volume, bool HotOrOld) 
-        {
-            this.price = price;
-            this.volume = volume;
-            this.HotOrCold = HotOrOld;
-        }
+       // public Menu(double price, double volume, bool HotOrOld) 
+       // {
+       //     this.price = price;
+       //     this.volume = volume;
+       //     this.HotOrCold = HotOrOld;
+       // }
 
     }
 }

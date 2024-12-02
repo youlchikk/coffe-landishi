@@ -50,3 +50,17 @@ C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCoffeeApp.
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCo.294D9BD3.Up2Date
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCoffeeApp.exe
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCoffeeApp.pdb
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\MenuDLL.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.IO.Pipelines.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Text.Encodings.Web.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Text.Json.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.ValueTuple.dll
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\MenuDLL.pdb
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.IO.Pipelines.xml
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Text.Encodings.Web.xml
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Text.Json.xml
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\System.ValueTuple.xml

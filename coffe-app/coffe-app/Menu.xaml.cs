@@ -48,8 +48,8 @@ namespace coffe_app
         private void LoadMenuItems()
         {
             // Пример добавления элементов меню
-            var americano = new Americano();
-            americano.createWithChocolateSyrup(); // Вызываем метод для создания кофе с шоколадным сиропом
+           // var americano = new Americano();
+          //  americano.createWithChocolateSyrup(); // Вызываем метод для создания кофе с шоколадным сиропом
 
             MenuItemsPanel.Children.Add(CreateMenuItem("Американо с шоколадным сиропом", 2.5));
         }
