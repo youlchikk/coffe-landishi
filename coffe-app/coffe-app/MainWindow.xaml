@@ -1,30 +1,171 @@
-﻿<Window x:Class="coffe_app.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:coffe_app"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FFF3D9F2">
+﻿<Window
+    x:Class="coffe_app.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:coffe_app"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="#FFF3D9F2"
+    mc:Ignorable="d">
     <Grid Margin="0,0,0,-6" RenderTransformOrigin="0.501,0.499">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Button Name="ExitButton" Content="Выход" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Height="37" Width="110" RenderTransformOrigin="0.503,0.503" Click="Exit_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
-        <Button Name="MenuButton" HorizontalAlignment="Left" Margin="21,118,0,0" VerticalAlignment="Top" Height="33" Width="174" RenderTransformOrigin="0.503,0.503" Click="Menu_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Меню" BorderBrush="#FFECB7FF"/>
-        <Button Name="DealsButton" HorizontalAlignment="Left" Margin="21,179,0,0" VerticalAlignment="Top" Height="33" Width="174" RenderTransformOrigin="0.503,0.503" Click="Deals_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Акции" BorderBrush="#FFECB7FF"/>
-        <Button Name="OrderButton" Content="Окно заказа" HorizontalAlignment="Left" Margin="21,239,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
-        <Button Name="TrackOrderButton" HorizontalAlignment="Left" Margin="21,360,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.503,0.503" Click="Button_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" Content="Отслеживание заказа" BorderBrush="#FFECB7FF"/>
-        <Button Name="ProfileButton" Content="Мой профиль" HorizontalAlignment="Left" Margin="21,61,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.503,0.503" Click="OpenProfile_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
-        <Button Name="NewsButton" Content="Новости" HorizontalAlignment="Left" Margin="21,298,0,0" VerticalAlignment="Top" Height="34" Width="174" RenderTransformOrigin="0.499,0.531" Click="News_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF"/>
-        <Label Name="GreetingLabel" Content="Кофейня &quot;Ландыши&quot;" HorizontalAlignment="Left" Margin="312,10,0,0" VerticalAlignment="Top" Height="41" Width="196" FontFamily="Monotype Corsiva" FontSize="22"/>
+        <Button
+            Name="ExitButton"
+            Width="110"
+            Height="37"
+            Margin="655,371,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="Exit_Click"
+            Content="Выход"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="MenuButton"
+            Width="174"
+            Height="33"
+            Margin="21,118,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="Menu_Click"
+            Content="Меню"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="DealsButton"
+            Width="174"
+            Height="33"
+            Margin="21,179,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="Deals_Click"
+            Content="Акции"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="OrderButton"
+            Width="174"
+            Height="34"
+            Margin="21,239,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="Button_Click"
+            Content="Окно заказа"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="TrackOrderButton"
+            Width="174"
+            Height="34"
+            Margin="21,360,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="Button_Click"
+            Content="Отслеживание заказа"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="ProfileButton"
+            Width="174"
+            Height="34"
+            Margin="21,61,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="OpenProfile_Click"
+            Content="Мой профиль"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.503,0.503" />
+        <Button
+            Name="NewsButton"
+            Width="174"
+            Height="34"
+            Margin="21,298,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="#FFF5ACFF"
+            BorderBrush="#FFECB7FF"
+            Click="News_Click"
+            Content="Новости"
+            FontFamily="Monotype Corsiva"
+            FontSize="20"
+            RenderTransformOrigin="0.499,0.531" />
+        <Label
+            Name="GreetingLabel"
+            Width="196"
+            Height="41"
+            Margin="312,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="Кофейня &quot;Ландыши&quot;"
+            FontFamily="Monotype Corsiva"
+            FontSize="22" />
 
-        <!-- Administrator Buttons -->
-        <StackPanel Name="AdminButtonsPanel" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="250,60,0,0" Visibility="Collapsed">
-            <Button Name="StatusOrderButton" Content="Изменение статуса заказа" Click="StatusOrder_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="0,5"/>
-            <Button Name="StatisticsButton" Content="Статистика" Click="Statistics_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="0,5"/>
-            <Button Name="AddPromotionButton" Content="Добавить акцию" Click="AddPromotion_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="0,5"/>
-            <Button Name="EditMenuButton" Content="Редактирование меню" Click="EditMenu_Click" Background="#FFF5ACFF" FontFamily="Monotype Corsiva" FontSize="20" BorderBrush="#FFECB7FF" Margin="0,5"/>
+        <!--  Administrator Buttons  -->
+        <StackPanel
+            Name="AdminButtonsPanel"
+            Margin="250,60,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Visibility="Collapsed">
+            <Button
+                Name="StatusOrderButton"
+                Margin="0,5"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="StatusOrder_Click"
+                Content="Изменение статуса заказа"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
+            <Button
+                Name="StatisticsButton"
+                Margin="0,5"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="Statistics_Click"
+                Content="Статистика"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
+            <Button
+                Name="AddPromotionButton"
+                Margin="0,5"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="AddPromotion_Click"
+                Content="Добавить акцию"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
+            <Button
+                Name="EditMenuButton"
+                Margin="0,5"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="EditMenu_Click"
+                Content="Редактирование меню"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
         </StackPanel>
     </Grid>
 </Window>

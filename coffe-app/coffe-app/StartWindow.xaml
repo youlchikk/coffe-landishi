@@ -88,8 +88,11 @@
                             Content="Дата рождения" />
                         <DatePicker
                             x:Name="RegisterBirthdate"
+                            Width="290"
+                            HorizontalAlignment="Left"
                             Background="#FFEA90F3"
-                            BorderBrush="#FFECB7FF" Width="290" RenderTransformOrigin="0.492,0.594" HorizontalAlignment="Left" />
+                            BorderBrush="#FFECB7FF"
+                            RenderTransformOrigin="0.492,0.594" />
                         <Label
                             Name="RegisterPasswordPlaceholder"
                             Background="#FFF5ACFF"

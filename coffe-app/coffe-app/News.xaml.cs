@@ -55,7 +55,7 @@ namespace coffe_app
             // Пример создания объектов NewsItem и их добавления в панель
             var newsItems = new List<NewsItem>
             {
-                new NewsItem { Title = "Новое меню", Description = "В нашем кафе появилось новое меню! Приходите и попробуйте наши новые блюда.", Date = DateTime.Now.ToString("dd.MM.yyyy") },
+                new NewsItem { Title = "Новое меню", Description = "В нашей кофейне появилось новое меню! Приходите и попробуйте наши новые напитки.", Date = DateTime.Now.ToString("dd.MM.yyyy") },
                 new NewsItem { Title = "Скидки на выходные", Description = "Только в эти выходные - скидка 20% на все напитки!", Date = DateTime.Now.ToString("dd.MM.yyyy") },
             };
 
