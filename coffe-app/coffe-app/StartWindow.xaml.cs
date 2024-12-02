@@ -88,9 +88,10 @@ namespace coffe_app
                 return;
             }
 
-            string response = SendMessageToServer("login", username, password);
+            string response = SendMessageToServer($"login|{username}|{password}");
             if (response.Contains("аутентификация успешна", StringComparison.OrdinalIgnoreCase))
             {
+                isAdmin = SendMessageToServer($"admin?|{username}").Contains("администратор");
                 MessageBox.Show("Аутентификация успешна!");
                 MainWindow mainWindow = new MainWindow(selectedCulture, username, isAdmin);
                 mainWindow.Show();
@@ -109,9 +110,10 @@ namespace coffe_app
             string email = RegisterEmail.Text;
             string birthdate = RegisterBirthdate.SelectedDate?.ToString("dd/MM/yyyy");
             string password = RegisterPassword.Password;
+            bool admin = false; // Определите, нужен ли вам какой-то способ установить флаг администратора
 
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(phone) ||
-                string.IsNullOrWhiteSpace(email))
+                string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Пожалуйста, заполните все поля!");
                 return;
@@ -129,9 +131,10 @@ namespace coffe_app
                 return;
             }
 
-            string response = SendMessageToServer("register", username, password, phone, email, birthdate);
+            string response = SendMessageToServer($"register|{username}|{phone}|{email}|{birthdate}|{password}|{admin}");
             if (response.Contains("регистрация успешна", StringComparison.OrdinalIgnoreCase))
             {
+                isAdmin = SendMessageToServer($"admin?|{username}").Contains("администратор");
                 MessageBox.Show("Регистрация успешна!");
                 MainWindow mainWindow = new MainWindow(selectedCulture, username, isAdmin);
                 mainWindow.Show();
@@ -143,17 +146,12 @@ namespace coffe_app
             }
         }
 
-        private string SendMessageToServer(string command, string username, string password, string phone = "", string email = "", string birthdate = "")
+        private string SendMessageToServer(string message)
         {
             try
             {
                 Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
-                string message = $"{command}|{username}|{password}";
-                if (command == "register")
-                {
-                    message = $"{command}|{username}|{phone}|{email}|{birthdate}|{password}";
-                }
 
                 byte[] data = Encoding.UTF8.GetBytes(message);
                 s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);

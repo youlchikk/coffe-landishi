@@ -17,7 +17,7 @@ namespace coffe_app.logic
         Coffee factoryRaspberrySyrup = new RaspberrySyrupFactory();
         Coffee factoryCaramelSyrup = new CaramelSyrupFactory();
 
-        UserMenu()
+        public UserMenu()
         {
             components.Add(factoryChocolateSyrup.createAmericano(true, 3, 200));
             components.Add(factoryChocolateSyrup.createCappuccino(true, 4, 500));

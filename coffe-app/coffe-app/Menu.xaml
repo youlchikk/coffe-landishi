@@ -12,7 +12,7 @@
     mc:Ignorable="d">
     <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
         <Grid.RowDefinitions>
-            <RowDefinition Height="373.04" />
+            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -33,9 +33,11 @@
                 Content="Меню Кофейни"
                 FontFamily="Monotype Corsiva"
                 FontSize="24" />
-            <StackPanel Name="MenuItemsPanel" Orientation="Vertical">
-                <!--  Menu items will be added here dynamically  -->
-            </StackPanel>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel Name="MenuItemsPanel" Orientation="Vertical">
+                    <!--  Menu items will be added here dynamically  -->
+                </StackPanel>
+            </ScrollViewer>
         </StackPanel>
 
         <!--  Bottom Buttons  -->

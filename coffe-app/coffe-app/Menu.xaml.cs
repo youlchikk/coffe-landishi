@@ -3,7 +3,8 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
-using MenuDLL; // Подключаем библиотеку MenuDLL
+using MenuDLL;
+using coffe_app.logic;
 
 namespace coffe_app
 {
@@ -47,11 +48,12 @@ namespace coffe_app
 
         private void LoadMenuItems()
         {
-            // Пример добавления элементов меню
-           // var americano = new Americano();
-          //  americano.createWithChocolateSyrup(); // Вызываем метод для создания кофе с шоколадным сиропом
+            UserMenu userMenu = new UserMenu();
 
-            MenuItemsPanel.Children.Add(CreateMenuItem("Американо с шоколадным сиропом", 2.5));
+            foreach (var item in userMenu.components)
+            {
+                MenuItemsPanel.Children.Add(CreateMenuItem(item.description, item.price));
+            }
         }
 
         private UIElement CreateMenuItem(string description, double price)
@@ -73,10 +75,24 @@ namespace coffe_app
                 Margin = new Thickness(10, 0, 0, 0)
             };
 
+            var addButton = new Button
+            {
+                Content = "Добавить",
+                Margin = new Thickness(10, 0, 0, 0)
+            };
+            addButton.Click += (sender, e) => AddToOrder(description, price);
+
             stackPanel.Children.Add(textBlock);
             stackPanel.Children.Add(priceBlock);
+            stackPanel.Children.Add(addButton);
 
             return stackPanel;
+        }
+
+        private void AddToOrder(string description, double price)
+        {
+            // Логика для добавления элемента в заказ
+            MessageBox.Show($"{description} добавлен в заказ по цене {price} рублей");
         }
 
         private void OrderWindow_Click(object sender, RoutedEventArgs e)

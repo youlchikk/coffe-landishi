@@ -52,36 +52,40 @@ namespace coffe_app
             BirthdayLabel.Content = FindResource("Birthdate").ToString();
             NameLabel.Content = FindResource("Username").ToString();
         }
-         private void LoadUserData()
+        private void LoadUserData()
         {
-            var userFromServer = GetUserFromServer(username); if (userFromServer != null)
+            var userFromServer = GetUserFromServer(username);
+            if (userFromServer != null)
             {
-                NameLabel.Content = userFromServer[0]; 
-                NumberLabel.Content = userFromServer[1]; 
-                EmailLabel.Content = userFromServer[2]; 
-                BirthdayLabel.Content = userFromServer[3]; 
-            } 
-        } 
-        private string[] GetUserFromServer(string username) 
-        { 
-            try 
-            {
-                Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp); 
-                IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT); 
-                string message = $"get_user|{username}"; 
-                byte[] data = Encoding.UTF8.GetBytes(message); 
-                s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint); 
-                byte[] byteRec = new byte[512]; 
-                EndPoint serverEndPoint = new IPEndPoint(IPAddress.Any, 0); 
-                int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint); 
-                string response = Encoding.UTF8.GetString(byteRec, 0, responseLength); 
-                return response.Split('|'); 
-            }
-            catch (Exception ex) 
-            {
-                MessageBox.Show($"Ошибка: {ex.Message}"); return null; 
+                NameText.Text = username;
+                NumberText.Text = userFromServer[0];
+                EmailText.Text = userFromServer[1];
+                BirthdayText.Text = userFromServer[2];
             }
         }
+
+        private string[] GetUserFromServer(string username)
+        {
+            try
+            {
+                Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
+                string message = $"checkUser|{username}";
+                byte[] data = Encoding.UTF8.GetBytes(message);
+                s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);
+                byte[] byteRec = new byte[512];
+                EndPoint serverEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
+                string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
+                return response.Split('|');
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}");
+                return null;
+            }
+        }
+
         private void BackToMain_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.Show();

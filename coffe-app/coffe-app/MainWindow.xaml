@@ -157,15 +157,6 @@
                 Content="Добавить акцию"
                 FontFamily="Monotype Corsiva"
                 FontSize="20" />
-            <Button
-                Name="EditMenuButton"
-                Margin="0,5"
-                Background="#FFF5ACFF"
-                BorderBrush="#FFECB7FF"
-                Click="EditMenu_Click"
-                Content="Редактирование меню"
-                FontFamily="Monotype Corsiva"
-                FontSize="20" />
         </StackPanel>
     </Grid>
 </Window>
