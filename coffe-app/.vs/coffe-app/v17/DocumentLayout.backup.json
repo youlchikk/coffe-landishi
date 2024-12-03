@@ -110,8 +110,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 444,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UdpServer.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "RelativeDocumentMoniker": "ServerCoffeeApp\\UdpServer.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "RelativeToolTip": "ServerCoffeeApp\\UdpServer.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAYwCsBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:15:31.208Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -148,7 +162,7 @@
               "RelativeDocumentMoniker": "coffe-app\\ChangeOrderStatusWindow.xaml.cs",
               "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\ChangeOrderStatusWindow.xaml.cs*",
               "RelativeToolTip": "coffe-app\\ChangeOrderStatusWindow.xaml.cs*",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAiwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T10:45:57.074Z",
               "EditorCaption": ""
@@ -422,19 +436,6 @@
               "ViewState": "AgIAADQAAAAAAAAAAAA7wEwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T14:03:32.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UdpServer.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
-              "RelativeDocumentMoniker": "ServerCoffeeApp\\UdpServer.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
-              "RelativeToolTip": "ServerCoffeeApp\\UdpServer.cs",
-              "ViewState": "AgIAAEIBAAAAAAAAAAAkwHwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T08:15:31.208Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -106,10 +106,10 @@ namespace coffe_app
             string response = SendMessageToServer(message);
 
             // Логирование отправляемого сообщения и ответа сервера
-            MessageBox.Show("Отправляемое сообщение:");
-            MessageBox.Show(message);
-            MessageBox.Show("Ответ сервера:");
-            MessageBox.Show(response);
+            Console.WriteLine("Отправляемое сообщение:");
+            Console.WriteLine(message);
+            Console.WriteLine("Ответ сервера:");
+            Console.WriteLine(response);
 
             MessageBox.Show(response);
         }
@@ -122,8 +122,8 @@ namespace coffe_app
             // Логирование отправляемого сообщения и ответа сервера
             Console.WriteLine("Отправляемое сообщение:");
             Console.WriteLine(message);
-            MessageBox.Show("Ответ сервера:");
-            MessageBox.Show(response);
+            Console.WriteLine("Ответ сервера:");
+            Console.WriteLine(response);
 
             MessageBox.Show(response);
         }
