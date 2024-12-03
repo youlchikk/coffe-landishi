@@ -8,6 +8,7 @@ namespace MenuDLL
 {
     abstract public class Menu
     {
+
         public double price { get; set; }
         public double volume { get; set; }
         public bool HotOrCold { get; set; }

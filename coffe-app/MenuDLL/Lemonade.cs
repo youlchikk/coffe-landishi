@@ -14,7 +14,7 @@ namespace MenuDLL
         protected string description { get; set; }
     }
 
-    public class LemonadeWithoutSyrup : Lemonade
+    public class LemonadeWithoutSyrup : Menu
     {
         public LemonadeWithoutSyrup(bool HotOrCold, double price, double volume)
         {
@@ -25,7 +25,7 @@ namespace MenuDLL
         }
     }
 
-    public class LemonadeWithChocolateSyrup : Lemonade
+    public class LemonadeWithChocolateSyrup : Menu
     {
         public LemonadeWithChocolateSyrup(bool HotOrCold, double price, double volume)
         {
@@ -36,7 +36,7 @@ namespace MenuDLL
         }
     }
 
-    public class LemonadeWithBananaSyrup : Lemonade
+    public class LemonadeWithBananaSyrup : Menu
     {
         public LemonadeWithBananaSyrup(bool HotOrCold, double price, double volume)
         {
@@ -47,7 +47,7 @@ namespace MenuDLL
         }
     }
 
-    public class LemonadeWithLavenderSyrup : Lemonade
+    public class LemonadeWithLavenderSyrup : Menu
     {
         public LemonadeWithLavenderSyrup(bool HotOrCold, double price, double volume)
         {
@@ -58,7 +58,7 @@ namespace MenuDLL
         }
     }
 
-    public class LemonadeWithRaspberrySyrup : Lemonade
+    public class LemonadeWithRaspberrySyrup : Menu
     {
         public LemonadeWithRaspberrySyrup(bool HotOrCold, double price, double volume)
         {
@@ -69,7 +69,7 @@ namespace MenuDLL
         }
     }
 
-    public class LemonadeWithCaramelSyrup : Lemonade
+    public class LemonadeWithCaramelSyrup : Menu
     {
         public LemonadeWithCaramelSyrup(bool HotOrCold, double price, double volume)
         {

@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Globalization;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Markup;
-using MenuDLL;
+using System.Windows.Media;
+using MenuDLL; // Используем класс Menu из MenuDLL
 using coffe_app.logic;
+using System.Windows.Markup;
 
 namespace coffe_app
 {
@@ -12,12 +13,16 @@ namespace coffe_app
     {
         private string selectedCulture;
         private MainWindow mainWindow;
+        private List<Order> orders = new List<Order>();
+        private Order currentOrder;
+        private string username; // добавляем поле для имени пользователя
 
-        public Menu(string culture, MainWindow mainWindow)
+        public Menu(string culture, MainWindow mainWindow, string username) // добавляем username в конструктор
         {
             InitializeComponent();
             selectedCulture = culture;
             this.mainWindow = mainWindow;
+            this.username = username; // сохраняем имя пользователя
             this.Language = XmlLanguage.GetLanguage(selectedCulture);
             ApplyLanguageResources();
             LoadMenuItems();
@@ -52,24 +57,24 @@ namespace coffe_app
 
             foreach (var item in userMenu.components)
             {
-                MenuItemsPanel.Children.Add(CreateMenuItem(item.description, item.price));
+                MenuItemsPanel.Children.Add(CreateMenuItem(item));
             }
         }
 
-        private UIElement CreateMenuItem(string description, double price)
+        private UIElement CreateMenuItem(MenuDLL.Menu menuItem)
         {
             var stackPanel = new StackPanel { Orientation = Orientation.Horizontal, Margin = new Thickness(5) };
 
             var textBlock = new TextBlock
             {
-                Text = description,
+                Text = menuItem.description,
                 FontSize = 18,
                 VerticalAlignment = VerticalAlignment.Center
             };
 
             var priceBlock = new TextBlock
             {
-                Text = $"{price} рублей",
+                Text = $"{menuItem.price} рублей",
                 FontSize = 18,
                 VerticalAlignment = VerticalAlignment.Center,
                 Margin = new Thickness(10, 0, 0, 0)
@@ -78,9 +83,13 @@ namespace coffe_app
             var addButton = new Button
             {
                 Content = "Добавить",
-                Margin = new Thickness(10, 0, 0, 0)
+                Margin = new Thickness(10, 0, 0, 0),
+                Background = new SolidColorBrush(Color.FromRgb(245, 172, 255)), // Цвет фона
+                BorderBrush = new SolidColorBrush(Color.FromRgb(236, 183, 255)), // Цвет границы
+                FontFamily = new FontFamily("Monotype Corsiva"), // Шрифт
+                FontSize = 18 // Размер шрифта
             };
-            addButton.Click += (sender, e) => AddToOrder(description, price);
+            addButton.Click += (sender, e) => AddToOrder(menuItem);
 
             stackPanel.Children.Add(textBlock);
             stackPanel.Children.Add(priceBlock);
@@ -89,15 +98,30 @@ namespace coffe_app
             return stackPanel;
         }
 
-        private void AddToOrder(string description, double price)
+        private void AddToOrder(MenuDLL.Menu menuItem)
         {
-            // Логика для добавления элемента в заказ
-            MessageBox.Show($"{description} добавлен в заказ по цене {price} рублей");
+            if (currentOrder == null)
+            {
+                currentOrder = new Order(username, 0, new List<MenuDLL.Menu>()); // используем username
+            }
+
+            currentOrder.components.Add(menuItem);
+            currentOrder.price += menuItem.price;
+
+            MessageBox.Show($"{menuItem.description} добавлен в заказ по цене {menuItem.price} рублей");
         }
 
         private void OrderWindow_Click(object sender, RoutedEventArgs e)
         {
-            // Логика для перехода к окну заказа
+            if (currentOrder != null)
+            {
+                orders.Add(currentOrder);
+                currentOrder = null; // Создаем новый заказ после добавления текущего
+            }
+
+            var orderWindow = new OrderWindow(orders, mainWindow, selectedCulture, username);
+            orderWindow.Show();
+            this.Close();
         }
 
         private void BackToMain_Click(object sender, RoutedEventArgs e)

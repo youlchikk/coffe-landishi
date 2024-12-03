@@ -13,12 +13,39 @@ using System.Text.Json.Serialization;
 
 namespace ServerCoffeeApp
 {
+
     public class UdpServer
     {
+
+
         public static string dnsAddress;
         private static int PORT = 11000; // Порт для прослушивания
         private static int SIZE = 512; // Размер буфера для сообщений
         private UdpClient udpClient;
+        public class Order
+        {
+            public string username { get; set; }
+            public double price { get; set; }
+            public int status { get; set; } // принят - 1, готовится - 2, готов - 3, выдан - 4 
+            public bool pay { get; set; } // true - оплачен, false - не оплачен
+            public List<Menu> components { get; set; } = new List<Menu>();
+
+            // Параметрless конструктор
+            public Order() { }
+
+            // Метод для изменения статуса оплаты
+            public void payment()
+            {
+                this.pay = true;
+            }
+
+            // Метод для изменения статуса заказа
+            public void nextStatus()
+            {
+                this.status++;
+            }
+        }
+
 
         public List <Order> aktiveOrder = new List <Order> ();
 
@@ -167,22 +194,38 @@ namespace ServerCoffeeApp
             return details;
         }
 
-        string AddNewOrder(string username, string dataRec) 
+        string AddNewOrder(string username, string dataRec)
         {
             try
             {
+                // Логируем полученный JSON
+                Console.WriteLine("Полученный JSON:");
+                Console.WriteLine(dataRec);
+
                 // Десериализация JSON в объект
                 Order receivedObject = JsonSerializer.Deserialize<Order>(dataRec);
+
+                // Логируем десериализованный объект
+                Console.WriteLine("Десериализованный объект:");
+                Console.WriteLine($"Username: {receivedObject.username}");
+                Console.WriteLine($"Price: {receivedObject.price}");
+                Console.WriteLine($"Status: {receivedObject.status}");
+                Console.WriteLine($"Pay: {receivedObject.pay}");
+                Console.WriteLine($"Components: {receivedObject.components.Count}");
+
                 aktiveOrder.Add(receivedObject);
                 Console.WriteLine(username + ": заказ успешно добавлен");
                 return "заказ успешно добавлен";
             }
-            catch
+            catch (Exception ex)
             {
                 Console.WriteLine(username + ": ошибка при добавлении заказа");
+                Console.WriteLine("Ошибка: " + ex.Message);
                 return "ошибка при добавлении заказа";
             }
         }
+
+
 
         string paymentOrder(string username)
         {
@@ -216,8 +259,8 @@ namespace ServerCoffeeApp
                     if (aktiveOrder[i].username == username)
                     {
                         aktiveOrder[i].payment();
-                        Console.WriteLine(username + ": статус оуспешно обновлен");
-                        return "статус оуспешно обновлен";
+                        Console.WriteLine(username + ": статус успешно обновлен");
+                        return "статус успешно обновлен";
                     }
                 }
                 Console.WriteLine(username + ": заказ не найден");

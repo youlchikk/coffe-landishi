@@ -148,15 +148,6 @@
                 Content="Статистика"
                 FontFamily="Monotype Corsiva"
                 FontSize="20" />
-            <Button
-                Name="AddPromotionButton"
-                Margin="0,5"
-                Background="#FFF5ACFF"
-                BorderBrush="#FFECB7FF"
-                Click="AddPromotion_Click"
-                Content="Добавить акцию"
-                FontFamily="Monotype Corsiva"
-                FontSize="20" />
         </StackPanel>
     </Grid>
 </Window>

@@ -10,10 +10,16 @@
     <Compile Update="AddNews.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ChangeOrderStatusWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Menu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="News.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Profile.xaml.cs">
@@ -25,9 +31,15 @@
     <Compile Update="StartWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="StatisticsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AddNews.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChangeOrderStatusWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -37,6 +49,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="News.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Profile.xaml">
@@ -52,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="StartWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StatisticsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

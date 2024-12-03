@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Globalization;
+using System.Net.Sockets;
+using System.Net;
+using System.Text.Json;
+using System.Text;
 using System.Windows;
 using System.Windows.Markup;
+using MenuDLL;
 
 namespace coffe_app
 {
@@ -51,21 +56,52 @@ namespace coffe_app
         { 
             AdminButtonsPanel.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed; 
         }
-        private void StatusOrder_Click(object sender, RoutedEventArgs e) 
-        { 
-            // Логика для открытия окна изменения статуса заказа
+        private void StatusOrder_Click(object sender, RoutedEventArgs e)
+        {
+            // Предполагается, что у вас есть список заказов и текущая культура
+            List<Order> orders = GetOrdersFromServer(); // Метод для получения списка заказов с сервера
+            string selectedCulture = "ru-RU"; // Пример значения, замените на актуальное значение
+
+            var changeOrderStatusWindow = new ChangeOrderStatusWindow(orders, this, selectedCulture, username);
+            changeOrderStatusWindow.Show();
+            this.Hide(); // Закрываем текущее окно
         }
-        private void Statistics_Click(object sender, RoutedEventArgs e) 
-        { 
-            // Логика для открытия окна статистики
-        } private void AddPromotion_Click(object sender, RoutedEventArgs e) 
-        { 
-            // Логика для открытия окна добавления акций
+        private void Statistics_Click(object sender, RoutedEventArgs e)
+        {
+            // Предполагается, что текущая культура уже определена
+            string selectedCulture = "ru-RU"; // Пример значения, замените на актуальное значение
+
+            var statisticsWindow = new StatisticsWindow(this, selectedCulture);
+            statisticsWindow.Show();
+            this.Hide(); // Закрываем текущее окно
         }
-        private void EditMenu_Click(object sender, RoutedEventArgs e) 
-        { 
-            // Логика для открытия окна редактирования меню
+        private List<Order> GetOrdersFromServer()
+        {
+            try
+            {
+                using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
+                {
+                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 11000); // Замените на IP-адрес и порт вашего сервера
+
+                    string message = "getOrders|all"; // Команда для получения всех заказов
+                    byte[] data = Encoding.UTF8.GetBytes(message);
+                    s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);
+
+                    byte[] byteRec = new byte[2048];
+                    EndPoint serverEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
+
+                    string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
+                    return JsonSerializer.Deserialize<List<Order>>(response);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при получении заказов: {ex.Message}");
+                return new List<Order>();
+            }
         }
+
         private void OpenProfile_Click(object sender, RoutedEventArgs e)
         {
             Profile profileWindow = new Profile(selectedCulture, this, username);
@@ -75,7 +111,7 @@ namespace coffe_app
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu(selectedCulture, this);
+            Menu menuWindow = new Menu(selectedCulture, this, username);
             menuWindow.Show();
             this.Hide();
         }

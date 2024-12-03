@@ -1,0 +1,32 @@
+﻿<Window
+    x:Class="coffe_app.OrderWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Ваши заказы"
+    Width="800"
+    Height="450"
+    Background="#FFF3D9F2">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="Ваши заказы" HorizontalAlignment="Center" FontSize="24" FontFamily="Monotype Corsiva" />
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="OrdersPanel" Orientation="Vertical" Margin="10">
+                <!-- Заказы будут добавляться сюда динамически -->
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="В главное меню" Click="BackToMain_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+            <Button Content="В меню" Click="BackToMenu_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+            <Button Content="Выход" Click="Exit_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+            <Button Content="Обновить" Click="Refresh_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+            <Button Content="Подтвердить заказ" Click="ConfirmOrder_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+        </StackPanel>
+    </Grid>
+</Window>

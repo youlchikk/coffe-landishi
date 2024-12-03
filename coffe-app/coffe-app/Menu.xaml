@@ -12,38 +12,34 @@
     mc:Ignorable="d">
     <Grid Margin="0,0,0,7" RenderTransformOrigin="0.501,0.499">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="29*" />
-            <ColumnDefinition Width="371*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <!--  Menu Content  -->
-        <StackPanel
+        <!-- Заголовок меню -->
+        <Label
+            Name="MenuLabel"
             Grid.Row="0"
-            Grid.Column="1"
-            Margin="10,10,10,10">
-            <Label
-                Name="MenuLabel"
-                Height="41"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Top"
-                Content="Меню Кофейни"
-                FontFamily="Monotype Corsiva"
-                FontSize="24" />
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel Name="MenuItemsPanel" Orientation="Vertical">
-                    <!--  Menu items will be added here dynamically  -->
-                </StackPanel>
-            </ScrollViewer>
-        </StackPanel>
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="Меню Кофейни"
+            FontFamily="Monotype Corsiva"
+            FontSize="24" />
+
+        <!-- ScrollViewer для элементов меню -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="MenuItemsPanel" Orientation="Vertical" Margin="10">
+                <!--  Menu items will be added here dynamically  -->
+            </StackPanel>
+        </ScrollViewer>
 
         <!--  Bottom Buttons  -->
         <StackPanel
-            Grid.Row="1"
-            Grid.Column="1"
+            Grid.Row="2"
             Width="562"
             Height="34"
             Margin="22,0,0,0"
@@ -60,28 +56,28 @@
                 Content="В окно заказа"
                 FontFamily="Monotype Corsiva"
                 FontSize="20" />
+            <Button
+                Name="BackToMainButton"
+                Margin="10,0,0,0"
+                Width="174"
+                Height="34"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="BackToMain_Click"
+                Content="В главное меню"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
+            <Button
+                Name="ExitButton"
+                Margin="10,0,0,0"
+                Width="174"
+                Height="34"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="Exit_Click"
+                Content="Выход"
+                FontFamily="Monotype Corsiva"
+                FontSize="20" />
         </StackPanel>
-        <Button
-            Name="ExitButton"
-            Grid.RowSpan="2"
-            Grid.Column="1"
-            Margin="515,373,53,0"
-            Background="#FFF5ACFF"
-            BorderBrush="#FFECB7FF"
-            Click="Exit_Click"
-            Content="Выход"
-            FontFamily="Monotype Corsiva"
-            FontSize="20" />
-        <Button
-            Name="BackToMainButton"
-            Grid.RowSpan="2"
-            Grid.Column="1"
-            Margin="267,373,301,0"
-            Background="#FFF5ACFF"
-            BorderBrush="#FFECB7FF"
-            Click="BackToMain_Click"
-            Content="В главное меню"
-            FontFamily="Monotype Corsiva"
-            FontSize="20" />
     </Grid>
 </Window>

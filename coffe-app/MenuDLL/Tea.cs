@@ -14,7 +14,7 @@ namespace MenuDLL
         protected string description { get; set; }
     }
 
-    public class TeaWithoutSyrup : Tea
+    public class TeaWithoutSyrup : Menu
     {
         public TeaWithoutSyrup(bool HotOrCold, double price, double volume) 
         {
@@ -25,7 +25,7 @@ namespace MenuDLL
         }
     }
 
-    public class TeaWithChocolateSyrup : Tea
+    public class TeaWithChocolateSyrup : Menu
     {
         public TeaWithChocolateSyrup(bool HotOrCold, double price, double volume)
         {
@@ -36,7 +36,7 @@ namespace MenuDLL
         }
     }
 
-    public class TeaWithBananaSyrup : Tea
+    public class TeaWithBananaSyrup : Menu
     {
         public TeaWithBananaSyrup(bool HotOrCold, double price, double volume)
         {
@@ -47,7 +47,7 @@ namespace MenuDLL
         }
     }
 
-    public class TeaWithLavenderSyrup : Tea
+    public class TeaWithLavenderSyrup : Menu
     {
         public TeaWithLavenderSyrup(bool HotOrCold, double price, double volume)
         {
@@ -58,7 +58,7 @@ namespace MenuDLL
         }
     }
 
-    public class TeaWithRaspberrySyrup : Tea
+    public class TeaWithRaspberrySyrup : Menu
     {
         public TeaWithRaspberrySyrup(bool HotOrCold, double price, double volume)
         {
@@ -69,7 +69,7 @@ namespace MenuDLL
         }
     }
 
-    public class TeaWithCaramelSyrup : Tea
+    public class TeaWithCaramelSyrup : Menu
     {
         public TeaWithCaramelSyrup(bool HotOrCold, double price, double volume)
         {
