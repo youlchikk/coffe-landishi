@@ -20,7 +20,7 @@ namespace ServerCoffeeApp
 
         public static string dnsAddress;
         private static int PORT = 11000; // Порт для прослушивания
-        private static int SIZE = 512; // Размер буфера для сообщений
+        private static int SIZE = 51200; // Размер буфера для сообщений
         private UdpClient udpClient;
         public class Order
         {
@@ -47,7 +47,7 @@ namespace ServerCoffeeApp
         }
 
 
-        public List <Order> aktiveOrder = new List <Order> ();
+        public List <MenuDLL.Order> aktiveOrder = new List <MenuDLL.Order> ();
 
         public void Start()
         {
@@ -68,7 +68,6 @@ namespace ServerCoffeeApp
                 // Получаем данные из связанного объекта        
                 int lenBytesReceived = s1.ReceiveFrom(byteRec, ref clientEndPoint);
                 Console.WriteLine("получено сообщение от клиента");
-
                 // Создаем новый поток для обработки сообщения
                 ThreadPool.QueueUserWorkItem(state =>
                 {
@@ -83,6 +82,7 @@ namespace ServerCoffeeApp
             // Декодируем все байты из указанного массива байтов в строку 
             string dataRec = Encoding.UTF8.GetString(byteRec, 0, lenBytesReceived);
             // Обрабатываем запрос и получаем ответ
+            Console.WriteLine (dataRec);
             string response = HandleRequest(dataRec);
             // Кодируем ответ в байты
             byte[] responseData = Encoding.UTF8.GetBytes(response);
@@ -122,9 +122,9 @@ namespace ServerCoffeeApp
             {
                 return paymentOrder(parts[1]);
             }
-            else if (parts[0] == "nextStatusOrder")                    // команда для обновления статуса заказа      username
+            else if (parts[0] == "nextStatusOrder")                    // команда для обновления статуса заказа      status + username
             {
-                return nextStatusOrder(parts[1]);
+                return nextStatusOrder(parts[1], parts[2]);
             }
             else if (parts[0] == "detailsOrder")                    // команда для получения деталей заказа      username
             {
@@ -134,7 +134,15 @@ namespace ServerCoffeeApp
             {
                 return deleteOrder(parts[1]);
             }
-            Console.WriteLine("Неизвестная команда");
+            else if (parts[0] == "getOrders")                    // команда для получения всех заказов  
+            {
+                return getOrders();
+            }
+            else if (parts[0] == "getArchive")                    // команда для получения архива
+            {
+                return getArchive();
+            }
+            Console.WriteLine("Неизвестная команда: " + parts[0]);
             return "Неизвестная команда";
         }
 
@@ -203,7 +211,7 @@ namespace ServerCoffeeApp
                 Console.WriteLine(dataRec);
 
                 // Десериализация JSON в объект
-                Order receivedObject = JsonSerializer.Deserialize<Order>(dataRec);
+                MenuDLL.Order receivedObject = JsonSerializer.Deserialize<MenuDLL.Order>(dataRec);
 
                 // Логируем десериализованный объект
                 Console.WriteLine("Десериализованный объект:");
@@ -250,7 +258,7 @@ namespace ServerCoffeeApp
             }
         }
 
-        string nextStatusOrder(string username)
+        string nextStatusOrder(string t, string username)
         {
             try
             {
@@ -258,8 +266,8 @@ namespace ServerCoffeeApp
                 {
                     if (aktiveOrder[i].username == username)
                     {
-                        aktiveOrder[i].payment();
-                        Console.WriteLine(username + ": статус успешно обновлен");
+                        aktiveOrder[i].nextStatus(Convert.ToInt32(t));
+                        Console.WriteLine(username + ": статус успешно обновлен " + aktiveOrder[i].status.ToString());
                         return "статус успешно обновлен";
                     }
                 }
@@ -319,6 +327,34 @@ namespace ServerCoffeeApp
                 Console.WriteLine(username + ": ошибка при удалении заказа");
                 return "ошибка при удалении заказа";
             }
+        }
+
+        string getOrders()
+        {
+            try
+            {
+                string message = "";
+                for (int i = 0; i < aktiveOrder.Count; i++)
+                {
+                    string str = JsonSerializer.Serialize(aktiveOrder[i]);
+                    message += str;
+                    if (i + 1 < aktiveOrder.Count) message += "|";
+
+                }
+                Console.WriteLine("данные о заказах успешно получены");
+                return message;
+            }
+            catch
+            {
+                Console.WriteLine("ошибка при получении данных о заказах");
+                return "ошибка при получении данных о заказах";
+            }
+        }
+
+        string getArchive()
+        {
+            Console.WriteLine("Архив успешно получен");
+            return ExcelHandler.GetArchiveData();
         }
 
     }

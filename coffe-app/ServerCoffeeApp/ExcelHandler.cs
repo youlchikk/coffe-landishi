@@ -117,5 +117,37 @@ namespace ServerCoffeeApp
                 package.Save();
             }
         }
+
+        public static string GetArchiveData()
+        {
+            OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
+            using (var package = new ExcelPackage(new FileInfo(filePathArchive)))
+            {
+                var worksheet = package.Workbook.Worksheets["Лист1"];
+                if (worksheet == null)
+                {
+                    return string.Empty;
+                }
+
+                var sb = new StringBuilder();
+                int rowCount = worksheet.Dimension?.Rows ?? 0;
+
+                for (int row = 1; row <= rowCount; row++)
+                {
+                    var username = worksheet.Cells[row, 1].Text;
+                    var date = worksheet.Cells[row, 2].Text;
+                    var price = worksheet.Cells[row, 3].Text;
+
+                    sb.Append($"{username} {date} {price}");
+                    if (row < rowCount)
+                    {
+                        sb.Append("|");
+                    }
+                }
+
+                return sb.ToString();
+            }
+        }
     }
 }

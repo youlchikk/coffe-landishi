@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MenuDLL
 {
-    abstract public class Menu
+    public class Menu
     {
 
         public double price { get; set; }

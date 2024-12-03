@@ -92,7 +92,16 @@ namespace coffe_app
                     int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
 
                     string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
-                    return JsonSerializer.Deserialize<List<Order>>(response);
+
+                    string[] parts = response.Split('|');
+
+                    List <Order> orders = new List<Order>();
+                    for(int i = 0; i < parts.Length; i++)
+                    {
+                        orders.Add(JsonSerializer.Deserialize<Order>(parts[i]));
+                    }
+
+                    return orders;
                 }
             }
             catch (Exception ex)

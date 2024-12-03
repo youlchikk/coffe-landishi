@@ -101,3 +101,9 @@ C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\ChangeO
 C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\StatisticsWindow.baml
 C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\ChangeOrderStatusWindow.g.cs
 C:\coffe-app\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\StatisticsWindow.g.cs
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\ChangeOrderStatusWindow.baml
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\OrderWindow.baml
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\StatisticsWindow.baml
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\ChangeOrderStatusWindow.g.cs
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\OrderWindow.g.cs
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\StatisticsWindow.g.cs

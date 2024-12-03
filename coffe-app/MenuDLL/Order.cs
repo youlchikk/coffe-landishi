@@ -26,9 +26,9 @@ namespace MenuDLL
             this.pay = true;
         }
 
-        public void nextStatus()
+        public void nextStatus(int t)
         {
-            this.status++;
+            this.status = t;
         }
 
         public void addPromotion(Promotion promotion)

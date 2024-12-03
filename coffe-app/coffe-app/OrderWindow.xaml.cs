@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Text.Json;
 using System.Windows;
@@ -106,9 +107,10 @@ namespace coffe_app
             foreach (var order in orders)
             {
                 string response = SendMessageToServer($"detailsOrder|{order.username}");
-                if (!string.IsNullOrEmpty(response) && response.Contains("успешно"))
+                MessageBox.Show(response);
+                if (!string.IsNullOrEmpty(response))
                 {
-                    var updatedOrder = JsonSerializer.Deserialize<Order>(response);
+                    var updatedOrder = JsonSerializer.Deserialize<MenuDLL.Order>(response);
                     order.status = updatedOrder.status;
                     order.pay = updatedOrder.pay;
                 }

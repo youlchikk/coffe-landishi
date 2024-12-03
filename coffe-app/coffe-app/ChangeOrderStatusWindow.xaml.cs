@@ -95,10 +95,10 @@ namespace coffe_app
         {
             string statusCommand = status switch
             {
-                "Принят" => "nextStatusOrder",
-                "Готовится" => "nextStatusOrder",
-                "Готов" => "nextStatusOrder",
-                "Выдан" => "nextStatusOrder",
+                "Принят" => "nextStatusOrder|1",
+                "Готовится" => "nextStatusOrder|2",
+                "Готов" => "nextStatusOrder|3",
+                "Выдан" => "nextStatusOrder|4",
                 _ => throw new ArgumentException("Invalid status")
             };
 
