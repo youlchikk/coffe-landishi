@@ -10,10 +10,10 @@ using MenuDLL;
 using System.Text.Json;
 using System.Xml.Linq;
 using System.Text.Json.Serialization;
+using System.IO;
 
 namespace ServerCoffeeApp
-{
-
+{ 
     public class UdpServer
     {
 
@@ -51,44 +51,58 @@ namespace ServerCoffeeApp
 
         public void Start()
         {
-            Console.WriteLine("Сервер активен...\n");
 
-            // Объявление сокета с протоколом UDP
-            Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-            // Объявление конечной точки сетевого соединения
-            IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, PORT);
-            // Привязка сокета к сетевому интерфейсу 
-            s1.Bind(endPoint);
+            string filePath = "../../log.txt";
 
-            // Ждем подключения клиентов в бесконечном цикле 
-            while (true)
+            using (StreamWriter writer = new StreamWriter(filePath, true))
             {
-                EndPoint clientEndPoint = new IPEndPoint(IPAddress.Any, 0);
-                byte[] byteRec = new byte[SIZE]; // Буфер для сообщений от клиентов 
-                // Получаем данные из связанного объекта        
-                int lenBytesReceived = s1.ReceiveFrom(byteRec, ref clientEndPoint);
-                Console.WriteLine("получено сообщение от клиента");
-                // Создаем новый поток для обработки сообщения
-                ThreadPool.QueueUserWorkItem(state =>
-                {
-                    HandleClient(byteRec, lenBytesReceived, clientEndPoint, s1);
-                });
+                writer.WriteLine("Сервер активен: " + DateTime.Now + "\n");
             }
+
+            Console.WriteLine("Сервер активен: " + DateTime.Now + "\n");
+                // Объявление сокета с протоколом UDP
+                Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                // Объявление конечной точки сетевого соединения
+                IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, PORT);
+                // Привязка сокета к сетевому интерфейсу 
+                s1.Bind(endPoint);
+
+                // Ждем подключения клиентов в бесконечном цикле 
+                while (true)
+                {
+                    EndPoint clientEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    byte[] byteRec = new byte[SIZE]; // Буфер для сообщений от клиентов 
+                                                     // Получаем данные из связанного объекта        
+                    int lenBytesReceived = s1.ReceiveFrom(byteRec, ref clientEndPoint);
+                    Console.WriteLine("получено сообщение от клиента");
+                    // Создаем новый поток для обработки сообщения
+                    ThreadPool.QueueUserWorkItem(state =>
+                    {
+                        HandleClient(byteRec, lenBytesReceived, clientEndPoint, s1);
+                    });
+                }
         }
 
         // Метод для обработки сообщения клиента в отдельном потоке
         private void HandleClient(byte[] byteRec, int lenBytesReceived, EndPoint clientEndPoint, Socket s1)
         {
+
             // Декодируем все байты из указанного массива байтов в строку 
             string dataRec = Encoding.UTF8.GetString(byteRec, 0, lenBytesReceived);
-            // Обрабатываем запрос и получаем ответ
-            Console.WriteLine (dataRec);
-            string response = HandleRequest(dataRec);
-            // Кодируем ответ в байты
-            byte[] responseData = Encoding.UTF8.GetBytes(response);
-            // Отправляем ответ клиенту
-            s1.SendTo(responseData, clientEndPoint);
-            Console.WriteLine();
+                // Обрабатываем запрос и получаем ответ
+                Console.WriteLine(dataRec);
+                string response = HandleRequest(dataRec);
+                // Кодируем ответ в байты
+                byte[] responseData = Encoding.UTF8.GetBytes(response);
+                // Отправляем ответ клиенту
+                s1.SendTo(responseData, clientEndPoint);
+                Console.WriteLine();
+            string filePath = "../../log.txt";
+
+            using (StreamWriter writer = new StreamWriter(filePath, true))
+            {
+                writer.WriteLine(dataRec.Split('|')[0] + ": " + response);
+            }
         }
 
         // Метод для обработки запроса

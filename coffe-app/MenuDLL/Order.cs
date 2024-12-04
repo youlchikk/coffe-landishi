@@ -34,7 +34,7 @@ namespace MenuDLL
         public void addPromotion(Promotion promotion)
         {
             this.price += promotion.price;
-            foreach (var item in promotion.structure)
+            foreach (var item in promotion.components)
             {
                 this.components.Add(item);
             }
