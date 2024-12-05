@@ -13,20 +13,66 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <Label Content="Ваши заказы" HorizontalAlignment="Center" FontSize="24" FontFamily="Monotype Corsiva" />
+        <Label
+            HorizontalAlignment="Center"
+            Content="Ваши заказы"
+            FontFamily="Monotype Corsiva"
+            FontSize="24" />
 
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
-            <StackPanel Name="OrdersPanel" Orientation="Vertical" Margin="10">
-                <!-- Заказы будут добавляться сюда динамически -->
+            <StackPanel
+                Name="OrdersPanel"
+                Margin="10"
+                Orientation="Vertical">
+                <!--  Заказы будут добавляться сюда динамически  -->
             </StackPanel>
         </ScrollViewer>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="В главное меню" Click="BackToMain_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
-            <Button Content="В меню" Click="BackToMenu_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
-            <Button Content="Выход" Click="Exit_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
-            <Button Content="Обновить" Click="Refresh_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
-            <Button Content="Подтвердить заказ" Click="ConfirmOrder_Click" Margin="10" Background="#FFF5ACFF" BorderBrush="#FFECB7FF" FontFamily="Monotype Corsiva" FontSize="18"/>
+        <StackPanel
+            Grid.Row="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Orientation="Horizontal">
+            <Button
+                Margin="10"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="BackToMain_Click"
+                Content="В главное меню"
+                FontFamily="Monotype Corsiva"
+                FontSize="18" />
+            <Button
+                Margin="10"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="BackToMenu_Click"
+                Content="В меню"
+                FontFamily="Monotype Corsiva"
+                FontSize="18" />
+            <Button
+                Margin="10"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="Exit_Click"
+                Content="Выход"
+                FontFamily="Monotype Corsiva"
+                FontSize="18" />
+            <Button
+                Margin="10"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="Refresh_Click"
+                Content="Обновить"
+                FontFamily="Monotype Corsiva"
+                FontSize="18" />
+            <Button
+                Margin="10"
+                Background="#FFF5ACFF"
+                BorderBrush="#FFECB7FF"
+                Click="ConfirmOrder_Click"
+                Content="Подтвердить заказ"
+                FontFamily="Monotype Corsiva"
+                FontSize="18" />
         </StackPanel>
     </Grid>
 </Window>

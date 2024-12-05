@@ -20,7 +20,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <!-- Заголовок меню -->
+        <!--  Заголовок меню  -->
         <Label
             Name="MenuLabel"
             Grid.Row="0"
@@ -30,9 +30,12 @@
             FontFamily="Monotype Corsiva"
             FontSize="24" />
 
-        <!-- ScrollViewer для элементов меню -->
+        <!--  ScrollViewer для элементов меню  -->
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:Name="MenuItemsPanel" Orientation="Vertical" Margin="10">
+            <StackPanel
+                x:Name="MenuItemsPanel"
+                Margin="10"
+                Orientation="Vertical">
                 <!--  Menu items will be added here dynamically  -->
             </StackPanel>
         </ScrollViewer>
@@ -58,9 +61,9 @@
                 FontSize="20" />
             <Button
                 Name="BackToMainButton"
-                Margin="10,0,0,0"
                 Width="174"
                 Height="34"
+                Margin="10,0,0,0"
                 Background="#FFF5ACFF"
                 BorderBrush="#FFECB7FF"
                 Click="BackToMain_Click"
@@ -69,9 +72,9 @@
                 FontSize="20" />
             <Button
                 Name="ExitButton"
-                Margin="10,0,0,0"
                 Width="174"
                 Height="34"
+                Margin="10,0,0,0"
                 Background="#FFF5ACFF"
                 BorderBrush="#FFECB7FF"
                 Click="Exit_Click"

@@ -13,7 +13,7 @@ namespace ServerCoffeeApp
     {
 
         public static string filePath = "../../Users.xlsx";
-        public static string filePathArchive = "../../Аrchive.xlsx";
+        public static string filePathArchive = "../../arxiv.xlsx";
         public static bool RegisterUser(string username, string phone, string email, string birthdate, string password, string admin = "user")
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
@@ -103,10 +103,10 @@ namespace ServerCoffeeApp
 
             using (var package = new ExcelPackage(new FileInfo(filePathArchive)))
             {
-                var worksheet = package.Workbook.Worksheets["Лист1"];
+                var worksheet = package.Workbook.Worksheets["Архив"];
                 if (worksheet == null)
                 {
-                    worksheet = package.Workbook.Worksheets.Add("Лист1");
+                    worksheet = package.Workbook.Worksheets.Add("Архив");
                 }
 
                 int newRow = worksheet.Dimension?.End.Row + 1 ?? 1;
@@ -117,37 +117,53 @@ namespace ServerCoffeeApp
                 package.Save();
             }
         }
-
         public static string GetArchiveData()
         {
             OfficeOpenXml.ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
 
-            using (var package = new ExcelPackage(new FileInfo(filePathArchive)))
+            try
             {
-                var worksheet = package.Workbook.Worksheets["Лист1"];
-                if (worksheet == null)
+                using (var package = new ExcelPackage(new FileInfo(filePathArchive)))
                 {
-                    return string.Empty;
-                }
-
-                var sb = new StringBuilder();
-                int rowCount = worksheet.Dimension?.Rows ?? 0;
-
-                for (int row = 1; row <= rowCount; row++)
-                {
-                    var username = worksheet.Cells[row, 1].Text;
-                    var date = worksheet.Cells[row, 2].Text;
-                    var price = worksheet.Cells[row, 3].Text;
-
-                    sb.Append($"{username} {date} {price}");
-                    if (row < rowCount)
+                    var worksheet = package.Workbook.Worksheets["Архив"];
+                    if (worksheet == null)
                     {
-                        sb.Append("|");
+                        Console.WriteLine("Worksheet Архив не найден");
+                        return string.Empty;
                     }
-                }
 
-                return sb.ToString();
+                    var sb = new StringBuilder();
+                    int rowCount = worksheet.Dimension?.Rows ?? 0;
+
+                    if (rowCount == 0)
+                    {
+                        Console.WriteLine("Файл Archive.xlsx пуст");
+                        return string.Empty;
+                    }
+
+                    for (int row = 1; row <= rowCount; row++)
+                    {
+                        var username = worksheet.Cells[row, 1].Text;
+                        var date = worksheet.Cells[row, 2].Text;
+                        var price = worksheet.Cells[row, 3].Text;
+
+                        sb.Append($"{username} {date} {price}");
+                        if (row < rowCount)
+                        {
+                            sb.Append("|");
+                        }
+                    }
+
+                    return sb.ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при чтении данных из архива: {ex.Message}");
+                return string.Empty;
             }
         }
+
+
     }
 }

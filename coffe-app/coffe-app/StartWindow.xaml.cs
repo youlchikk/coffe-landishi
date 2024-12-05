@@ -92,7 +92,6 @@ namespace coffe_app
             if (response.Contains("аутентификация успешна", StringComparison.OrdinalIgnoreCase))
             {
                 isAdmin = SendMessageToServer($"admin?|{username}").Contains("администратор");
-                MessageBox.Show("Аутентификация успешна!");
                 MainWindow mainWindow = new MainWindow(selectedCulture, username, isAdmin);
                 mainWindow.Show();
                 this.Close();

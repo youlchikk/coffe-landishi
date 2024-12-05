@@ -47,7 +47,6 @@ namespace coffe_app
             MenuButton.Content = FindResource("Menu").ToString();
             DealsButton.Content = FindResource("Deals").ToString();
             OrderButton.Content = FindResource("OrderWindow").ToString();
-            TrackOrderButton.Content = FindResource("TrackOrder").ToString();
             ProfileButton.Content = FindResource("Profile").ToString();
             NewsButton.Content = FindResource("News").ToString();
             ExitButton.Content = FindResource("Exit").ToString();
@@ -141,6 +140,10 @@ namespace coffe_app
             News newsWindow = new News(selectedCulture, this, isAdmin); 
             newsWindow.Show(); 
             this.Hide(); 
+        }
+        private void OrderWindow_Click(object sender, RoutedEventArgs e)
+        {
+            Order orderWindow = new Order();
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {

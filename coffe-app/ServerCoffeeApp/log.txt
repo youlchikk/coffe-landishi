@@ -7,3 +7,157 @@ admin?: администратор
 checkUser: +375-29-860-35-78|yulia@mail.ru|06-05-2004|admin
 getOrders: 
 checkUser: +375-29-860-35-78|yulia@mail.ru|06-05-2004|admin
+Сервер активен: 05.12.2024 15:42:26
+
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: администратор
+getOrders: 
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":10,"status":1,"pay":false,"components":[{"price":5,"volume":500,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":10,"status":3,"pay":false,"components":[{"price":5,"volume":500,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+PaymentOrder: оплата успешно подтверждена
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":10,"status":4,"pay":true,"components":[{"price":5,"volume":500,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+getOrders: {"username":"user1","price":10,"status":4,"pay":true,"components":[{"price":5,"volume":500,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+login: Аутентификация успешна
+admin?: пользователь
+Сервер активен: 05.12.2024 16:05:17
+
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+detailsOrder: заказ не найден
+login: Ошибка аутентификации
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+Сервер активен: 05.12.2024 16:33:05
+
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+detailsOrder: заказ не найден
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+login: Аутентификация успешна
+admin?: администратор
+getOrders: 
+getArchive: 
+Сервер активен: 05.12.2024 17:21:18
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+login: Ошибка аутентификации
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:28:53
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:31:55
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:34:09
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:35:24
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:37:06
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:38:31
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:39:54
+
+Сервер активен: 05.12.2024 17:39:58
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: 
+Сервер активен: 05.12.2024 17:42:39
+
+Сервер активен: 05.12.2024 17:42:42
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: username date price|user1 01.12.2024 11|youlchikk 25.11.2024 4
+Сервер активен: 05.12.2024 17:44:20
+
+login: Аутентификация успешна
+admin?: администратор
+getArchive: username date price|user1 01.12.2024 11,00|youlchikk 25.11.2024 4,00
+login: Аутентификация успешна
+admin?: администратор
+getArchive: username date price|user1 01.12.2024 11,00|youlchikk 25.11.2024 4,00
+Сервер активен: 05.12.2024 17:51:18
+
+login: Ошибка аутентификации
+login: Ошибка аутентификации
+login: Аутентификация успешна
+admin?: администратор
+getArchive: username date price|user1 01.12.2024 11,00|youlchikk 25.11.2024 4,00

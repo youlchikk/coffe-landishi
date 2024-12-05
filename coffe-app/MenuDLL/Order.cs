@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Windows;
 
 namespace MenuDLL
 {
@@ -34,6 +35,7 @@ namespace MenuDLL
         public void addPromotion(Promotion promotion)
         {
             this.price += promotion.price;
+            MessageBox.Show("addPromotion");
             foreach (var item in promotion.components)
             {
                 this.components.Add(item);
