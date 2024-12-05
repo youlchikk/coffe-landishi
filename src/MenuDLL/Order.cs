@@ -38,6 +38,7 @@ namespace MenuDLL
             MessageBox.Show("addPromotion");
             foreach (var item in promotion.components)
             {
+                MessageBox.Show("1");
                 this.components.Add(item);
             }
         }

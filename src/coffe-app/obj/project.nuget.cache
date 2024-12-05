@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5blzB61Og2YXmV1/BPPwkBBtZrLYLBr40l+5kwlxrTCFqXFMiWsEzeBnmehdU5xCuG8JzAFTqBkzkJ3DEdE0eQ==",
+  "dgSpecHash": "Jnc4UvvUDPqdKmB5t3OsxOT0bM1/P2LnBtAhWqU7RepoEQgUKFXKymWTefR0xs4krzn2SkQZdtgB5s3U2vrCUg==",
   "success": true,
   "projectFilePath": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\yulya\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\yulya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\yulya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\yulya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

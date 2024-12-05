@@ -19,7 +19,10 @@ namespace MenuDLL
         public Promotion(string conditions, List <MenuDLL.Menu> structure, double price, string startDate, string endDate) 
         {
             this.conditions = conditions;
-            this.components = structure;
+            for(int i = 0; i < structure.Count; i++)
+            {
+                components.Add(structure[i]);
+            }
             this.price = price;
             this.startDate = startDate;
             this.endtDate = endDate;

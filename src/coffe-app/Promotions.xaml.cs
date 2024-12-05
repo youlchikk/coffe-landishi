@@ -98,9 +98,16 @@ namespace coffe_app
             if (PromotionsListBox.SelectedItem is ListBoxItem selectedItem)
             {
                 var selectedPromotion = selectedItem.Tag as Promotion;
-                // Логика добавления акции в заказ
-                MessageBox.Show($"Акция \"{selectedPromotion.conditions}\" добавлена в заказ.");
-                MainWindow.CurrentOrder.addPromotion(selectedPromotion); // Добавляем акцию в текущий заказ
+                MessageBox.Show(promotions[0].components.Count.ToString());
+                for (int i = 0; i < promotions.Count; i++)
+                {
+                    if (promotions[i].conditions == selectedPromotion.conditions)
+                    {
+                        MessageBox.Show($"Акция \"{selectedPromotion.conditions}\" добавлена в заказ.");
+                        MainWindow.CurrentOrder.addPromotion(promotions[i]); // Добавляем акцию в текущий заказ
+                    }
+                }
+               
             }
             else
             {
