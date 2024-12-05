@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServerCoffeeApp</name>
+    </assembly>
+    <members>
+        <member name="T:ServerCoffeeApp.ExcelHandler">
+            <summary>
+            Класс для взаимодействия с Excel-файлами.
+            </summary>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Регистрирует нового пользователя в Excel-файле.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="phone">Номер телефона пользователя.</param>
+            <param name="email">Электронная почта пользователя.</param>
+            <param name="birthdate">Дата рождения пользователя.</param>
+            <param name="password">Пароль пользователя.</param>
+            <param name="admin">Роль пользователя (по умолчанию "user").</param>
+            <returns>true, если регистрация успешна; false, если пользователь уже существует.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)">
+            <summary>
+            Аутентифицирует пользователя по имени и паролю.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="password">Пароль пользователя.</param>
+            <returns>true, если аутентификация успешна; false, если имя пользователя или пароль неверны.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)">
+            <summary>
+            Проверяет, является ли пользователь администратором.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>true, если пользователь является администратором; false, если нет.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)">
+            <summary>
+            Получает детали пользователя по имени.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Строка с деталями пользователя, разделенными символом '|', или null, если пользователь не найден.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)">
+            <summary>
+            Метод для добавления данных в файл Archive.xlsx.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="date">Дата завершенного заказа</param>
+            <param name="price">Сумма заказа</param>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.GetArchiveData">
+            <summary>
+            Получает данные из файла Archive.xlsx.
+            </summary>
+            <returns>Строка с данными из архива, разделенными символом '|', или пустая строка в случае ошибки.</returns>
+        </member>
+    </members>
+</doc>
