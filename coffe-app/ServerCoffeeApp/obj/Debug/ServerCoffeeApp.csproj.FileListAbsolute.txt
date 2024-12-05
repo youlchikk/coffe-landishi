@@ -78,3 +78,4 @@ C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCoffeeApp.
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\ServerCoffeeApp.exe.config
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\ServerCoffeeApp.pdb
 C:\coffe-app\coffe-landishi\coffe-app\ServerCoffeeApp\obj\Debug\ServerCo.294D9BD3.Up2Date
+C:\KP_KPO\coffe-landishi\coffe-app\ServerCoffeeApp\bin\Debug\Doc.xml

@@ -107,3 +107,5 @@ C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\Statistics
 C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\ChangeOrderStatusWindow.g.cs
 C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\OrderWindow.g.cs
 C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\StatisticsWindow.g.cs
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\bin\Debug\net6.0-windows\coffe-app.xml
+C:\KP_KPO\coffe-landishi\coffe-app\coffe-app\obj\Debug\net6.0-windows\coffe-app.xml
