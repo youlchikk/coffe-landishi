@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: ServerCoffeeApp.ExcelHandler
+  commentId: T:ServerCoffeeApp.ExcelHandler
+  id: ExcelHandler
+  parent: ServerCoffeeApp
+  children:
+  - ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)
+  - ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)
+  - ServerCoffeeApp.ExcelHandler.GetArchiveData
+  - ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)
+  - ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  - ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)
+  - ServerCoffeeApp.ExcelHandler.filePath
+  - ServerCoffeeApp.ExcelHandler.filePathArchive
+  langs:
+  - csharp
+  - vb
+  name: ExcelHandler
+  nameWithType: ExcelHandler
+  fullName: ServerCoffeeApp.ExcelHandler
+  type: Class
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: ExcelHandler
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 14
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Класс для взаимодействия с Excel-файлами.
+  example: []
+  syntax:
+    content: public static class ExcelHandler
+    content.vb: Public Module ExcelHandler
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: ServerCoffeeApp.ExcelHandler.filePath
+  commentId: F:ServerCoffeeApp.ExcelHandler.filePath
+  id: filePath
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: filePath
+  nameWithType: ExcelHandler.filePath
+  fullName: ServerCoffeeApp.ExcelHandler.filePath
+  type: Field
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: filePath
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 17
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  syntax:
+    content: public static string filePath
+    return:
+      type: System.String
+    content.vb: Public Shared filePath As String
+- uid: ServerCoffeeApp.ExcelHandler.filePathArchive
+  commentId: F:ServerCoffeeApp.ExcelHandler.filePathArchive
+  id: filePathArchive
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: filePathArchive
+  nameWithType: ExcelHandler.filePathArchive
+  fullName: ServerCoffeeApp.ExcelHandler.filePathArchive
+  type: Field
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: filePathArchive
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 18
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  syntax:
+    content: public static string filePathArchive
+    return:
+      type: System.String
+    content.vb: Public Shared filePathArchive As String
+- uid: ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  commentId: M:ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  id: RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: RegisterUser(string, string, string, string, string, string)
+  nameWithType: ExcelHandler.RegisterUser(string, string, string, string, string, string)
+  fullName: ServerCoffeeApp.ExcelHandler.RegisterUser(string, string, string, string, string, string)
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: RegisterUser
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 30
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Регистрирует нового пользователя в Excel-файле.
+  example: []
+  syntax:
+    content: public static bool RegisterUser(string username, string phone, string email, string birthdate, string password, string admin = "user")
+    parameters:
+    - id: username
+      type: System.String
+      description: Имя пользователя.
+    - id: phone
+      type: System.String
+      description: Номер телефона пользователя.
+    - id: email
+      type: System.String
+      description: Электронная почта пользователя.
+    - id: birthdate
+      type: System.String
+      description: Дата рождения пользователя.
+    - id: password
+      type: System.String
+      description: Пароль пользователя.
+    - id: admin
+      type: System.String
+      description: Роль пользователя (по умолчанию "user").
+    return:
+      type: System.Boolean
+      description: true, если регистрация успешна; false, если пользователь уже существует.
+    content.vb: Public Shared Function RegisterUser(username As String, phone As String, email As String, birthdate As String, password As String, admin As String = "user") As Boolean
+  overload: ServerCoffeeApp.ExcelHandler.RegisterUser*
+  nameWithType.vb: ExcelHandler.RegisterUser(String, String, String, String, String, String)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.RegisterUser(String, String, String, String, String, String)
+  name.vb: RegisterUser(String, String, String, String, String, String)
+- uid: ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)
+  commentId: M:ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)
+  id: AuthenticateUser(System.String,System.String)
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: AuthenticateUser(string, string)
+  nameWithType: ExcelHandler.AuthenticateUser(string, string)
+  fullName: ServerCoffeeApp.ExcelHandler.AuthenticateUser(string, string)
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: AuthenticateUser
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 73
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Аутентифицирует пользователя по имени и паролю.
+  example: []
+  syntax:
+    content: public static bool AuthenticateUser(string username, string password)
+    parameters:
+    - id: username
+      type: System.String
+      description: Имя пользователя.
+    - id: password
+      type: System.String
+      description: Пароль пользователя.
+    return:
+      type: System.Boolean
+      description: true, если аутентификация успешна; false, если имя пользователя или пароль неверны.
+    content.vb: Public Shared Function AuthenticateUser(username As String, password As String) As Boolean
+  overload: ServerCoffeeApp.ExcelHandler.AuthenticateUser*
+  nameWithType.vb: ExcelHandler.AuthenticateUser(String, String)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.AuthenticateUser(String, String)
+  name.vb: AuthenticateUser(String, String)
+- uid: ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)
+  commentId: M:ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)
+  id: checkAdmin(System.String)
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: checkAdmin(string)
+  nameWithType: ExcelHandler.checkAdmin(string)
+  fullName: ServerCoffeeApp.ExcelHandler.checkAdmin(string)
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: checkAdmin
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 103
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Проверяет, является ли пользователь администратором.
+  example: []
+  syntax:
+    content: public static bool checkAdmin(string username)
+    parameters:
+    - id: username
+      type: System.String
+      description: Имя пользователя.
+    return:
+      type: System.Boolean
+      description: true, если пользователь является администратором; false, если нет.
+    content.vb: Public Shared Function checkAdmin(username As String) As Boolean
+  overload: ServerCoffeeApp.ExcelHandler.checkAdmin*
+  nameWithType.vb: ExcelHandler.checkAdmin(String)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.checkAdmin(String)
+  name.vb: checkAdmin(String)
+- uid: ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)
+  commentId: M:ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)
+  id: GetUserDetails(System.String)
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: GetUserDetails(string)
+  nameWithType: ExcelHandler.GetUserDetails(string)
+  fullName: ServerCoffeeApp.ExcelHandler.GetUserDetails(string)
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: GetUserDetails
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 133
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Получает детали пользователя по имени.
+  example: []
+  syntax:
+    content: public static string GetUserDetails(string username)
+    parameters:
+    - id: username
+      type: System.String
+      description: Имя пользователя.
+    return:
+      type: System.String
+      description: Строка с деталями пользователя, разделенными символом '|', или null, если пользователь не найден.
+    content.vb: Public Shared Function GetUserDetails(username As String) As String
+  overload: ServerCoffeeApp.ExcelHandler.GetUserDetails*
+  nameWithType.vb: ExcelHandler.GetUserDetails(String)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.GetUserDetails(String)
+  name.vb: GetUserDetails(String)
+- uid: ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)
+  commentId: M:ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)
+  id: AddToArchive(System.String,System.String,System.Double)
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: AddToArchive(string, string, double)
+  nameWithType: ExcelHandler.AddToArchive(string, string, double)
+  fullName: ServerCoffeeApp.ExcelHandler.AddToArchive(string, string, double)
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: AddToArchive
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 171
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Метод для добавления данных в файл Archive.xlsx.
+  example: []
+  syntax:
+    content: public static void AddToArchive(string username, string date, double price)
+    parameters:
+    - id: username
+      type: System.String
+      description: Имя пользователя.
+    - id: date
+      type: System.String
+      description: Дата завершенного заказа
+    - id: price
+      type: System.Double
+      description: Сумма заказа
+    content.vb: Public Shared Sub AddToArchive(username As String, [date] As String, price As Double)
+  overload: ServerCoffeeApp.ExcelHandler.AddToArchive*
+  nameWithType.vb: ExcelHandler.AddToArchive(String, String, Double)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.AddToArchive(String, String, Double)
+  name.vb: AddToArchive(String, String, Double)
+- uid: ServerCoffeeApp.ExcelHandler.GetArchiveData
+  commentId: M:ServerCoffeeApp.ExcelHandler.GetArchiveData
+  id: GetArchiveData
+  parent: ServerCoffeeApp.ExcelHandler
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveData()
+  nameWithType: ExcelHandler.GetArchiveData()
+  fullName: ServerCoffeeApp.ExcelHandler.GetArchiveData()
+  type: Method
+  source:
+    remote:
+      path: src/ServerCoffeeApp/ExcelHandler.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: GetArchiveData
+    path: ../src/ServerCoffeeApp/ExcelHandler.cs
+    startLine: 201
+  assemblies:
+  - ServerCoffeeApp
+  namespace: ServerCoffeeApp
+  summary: Получает данные из файла Archive.xlsx.
+  example: []
+  syntax:
+    content: public static string GetArchiveData()
+    return:
+      type: System.String
+      description: Строка с данными из архива, разделенными символом '|', или пустая строка в случае ошибки.
+    content.vb: Public Shared Function GetArchiveData() As String
+  overload: ServerCoffeeApp.ExcelHandler.GetArchiveData*
+references:
+- uid: ServerCoffeeApp
+  commentId: N:ServerCoffeeApp
+  href: ServerCoffeeApp.html
+  name: ServerCoffeeApp
+  nameWithType: ServerCoffeeApp
+  fullName: ServerCoffeeApp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: ServerCoffeeApp.ExcelHandler.RegisterUser*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.RegisterUser
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_RegisterUser_System_String_System_String_System_String_System_String_System_String_System_String_
+  name: RegisterUser
+  nameWithType: ExcelHandler.RegisterUser
+  fullName: ServerCoffeeApp.ExcelHandler.RegisterUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ServerCoffeeApp.ExcelHandler.AuthenticateUser*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.AuthenticateUser
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AuthenticateUser_System_String_System_String_
+  name: AuthenticateUser
+  nameWithType: ExcelHandler.AuthenticateUser
+  fullName: ServerCoffeeApp.ExcelHandler.AuthenticateUser
+- uid: ServerCoffeeApp.ExcelHandler.checkAdmin*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.checkAdmin
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_checkAdmin_System_String_
+  name: checkAdmin
+  nameWithType: ExcelHandler.checkAdmin
+  fullName: ServerCoffeeApp.ExcelHandler.checkAdmin
+- uid: ServerCoffeeApp.ExcelHandler.GetUserDetails*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.GetUserDetails
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetUserDetails_System_String_
+  name: GetUserDetails
+  nameWithType: ExcelHandler.GetUserDetails
+  fullName: ServerCoffeeApp.ExcelHandler.GetUserDetails
+- uid: ServerCoffeeApp.ExcelHandler.AddToArchive*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.AddToArchive
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AddToArchive_System_String_System_String_System_Double_
+  name: AddToArchive
+  nameWithType: ExcelHandler.AddToArchive
+  fullName: ServerCoffeeApp.ExcelHandler.AddToArchive
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: ServerCoffeeApp.ExcelHandler.GetArchiveData*
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.GetArchiveData
+  href: ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetArchiveData
+  name: GetArchiveData
+  nameWithType: ExcelHandler.GetArchiveData
+  fullName: ServerCoffeeApp.ExcelHandler.GetArchiveData

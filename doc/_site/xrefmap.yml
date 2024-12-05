@@ -1,0 +1,2365 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: MenuDLL
+  name: MenuDLL
+  href: api/MenuDLL.html
+  commentId: N:MenuDLL
+  fullName: MenuDLL
+  nameWithType: MenuDLL
+- uid: MenuDLL.Americano
+  name: Americano
+  href: api/MenuDLL.Americano.html
+  commentId: T:MenuDLL.Americano
+  fullName: MenuDLL.Americano
+  nameWithType: Americano
+- uid: MenuDLL.Americano.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_HotOrCold
+  commentId: P:MenuDLL.Americano.HotOrCold
+  fullName: MenuDLL.Americano.HotOrCold
+  nameWithType: Americano.HotOrCold
+- uid: MenuDLL.Americano.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_HotOrCold_
+  commentId: Overload:MenuDLL.Americano.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Americano.HotOrCold
+  nameWithType: Americano.HotOrCold
+- uid: MenuDLL.Americano.description
+  name: description
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_description
+  commentId: P:MenuDLL.Americano.description
+  fullName: MenuDLL.Americano.description
+  nameWithType: Americano.description
+- uid: MenuDLL.Americano.description*
+  name: description
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_description_
+  commentId: Overload:MenuDLL.Americano.description
+  isSpec: "True"
+  fullName: MenuDLL.Americano.description
+  nameWithType: Americano.description
+- uid: MenuDLL.Americano.price
+  name: price
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_price
+  commentId: P:MenuDLL.Americano.price
+  fullName: MenuDLL.Americano.price
+  nameWithType: Americano.price
+- uid: MenuDLL.Americano.price*
+  name: price
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_price_
+  commentId: Overload:MenuDLL.Americano.price
+  isSpec: "True"
+  fullName: MenuDLL.Americano.price
+  nameWithType: Americano.price
+- uid: MenuDLL.Americano.volume
+  name: volume
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_volume
+  commentId: P:MenuDLL.Americano.volume
+  fullName: MenuDLL.Americano.volume
+  nameWithType: Americano.volume
+- uid: MenuDLL.Americano.volume*
+  name: volume
+  href: api/MenuDLL.Americano.html#MenuDLL_Americano_volume_
+  commentId: Overload:MenuDLL.Americano.volume
+  isSpec: "True"
+  fullName: MenuDLL.Americano.volume
+  nameWithType: Americano.volume
+- uid: MenuDLL.BananaSyrupFactory
+  name: BananaSyrupFactory
+  href: api/MenuDLL.BananaSyrupFactory.html
+  commentId: T:MenuDLL.BananaSyrupFactory
+  fullName: MenuDLL.BananaSyrupFactory
+  nameWithType: BananaSyrupFactory
+- uid: MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.BananaSyrupFactory.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createAmericano(Boolean, Double, Double)
+  nameWithType: BananaSyrupFactory.createAmericano(bool, double, double)
+  nameWithType.vb: BananaSyrupFactory.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createAmericano_
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.BananaSyrupFactory.createAmericano
+  nameWithType: BananaSyrupFactory.createAmericano
+- uid: MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.BananaSyrupFactory.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createCappuccino(Boolean, Double, Double)
+  nameWithType: BananaSyrupFactory.createCappuccino(bool, double, double)
+  nameWithType.vb: BananaSyrupFactory.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createCappuccino_
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.BananaSyrupFactory.createCappuccino
+  nameWithType: BananaSyrupFactory.createCappuccino
+- uid: MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.BananaSyrupFactory.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  nameWithType: BananaSyrupFactory.createFlatWhite(bool, double, double)
+  nameWithType.vb: BananaSyrupFactory.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createFlatWhite_
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.BananaSyrupFactory.createFlatWhite
+  nameWithType: BananaSyrupFactory.createFlatWhite
+- uid: MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.BananaSyrupFactory.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createLatte(Boolean, Double, Double)
+  nameWithType: BananaSyrupFactory.createLatte(bool, double, double)
+  nameWithType.vb: BananaSyrupFactory.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createLatte*
+  name: createLatte
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createLatte_
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.BananaSyrupFactory.createLatte
+  nameWithType: BananaSyrupFactory.createLatte
+- uid: MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.BananaSyrupFactory.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createRaf(Boolean, Double, Double)
+  nameWithType: BananaSyrupFactory.createRaf(bool, double, double)
+  nameWithType.vb: BananaSyrupFactory.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createRaf*
+  name: createRaf
+  href: api/MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createRaf_
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.BananaSyrupFactory.createRaf
+  nameWithType: BananaSyrupFactory.createRaf
+- uid: MenuDLL.Cappuccino
+  name: Cappuccino
+  href: api/MenuDLL.Cappuccino.html
+  commentId: T:MenuDLL.Cappuccino
+  fullName: MenuDLL.Cappuccino
+  nameWithType: Cappuccino
+- uid: MenuDLL.Cappuccino.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_HotOrCold
+  commentId: P:MenuDLL.Cappuccino.HotOrCold
+  fullName: MenuDLL.Cappuccino.HotOrCold
+  nameWithType: Cappuccino.HotOrCold
+- uid: MenuDLL.Cappuccino.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_HotOrCold_
+  commentId: Overload:MenuDLL.Cappuccino.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Cappuccino.HotOrCold
+  nameWithType: Cappuccino.HotOrCold
+- uid: MenuDLL.Cappuccino.description
+  name: description
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_description
+  commentId: P:MenuDLL.Cappuccino.description
+  fullName: MenuDLL.Cappuccino.description
+  nameWithType: Cappuccino.description
+- uid: MenuDLL.Cappuccino.description*
+  name: description
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_description_
+  commentId: Overload:MenuDLL.Cappuccino.description
+  isSpec: "True"
+  fullName: MenuDLL.Cappuccino.description
+  nameWithType: Cappuccino.description
+- uid: MenuDLL.Cappuccino.price
+  name: price
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_price
+  commentId: P:MenuDLL.Cappuccino.price
+  fullName: MenuDLL.Cappuccino.price
+  nameWithType: Cappuccino.price
+- uid: MenuDLL.Cappuccino.price*
+  name: price
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_price_
+  commentId: Overload:MenuDLL.Cappuccino.price
+  isSpec: "True"
+  fullName: MenuDLL.Cappuccino.price
+  nameWithType: Cappuccino.price
+- uid: MenuDLL.Cappuccino.volume
+  name: volume
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_volume
+  commentId: P:MenuDLL.Cappuccino.volume
+  fullName: MenuDLL.Cappuccino.volume
+  nameWithType: Cappuccino.volume
+- uid: MenuDLL.Cappuccino.volume*
+  name: volume
+  href: api/MenuDLL.Cappuccino.html#MenuDLL_Cappuccino_volume_
+  commentId: Overload:MenuDLL.Cappuccino.volume
+  isSpec: "True"
+  fullName: MenuDLL.Cappuccino.volume
+  nameWithType: Cappuccino.volume
+- uid: MenuDLL.CaramelSyrupFactory
+  name: CaramelSyrupFactory
+  href: api/MenuDLL.CaramelSyrupFactory.html
+  commentId: T:MenuDLL.CaramelSyrupFactory
+  fullName: MenuDLL.CaramelSyrupFactory
+  nameWithType: CaramelSyrupFactory
+- uid: MenuDLL.CaramelSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.CaramelSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.CaramelSyrupFactory.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.CaramelSyrupFactory.createAmericano(Boolean, Double, Double)
+  nameWithType: CaramelSyrupFactory.createAmericano(bool, double, double)
+  nameWithType.vb: CaramelSyrupFactory.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.CaramelSyrupFactory.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createAmericano_
+  commentId: Overload:MenuDLL.CaramelSyrupFactory.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.CaramelSyrupFactory.createAmericano
+  nameWithType: CaramelSyrupFactory.createAmericano
+- uid: MenuDLL.CaramelSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.CaramelSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.CaramelSyrupFactory.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.CaramelSyrupFactory.createCappuccino(Boolean, Double, Double)
+  nameWithType: CaramelSyrupFactory.createCappuccino(bool, double, double)
+  nameWithType.vb: CaramelSyrupFactory.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.CaramelSyrupFactory.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createCappuccino_
+  commentId: Overload:MenuDLL.CaramelSyrupFactory.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.CaramelSyrupFactory.createCappuccino
+  nameWithType: CaramelSyrupFactory.createCappuccino
+- uid: MenuDLL.CaramelSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.CaramelSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.CaramelSyrupFactory.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.CaramelSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  nameWithType: CaramelSyrupFactory.createFlatWhite(bool, double, double)
+  nameWithType.vb: CaramelSyrupFactory.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.CaramelSyrupFactory.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createFlatWhite_
+  commentId: Overload:MenuDLL.CaramelSyrupFactory.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.CaramelSyrupFactory.createFlatWhite
+  nameWithType: CaramelSyrupFactory.createFlatWhite
+- uid: MenuDLL.CaramelSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.CaramelSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.CaramelSyrupFactory.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.CaramelSyrupFactory.createLatte(Boolean, Double, Double)
+  nameWithType: CaramelSyrupFactory.createLatte(bool, double, double)
+  nameWithType.vb: CaramelSyrupFactory.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.CaramelSyrupFactory.createLatte*
+  name: createLatte
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createLatte_
+  commentId: Overload:MenuDLL.CaramelSyrupFactory.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.CaramelSyrupFactory.createLatte
+  nameWithType: CaramelSyrupFactory.createLatte
+- uid: MenuDLL.CaramelSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.CaramelSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.CaramelSyrupFactory.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.CaramelSyrupFactory.createRaf(Boolean, Double, Double)
+  nameWithType: CaramelSyrupFactory.createRaf(bool, double, double)
+  nameWithType.vb: CaramelSyrupFactory.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.CaramelSyrupFactory.createRaf*
+  name: createRaf
+  href: api/MenuDLL.CaramelSyrupFactory.html#MenuDLL_CaramelSyrupFactory_createRaf_
+  commentId: Overload:MenuDLL.CaramelSyrupFactory.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.CaramelSyrupFactory.createRaf
+  nameWithType: CaramelSyrupFactory.createRaf
+- uid: MenuDLL.ChocolateSyrupFactory
+  name: ChocolateSyrupFactory
+  href: api/MenuDLL.ChocolateSyrupFactory.html
+  commentId: T:MenuDLL.ChocolateSyrupFactory
+  fullName: MenuDLL.ChocolateSyrupFactory
+  nameWithType: ChocolateSyrupFactory
+- uid: MenuDLL.ChocolateSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.ChocolateSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.ChocolateSyrupFactory.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.ChocolateSyrupFactory.createAmericano(Boolean, Double, Double)
+  nameWithType: ChocolateSyrupFactory.createAmericano(bool, double, double)
+  nameWithType.vb: ChocolateSyrupFactory.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.ChocolateSyrupFactory.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createAmericano_
+  commentId: Overload:MenuDLL.ChocolateSyrupFactory.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.ChocolateSyrupFactory.createAmericano
+  nameWithType: ChocolateSyrupFactory.createAmericano
+- uid: MenuDLL.ChocolateSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.ChocolateSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.ChocolateSyrupFactory.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.ChocolateSyrupFactory.createCappuccino(Boolean, Double, Double)
+  nameWithType: ChocolateSyrupFactory.createCappuccino(bool, double, double)
+  nameWithType.vb: ChocolateSyrupFactory.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.ChocolateSyrupFactory.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createCappuccino_
+  commentId: Overload:MenuDLL.ChocolateSyrupFactory.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.ChocolateSyrupFactory.createCappuccino
+  nameWithType: ChocolateSyrupFactory.createCappuccino
+- uid: MenuDLL.ChocolateSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.ChocolateSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.ChocolateSyrupFactory.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.ChocolateSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  nameWithType: ChocolateSyrupFactory.createFlatWhite(bool, double, double)
+  nameWithType.vb: ChocolateSyrupFactory.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.ChocolateSyrupFactory.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createFlatWhite_
+  commentId: Overload:MenuDLL.ChocolateSyrupFactory.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.ChocolateSyrupFactory.createFlatWhite
+  nameWithType: ChocolateSyrupFactory.createFlatWhite
+- uid: MenuDLL.ChocolateSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.ChocolateSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.ChocolateSyrupFactory.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.ChocolateSyrupFactory.createLatte(Boolean, Double, Double)
+  nameWithType: ChocolateSyrupFactory.createLatte(bool, double, double)
+  nameWithType.vb: ChocolateSyrupFactory.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.ChocolateSyrupFactory.createLatte*
+  name: createLatte
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createLatte_
+  commentId: Overload:MenuDLL.ChocolateSyrupFactory.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.ChocolateSyrupFactory.createLatte
+  nameWithType: ChocolateSyrupFactory.createLatte
+- uid: MenuDLL.ChocolateSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.ChocolateSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.ChocolateSyrupFactory.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.ChocolateSyrupFactory.createRaf(Boolean, Double, Double)
+  nameWithType: ChocolateSyrupFactory.createRaf(bool, double, double)
+  nameWithType.vb: ChocolateSyrupFactory.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.ChocolateSyrupFactory.createRaf*
+  name: createRaf
+  href: api/MenuDLL.ChocolateSyrupFactory.html#MenuDLL_ChocolateSyrupFactory_createRaf_
+  commentId: Overload:MenuDLL.ChocolateSyrupFactory.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.ChocolateSyrupFactory.createRaf
+  nameWithType: ChocolateSyrupFactory.createRaf
+- uid: MenuDLL.Coffee
+  name: Coffee
+  href: api/MenuDLL.Coffee.html
+  commentId: T:MenuDLL.Coffee
+  fullName: MenuDLL.Coffee
+  nameWithType: Coffee
+- uid: MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.Coffee.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.Coffee.createAmericano(Boolean, Double, Double)
+  nameWithType: Coffee.createAmericano(bool, double, double)
+  nameWithType.vb: Coffee.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.Coffee.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createAmericano_
+  commentId: Overload:MenuDLL.Coffee.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.Coffee.createAmericano
+  nameWithType: Coffee.createAmericano
+- uid: MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.Coffee.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.Coffee.createCappuccino(Boolean, Double, Double)
+  nameWithType: Coffee.createCappuccino(bool, double, double)
+  nameWithType.vb: Coffee.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.Coffee.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createCappuccino_
+  commentId: Overload:MenuDLL.Coffee.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.Coffee.createCappuccino
+  nameWithType: Coffee.createCappuccino
+- uid: MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.Coffee.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.Coffee.createFlatWhite(Boolean, Double, Double)
+  nameWithType: Coffee.createFlatWhite(bool, double, double)
+  nameWithType.vb: Coffee.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.Coffee.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createFlatWhite_
+  commentId: Overload:MenuDLL.Coffee.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.Coffee.createFlatWhite
+  nameWithType: Coffee.createFlatWhite
+- uid: MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.Coffee.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.Coffee.createLatte(Boolean, Double, Double)
+  nameWithType: Coffee.createLatte(bool, double, double)
+  nameWithType.vb: Coffee.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.Coffee.createLatte*
+  name: createLatte
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createLatte_
+  commentId: Overload:MenuDLL.Coffee.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.Coffee.createLatte
+  nameWithType: Coffee.createLatte
+- uid: MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.Coffee.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.Coffee.createRaf(Boolean, Double, Double)
+  nameWithType: Coffee.createRaf(bool, double, double)
+  nameWithType.vb: Coffee.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.Coffee.createRaf*
+  name: createRaf
+  href: api/MenuDLL.Coffee.html#MenuDLL_Coffee_createRaf_
+  commentId: Overload:MenuDLL.Coffee.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.Coffee.createRaf
+  nameWithType: Coffee.createRaf
+- uid: MenuDLL.Dessert
+  name: Dessert
+  href: api/MenuDLL.Dessert.html
+  commentId: T:MenuDLL.Dessert
+  fullName: MenuDLL.Dessert
+  nameWithType: Dessert
+- uid: MenuDLL.Dessert.#ctor(System.Double,System.Double,System.String)
+  name: Dessert(double, double, string)
+  href: api/MenuDLL.Dessert.html#MenuDLL_Dessert__ctor_System_Double_System_Double_System_String_
+  commentId: M:MenuDLL.Dessert.#ctor(System.Double,System.Double,System.String)
+  name.vb: New(Double, Double, String)
+  fullName: MenuDLL.Dessert.Dessert(double, double, string)
+  fullName.vb: MenuDLL.Dessert.New(Double, Double, String)
+  nameWithType: Dessert.Dessert(double, double, string)
+  nameWithType.vb: Dessert.New(Double, Double, String)
+- uid: MenuDLL.Dessert.#ctor*
+  name: Dessert
+  href: api/MenuDLL.Dessert.html#MenuDLL_Dessert__ctor_
+  commentId: Overload:MenuDLL.Dessert.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.Dessert.Dessert
+  fullName.vb: MenuDLL.Dessert.New
+  nameWithType: Dessert.Dessert
+  nameWithType.vb: Dessert.New
+- uid: MenuDLL.FlatWhite
+  name: FlatWhite
+  href: api/MenuDLL.FlatWhite.html
+  commentId: T:MenuDLL.FlatWhite
+  fullName: MenuDLL.FlatWhite
+  nameWithType: FlatWhite
+- uid: MenuDLL.FlatWhite.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_HotOrCold
+  commentId: P:MenuDLL.FlatWhite.HotOrCold
+  fullName: MenuDLL.FlatWhite.HotOrCold
+  nameWithType: FlatWhite.HotOrCold
+- uid: MenuDLL.FlatWhite.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_HotOrCold_
+  commentId: Overload:MenuDLL.FlatWhite.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.FlatWhite.HotOrCold
+  nameWithType: FlatWhite.HotOrCold
+- uid: MenuDLL.FlatWhite.description
+  name: description
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_description
+  commentId: P:MenuDLL.FlatWhite.description
+  fullName: MenuDLL.FlatWhite.description
+  nameWithType: FlatWhite.description
+- uid: MenuDLL.FlatWhite.description*
+  name: description
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_description_
+  commentId: Overload:MenuDLL.FlatWhite.description
+  isSpec: "True"
+  fullName: MenuDLL.FlatWhite.description
+  nameWithType: FlatWhite.description
+- uid: MenuDLL.FlatWhite.price
+  name: price
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_price
+  commentId: P:MenuDLL.FlatWhite.price
+  fullName: MenuDLL.FlatWhite.price
+  nameWithType: FlatWhite.price
+- uid: MenuDLL.FlatWhite.price*
+  name: price
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_price_
+  commentId: Overload:MenuDLL.FlatWhite.price
+  isSpec: "True"
+  fullName: MenuDLL.FlatWhite.price
+  nameWithType: FlatWhite.price
+- uid: MenuDLL.FlatWhite.volume
+  name: volume
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_volume
+  commentId: P:MenuDLL.FlatWhite.volume
+  fullName: MenuDLL.FlatWhite.volume
+  nameWithType: FlatWhite.volume
+- uid: MenuDLL.FlatWhite.volume*
+  name: volume
+  href: api/MenuDLL.FlatWhite.html#MenuDLL_FlatWhite_volume_
+  commentId: Overload:MenuDLL.FlatWhite.volume
+  isSpec: "True"
+  fullName: MenuDLL.FlatWhite.volume
+  nameWithType: FlatWhite.volume
+- uid: MenuDLL.Latte
+  name: Latte
+  href: api/MenuDLL.Latte.html
+  commentId: T:MenuDLL.Latte
+  fullName: MenuDLL.Latte
+  nameWithType: Latte
+- uid: MenuDLL.Latte.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_HotOrCold
+  commentId: P:MenuDLL.Latte.HotOrCold
+  fullName: MenuDLL.Latte.HotOrCold
+  nameWithType: Latte.HotOrCold
+- uid: MenuDLL.Latte.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_HotOrCold_
+  commentId: Overload:MenuDLL.Latte.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Latte.HotOrCold
+  nameWithType: Latte.HotOrCold
+- uid: MenuDLL.Latte.description
+  name: description
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_description
+  commentId: P:MenuDLL.Latte.description
+  fullName: MenuDLL.Latte.description
+  nameWithType: Latte.description
+- uid: MenuDLL.Latte.description*
+  name: description
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_description_
+  commentId: Overload:MenuDLL.Latte.description
+  isSpec: "True"
+  fullName: MenuDLL.Latte.description
+  nameWithType: Latte.description
+- uid: MenuDLL.Latte.price
+  name: price
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_price
+  commentId: P:MenuDLL.Latte.price
+  fullName: MenuDLL.Latte.price
+  nameWithType: Latte.price
+- uid: MenuDLL.Latte.price*
+  name: price
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_price_
+  commentId: Overload:MenuDLL.Latte.price
+  isSpec: "True"
+  fullName: MenuDLL.Latte.price
+  nameWithType: Latte.price
+- uid: MenuDLL.Latte.volume
+  name: volume
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_volume
+  commentId: P:MenuDLL.Latte.volume
+  fullName: MenuDLL.Latte.volume
+  nameWithType: Latte.volume
+- uid: MenuDLL.Latte.volume*
+  name: volume
+  href: api/MenuDLL.Latte.html#MenuDLL_Latte_volume_
+  commentId: Overload:MenuDLL.Latte.volume
+  isSpec: "True"
+  fullName: MenuDLL.Latte.volume
+  nameWithType: Latte.volume
+- uid: MenuDLL.LavenderSyrupFactory
+  name: LavenderSyrupFactory
+  href: api/MenuDLL.LavenderSyrupFactory.html
+  commentId: T:MenuDLL.LavenderSyrupFactory
+  fullName: MenuDLL.LavenderSyrupFactory
+  nameWithType: LavenderSyrupFactory
+- uid: MenuDLL.LavenderSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LavenderSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.LavenderSyrupFactory.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.LavenderSyrupFactory.createAmericano(Boolean, Double, Double)
+  nameWithType: LavenderSyrupFactory.createAmericano(bool, double, double)
+  nameWithType.vb: LavenderSyrupFactory.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.LavenderSyrupFactory.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createAmericano_
+  commentId: Overload:MenuDLL.LavenderSyrupFactory.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.LavenderSyrupFactory.createAmericano
+  nameWithType: LavenderSyrupFactory.createAmericano
+- uid: MenuDLL.LavenderSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LavenderSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.LavenderSyrupFactory.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.LavenderSyrupFactory.createCappuccino(Boolean, Double, Double)
+  nameWithType: LavenderSyrupFactory.createCappuccino(bool, double, double)
+  nameWithType.vb: LavenderSyrupFactory.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.LavenderSyrupFactory.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createCappuccino_
+  commentId: Overload:MenuDLL.LavenderSyrupFactory.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.LavenderSyrupFactory.createCappuccino
+  nameWithType: LavenderSyrupFactory.createCappuccino
+- uid: MenuDLL.LavenderSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LavenderSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.LavenderSyrupFactory.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.LavenderSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  nameWithType: LavenderSyrupFactory.createFlatWhite(bool, double, double)
+  nameWithType.vb: LavenderSyrupFactory.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.LavenderSyrupFactory.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createFlatWhite_
+  commentId: Overload:MenuDLL.LavenderSyrupFactory.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.LavenderSyrupFactory.createFlatWhite
+  nameWithType: LavenderSyrupFactory.createFlatWhite
+- uid: MenuDLL.LavenderSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LavenderSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.LavenderSyrupFactory.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.LavenderSyrupFactory.createLatte(Boolean, Double, Double)
+  nameWithType: LavenderSyrupFactory.createLatte(bool, double, double)
+  nameWithType.vb: LavenderSyrupFactory.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.LavenderSyrupFactory.createLatte*
+  name: createLatte
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createLatte_
+  commentId: Overload:MenuDLL.LavenderSyrupFactory.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.LavenderSyrupFactory.createLatte
+  nameWithType: LavenderSyrupFactory.createLatte
+- uid: MenuDLL.LavenderSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LavenderSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.LavenderSyrupFactory.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.LavenderSyrupFactory.createRaf(Boolean, Double, Double)
+  nameWithType: LavenderSyrupFactory.createRaf(bool, double, double)
+  nameWithType.vb: LavenderSyrupFactory.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.LavenderSyrupFactory.createRaf*
+  name: createRaf
+  href: api/MenuDLL.LavenderSyrupFactory.html#MenuDLL_LavenderSyrupFactory_createRaf_
+  commentId: Overload:MenuDLL.LavenderSyrupFactory.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.LavenderSyrupFactory.createRaf
+  nameWithType: LavenderSyrupFactory.createRaf
+- uid: MenuDLL.Lemonade
+  name: Lemonade
+  href: api/MenuDLL.Lemonade.html
+  commentId: T:MenuDLL.Lemonade
+  fullName: MenuDLL.Lemonade
+  nameWithType: Lemonade
+- uid: MenuDLL.Lemonade.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_HotOrCold
+  commentId: P:MenuDLL.Lemonade.HotOrCold
+  fullName: MenuDLL.Lemonade.HotOrCold
+  nameWithType: Lemonade.HotOrCold
+- uid: MenuDLL.Lemonade.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_HotOrCold_
+  commentId: Overload:MenuDLL.Lemonade.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Lemonade.HotOrCold
+  nameWithType: Lemonade.HotOrCold
+- uid: MenuDLL.Lemonade.description
+  name: description
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_description
+  commentId: P:MenuDLL.Lemonade.description
+  fullName: MenuDLL.Lemonade.description
+  nameWithType: Lemonade.description
+- uid: MenuDLL.Lemonade.description*
+  name: description
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_description_
+  commentId: Overload:MenuDLL.Lemonade.description
+  isSpec: "True"
+  fullName: MenuDLL.Lemonade.description
+  nameWithType: Lemonade.description
+- uid: MenuDLL.Lemonade.price
+  name: price
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_price
+  commentId: P:MenuDLL.Lemonade.price
+  fullName: MenuDLL.Lemonade.price
+  nameWithType: Lemonade.price
+- uid: MenuDLL.Lemonade.price*
+  name: price
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_price_
+  commentId: Overload:MenuDLL.Lemonade.price
+  isSpec: "True"
+  fullName: MenuDLL.Lemonade.price
+  nameWithType: Lemonade.price
+- uid: MenuDLL.Lemonade.volume
+  name: volume
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_volume
+  commentId: P:MenuDLL.Lemonade.volume
+  fullName: MenuDLL.Lemonade.volume
+  nameWithType: Lemonade.volume
+- uid: MenuDLL.Lemonade.volume*
+  name: volume
+  href: api/MenuDLL.Lemonade.html#MenuDLL_Lemonade_volume_
+  commentId: Overload:MenuDLL.Lemonade.volume
+  isSpec: "True"
+  fullName: MenuDLL.Lemonade.volume
+  nameWithType: Lemonade.volume
+- uid: MenuDLL.LemonadeWithBananaSyrup
+  name: LemonadeWithBananaSyrup
+  href: api/MenuDLL.LemonadeWithBananaSyrup.html
+  commentId: T:MenuDLL.LemonadeWithBananaSyrup
+  fullName: MenuDLL.LemonadeWithBananaSyrup
+  nameWithType: LemonadeWithBananaSyrup
+- uid: MenuDLL.LemonadeWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithBananaSyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithBananaSyrup.html#MenuDLL_LemonadeWithBananaSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithBananaSyrup.LemonadeWithBananaSyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithBananaSyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithBananaSyrup.LemonadeWithBananaSyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithBananaSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithBananaSyrup.#ctor*
+  name: LemonadeWithBananaSyrup
+  href: api/MenuDLL.LemonadeWithBananaSyrup.html#MenuDLL_LemonadeWithBananaSyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithBananaSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithBananaSyrup.LemonadeWithBananaSyrup
+  fullName.vb: MenuDLL.LemonadeWithBananaSyrup.New
+  nameWithType: LemonadeWithBananaSyrup.LemonadeWithBananaSyrup
+  nameWithType.vb: LemonadeWithBananaSyrup.New
+- uid: MenuDLL.LemonadeWithCaramelSyrup
+  name: LemonadeWithCaramelSyrup
+  href: api/MenuDLL.LemonadeWithCaramelSyrup.html
+  commentId: T:MenuDLL.LemonadeWithCaramelSyrup
+  fullName: MenuDLL.LemonadeWithCaramelSyrup
+  nameWithType: LemonadeWithCaramelSyrup
+- uid: MenuDLL.LemonadeWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithCaramelSyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithCaramelSyrup.html#MenuDLL_LemonadeWithCaramelSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithCaramelSyrup.LemonadeWithCaramelSyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithCaramelSyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithCaramelSyrup.LemonadeWithCaramelSyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithCaramelSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithCaramelSyrup.#ctor*
+  name: LemonadeWithCaramelSyrup
+  href: api/MenuDLL.LemonadeWithCaramelSyrup.html#MenuDLL_LemonadeWithCaramelSyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithCaramelSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithCaramelSyrup.LemonadeWithCaramelSyrup
+  fullName.vb: MenuDLL.LemonadeWithCaramelSyrup.New
+  nameWithType: LemonadeWithCaramelSyrup.LemonadeWithCaramelSyrup
+  nameWithType.vb: LemonadeWithCaramelSyrup.New
+- uid: MenuDLL.LemonadeWithChocolateSyrup
+  name: LemonadeWithChocolateSyrup
+  href: api/MenuDLL.LemonadeWithChocolateSyrup.html
+  commentId: T:MenuDLL.LemonadeWithChocolateSyrup
+  fullName: MenuDLL.LemonadeWithChocolateSyrup
+  nameWithType: LemonadeWithChocolateSyrup
+- uid: MenuDLL.LemonadeWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithChocolateSyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithChocolateSyrup.html#MenuDLL_LemonadeWithChocolateSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithChocolateSyrup.LemonadeWithChocolateSyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithChocolateSyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithChocolateSyrup.LemonadeWithChocolateSyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithChocolateSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithChocolateSyrup.#ctor*
+  name: LemonadeWithChocolateSyrup
+  href: api/MenuDLL.LemonadeWithChocolateSyrup.html#MenuDLL_LemonadeWithChocolateSyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithChocolateSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithChocolateSyrup.LemonadeWithChocolateSyrup
+  fullName.vb: MenuDLL.LemonadeWithChocolateSyrup.New
+  nameWithType: LemonadeWithChocolateSyrup.LemonadeWithChocolateSyrup
+  nameWithType.vb: LemonadeWithChocolateSyrup.New
+- uid: MenuDLL.LemonadeWithLavenderSyrup
+  name: LemonadeWithLavenderSyrup
+  href: api/MenuDLL.LemonadeWithLavenderSyrup.html
+  commentId: T:MenuDLL.LemonadeWithLavenderSyrup
+  fullName: MenuDLL.LemonadeWithLavenderSyrup
+  nameWithType: LemonadeWithLavenderSyrup
+- uid: MenuDLL.LemonadeWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithLavenderSyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithLavenderSyrup.html#MenuDLL_LemonadeWithLavenderSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithLavenderSyrup.LemonadeWithLavenderSyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithLavenderSyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithLavenderSyrup.LemonadeWithLavenderSyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithLavenderSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithLavenderSyrup.#ctor*
+  name: LemonadeWithLavenderSyrup
+  href: api/MenuDLL.LemonadeWithLavenderSyrup.html#MenuDLL_LemonadeWithLavenderSyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithLavenderSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithLavenderSyrup.LemonadeWithLavenderSyrup
+  fullName.vb: MenuDLL.LemonadeWithLavenderSyrup.New
+  nameWithType: LemonadeWithLavenderSyrup.LemonadeWithLavenderSyrup
+  nameWithType.vb: LemonadeWithLavenderSyrup.New
+- uid: MenuDLL.LemonadeWithRaspberrySyrup
+  name: LemonadeWithRaspberrySyrup
+  href: api/MenuDLL.LemonadeWithRaspberrySyrup.html
+  commentId: T:MenuDLL.LemonadeWithRaspberrySyrup
+  fullName: MenuDLL.LemonadeWithRaspberrySyrup
+  nameWithType: LemonadeWithRaspberrySyrup
+- uid: MenuDLL.LemonadeWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithRaspberrySyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithRaspberrySyrup.html#MenuDLL_LemonadeWithRaspberrySyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithRaspberrySyrup.LemonadeWithRaspberrySyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithRaspberrySyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithRaspberrySyrup.LemonadeWithRaspberrySyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithRaspberrySyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithRaspberrySyrup.#ctor*
+  name: LemonadeWithRaspberrySyrup
+  href: api/MenuDLL.LemonadeWithRaspberrySyrup.html#MenuDLL_LemonadeWithRaspberrySyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithRaspberrySyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithRaspberrySyrup.LemonadeWithRaspberrySyrup
+  fullName.vb: MenuDLL.LemonadeWithRaspberrySyrup.New
+  nameWithType: LemonadeWithRaspberrySyrup.LemonadeWithRaspberrySyrup
+  nameWithType.vb: LemonadeWithRaspberrySyrup.New
+- uid: MenuDLL.LemonadeWithoutSyrup
+  name: LemonadeWithoutSyrup
+  href: api/MenuDLL.LemonadeWithoutSyrup.html
+  commentId: T:MenuDLL.LemonadeWithoutSyrup
+  fullName: MenuDLL.LemonadeWithoutSyrup
+  nameWithType: LemonadeWithoutSyrup
+- uid: MenuDLL.LemonadeWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: LemonadeWithoutSyrup(bool, double, double)
+  href: api/MenuDLL.LemonadeWithoutSyrup.html#MenuDLL_LemonadeWithoutSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.LemonadeWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.LemonadeWithoutSyrup.LemonadeWithoutSyrup(bool, double, double)
+  fullName.vb: MenuDLL.LemonadeWithoutSyrup.New(Boolean, Double, Double)
+  nameWithType: LemonadeWithoutSyrup.LemonadeWithoutSyrup(bool, double, double)
+  nameWithType.vb: LemonadeWithoutSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.LemonadeWithoutSyrup.#ctor*
+  name: LemonadeWithoutSyrup
+  href: api/MenuDLL.LemonadeWithoutSyrup.html#MenuDLL_LemonadeWithoutSyrup__ctor_
+  commentId: Overload:MenuDLL.LemonadeWithoutSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.LemonadeWithoutSyrup.LemonadeWithoutSyrup
+  fullName.vb: MenuDLL.LemonadeWithoutSyrup.New
+  nameWithType: LemonadeWithoutSyrup.LemonadeWithoutSyrup
+  nameWithType.vb: LemonadeWithoutSyrup.New
+- uid: MenuDLL.Menu
+  name: Menu
+  href: api/MenuDLL.Menu.html
+  commentId: T:MenuDLL.Menu
+  fullName: MenuDLL.Menu
+  nameWithType: Menu
+- uid: MenuDLL.Menu.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_HotOrCold
+  commentId: P:MenuDLL.Menu.HotOrCold
+  fullName: MenuDLL.Menu.HotOrCold
+  nameWithType: Menu.HotOrCold
+- uid: MenuDLL.Menu.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_HotOrCold_
+  commentId: Overload:MenuDLL.Menu.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Menu.HotOrCold
+  nameWithType: Menu.HotOrCold
+- uid: MenuDLL.Menu.description
+  name: description
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_description
+  commentId: P:MenuDLL.Menu.description
+  fullName: MenuDLL.Menu.description
+  nameWithType: Menu.description
+- uid: MenuDLL.Menu.description*
+  name: description
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_description_
+  commentId: Overload:MenuDLL.Menu.description
+  isSpec: "True"
+  fullName: MenuDLL.Menu.description
+  nameWithType: Menu.description
+- uid: MenuDLL.Menu.price
+  name: price
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_price
+  commentId: P:MenuDLL.Menu.price
+  fullName: MenuDLL.Menu.price
+  nameWithType: Menu.price
+- uid: MenuDLL.Menu.price*
+  name: price
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_price_
+  commentId: Overload:MenuDLL.Menu.price
+  isSpec: "True"
+  fullName: MenuDLL.Menu.price
+  nameWithType: Menu.price
+- uid: MenuDLL.Menu.volume
+  name: volume
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_volume
+  commentId: P:MenuDLL.Menu.volume
+  fullName: MenuDLL.Menu.volume
+  nameWithType: Menu.volume
+- uid: MenuDLL.Menu.volume*
+  name: volume
+  href: api/MenuDLL.Menu.html#MenuDLL_Menu_volume_
+  commentId: Overload:MenuDLL.Menu.volume
+  isSpec: "True"
+  fullName: MenuDLL.Menu.volume
+  nameWithType: Menu.volume
+- uid: MenuDLL.Order
+  name: Order
+  href: api/MenuDLL.Order.html
+  commentId: T:MenuDLL.Order
+  fullName: MenuDLL.Order
+  nameWithType: Order
+- uid: MenuDLL.Order.#ctor
+  name: Order()
+  href: api/MenuDLL.Order.html#MenuDLL_Order__ctor
+  commentId: M:MenuDLL.Order.#ctor
+  name.vb: New()
+  fullName: MenuDLL.Order.Order()
+  fullName.vb: MenuDLL.Order.New()
+  nameWithType: Order.Order()
+  nameWithType.vb: Order.New()
+- uid: MenuDLL.Order.#ctor(System.String,System.Double,System.Collections.Generic.List{MenuDLL.Menu})
+  name: Order(string, double, List<Menu>)
+  href: api/MenuDLL.Order.html#MenuDLL_Order__ctor_System_String_System_Double_System_Collections_Generic_List_MenuDLL_Menu__
+  commentId: M:MenuDLL.Order.#ctor(System.String,System.Double,System.Collections.Generic.List{MenuDLL.Menu})
+  name.vb: New(String, Double, List(Of Menu))
+  fullName: MenuDLL.Order.Order(string, double, System.Collections.Generic.List<MenuDLL.Menu>)
+  fullName.vb: MenuDLL.Order.New(String, Double, System.Collections.Generic.List(Of MenuDLL.Menu))
+  nameWithType: Order.Order(string, double, List<Menu>)
+  nameWithType.vb: Order.New(String, Double, List(Of Menu))
+- uid: MenuDLL.Order.#ctor*
+  name: Order
+  href: api/MenuDLL.Order.html#MenuDLL_Order__ctor_
+  commentId: Overload:MenuDLL.Order.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.Order.Order
+  fullName.vb: MenuDLL.Order.New
+  nameWithType: Order.Order
+  nameWithType.vb: Order.New
+- uid: MenuDLL.Order.addPromotion(MenuDLL.Promotion)
+  name: addPromotion(Promotion)
+  href: api/MenuDLL.Order.html#MenuDLL_Order_addPromotion_MenuDLL_Promotion_
+  commentId: M:MenuDLL.Order.addPromotion(MenuDLL.Promotion)
+  fullName: MenuDLL.Order.addPromotion(MenuDLL.Promotion)
+  nameWithType: Order.addPromotion(Promotion)
+- uid: MenuDLL.Order.addPromotion*
+  name: addPromotion
+  href: api/MenuDLL.Order.html#MenuDLL_Order_addPromotion_
+  commentId: Overload:MenuDLL.Order.addPromotion
+  isSpec: "True"
+  fullName: MenuDLL.Order.addPromotion
+  nameWithType: Order.addPromotion
+- uid: MenuDLL.Order.components
+  name: components
+  href: api/MenuDLL.Order.html#MenuDLL_Order_components
+  commentId: P:MenuDLL.Order.components
+  fullName: MenuDLL.Order.components
+  nameWithType: Order.components
+- uid: MenuDLL.Order.components*
+  name: components
+  href: api/MenuDLL.Order.html#MenuDLL_Order_components_
+  commentId: Overload:MenuDLL.Order.components
+  isSpec: "True"
+  fullName: MenuDLL.Order.components
+  nameWithType: Order.components
+- uid: MenuDLL.Order.nextStatus(System.Int32)
+  name: nextStatus(int)
+  href: api/MenuDLL.Order.html#MenuDLL_Order_nextStatus_System_Int32_
+  commentId: M:MenuDLL.Order.nextStatus(System.Int32)
+  name.vb: nextStatus(Integer)
+  fullName: MenuDLL.Order.nextStatus(int)
+  fullName.vb: MenuDLL.Order.nextStatus(Integer)
+  nameWithType: Order.nextStatus(int)
+  nameWithType.vb: Order.nextStatus(Integer)
+- uid: MenuDLL.Order.nextStatus*
+  name: nextStatus
+  href: api/MenuDLL.Order.html#MenuDLL_Order_nextStatus_
+  commentId: Overload:MenuDLL.Order.nextStatus
+  isSpec: "True"
+  fullName: MenuDLL.Order.nextStatus
+  nameWithType: Order.nextStatus
+- uid: MenuDLL.Order.pay
+  name: pay
+  href: api/MenuDLL.Order.html#MenuDLL_Order_pay
+  commentId: P:MenuDLL.Order.pay
+  fullName: MenuDLL.Order.pay
+  nameWithType: Order.pay
+- uid: MenuDLL.Order.pay*
+  name: pay
+  href: api/MenuDLL.Order.html#MenuDLL_Order_pay_
+  commentId: Overload:MenuDLL.Order.pay
+  isSpec: "True"
+  fullName: MenuDLL.Order.pay
+  nameWithType: Order.pay
+- uid: MenuDLL.Order.payment
+  name: payment()
+  href: api/MenuDLL.Order.html#MenuDLL_Order_payment
+  commentId: M:MenuDLL.Order.payment
+  fullName: MenuDLL.Order.payment()
+  nameWithType: Order.payment()
+- uid: MenuDLL.Order.payment*
+  name: payment
+  href: api/MenuDLL.Order.html#MenuDLL_Order_payment_
+  commentId: Overload:MenuDLL.Order.payment
+  isSpec: "True"
+  fullName: MenuDLL.Order.payment
+  nameWithType: Order.payment
+- uid: MenuDLL.Order.price
+  name: price
+  href: api/MenuDLL.Order.html#MenuDLL_Order_price
+  commentId: P:MenuDLL.Order.price
+  fullName: MenuDLL.Order.price
+  nameWithType: Order.price
+- uid: MenuDLL.Order.price*
+  name: price
+  href: api/MenuDLL.Order.html#MenuDLL_Order_price_
+  commentId: Overload:MenuDLL.Order.price
+  isSpec: "True"
+  fullName: MenuDLL.Order.price
+  nameWithType: Order.price
+- uid: MenuDLL.Order.status
+  name: status
+  href: api/MenuDLL.Order.html#MenuDLL_Order_status
+  commentId: P:MenuDLL.Order.status
+  fullName: MenuDLL.Order.status
+  nameWithType: Order.status
+- uid: MenuDLL.Order.status*
+  name: status
+  href: api/MenuDLL.Order.html#MenuDLL_Order_status_
+  commentId: Overload:MenuDLL.Order.status
+  isSpec: "True"
+  fullName: MenuDLL.Order.status
+  nameWithType: Order.status
+- uid: MenuDLL.Order.username
+  name: username
+  href: api/MenuDLL.Order.html#MenuDLL_Order_username
+  commentId: P:MenuDLL.Order.username
+  fullName: MenuDLL.Order.username
+  nameWithType: Order.username
+- uid: MenuDLL.Order.username*
+  name: username
+  href: api/MenuDLL.Order.html#MenuDLL_Order_username_
+  commentId: Overload:MenuDLL.Order.username
+  isSpec: "True"
+  fullName: MenuDLL.Order.username
+  nameWithType: Order.username
+- uid: MenuDLL.Promotion
+  name: Promotion
+  href: api/MenuDLL.Promotion.html
+  commentId: T:MenuDLL.Promotion
+  fullName: MenuDLL.Promotion
+  nameWithType: Promotion
+- uid: MenuDLL.Promotion.#ctor(System.String,System.Collections.Generic.List{MenuDLL.Menu},System.Double,System.String,System.String)
+  name: Promotion(string, List<Menu>, double, string, string)
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion__ctor_System_String_System_Collections_Generic_List_MenuDLL_Menu__System_Double_System_String_System_String_
+  commentId: M:MenuDLL.Promotion.#ctor(System.String,System.Collections.Generic.List{MenuDLL.Menu},System.Double,System.String,System.String)
+  name.vb: New(String, List(Of Menu), Double, String, String)
+  fullName: MenuDLL.Promotion.Promotion(string, System.Collections.Generic.List<MenuDLL.Menu>, double, string, string)
+  fullName.vb: MenuDLL.Promotion.New(String, System.Collections.Generic.List(Of MenuDLL.Menu), Double, String, String)
+  nameWithType: Promotion.Promotion(string, List<Menu>, double, string, string)
+  nameWithType.vb: Promotion.New(String, List(Of Menu), Double, String, String)
+- uid: MenuDLL.Promotion.#ctor*
+  name: Promotion
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion__ctor_
+  commentId: Overload:MenuDLL.Promotion.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.Promotion.Promotion
+  fullName.vb: MenuDLL.Promotion.New
+  nameWithType: Promotion.Promotion
+  nameWithType.vb: Promotion.New
+- uid: MenuDLL.Promotion.components
+  name: components
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_components
+  commentId: F:MenuDLL.Promotion.components
+  fullName: MenuDLL.Promotion.components
+  nameWithType: Promotion.components
+- uid: MenuDLL.Promotion.conditions
+  name: conditions
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_conditions
+  commentId: P:MenuDLL.Promotion.conditions
+  fullName: MenuDLL.Promotion.conditions
+  nameWithType: Promotion.conditions
+- uid: MenuDLL.Promotion.conditions*
+  name: conditions
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_conditions_
+  commentId: Overload:MenuDLL.Promotion.conditions
+  isSpec: "True"
+  fullName: MenuDLL.Promotion.conditions
+  nameWithType: Promotion.conditions
+- uid: MenuDLL.Promotion.endtDate
+  name: endtDate
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_endtDate
+  commentId: P:MenuDLL.Promotion.endtDate
+  fullName: MenuDLL.Promotion.endtDate
+  nameWithType: Promotion.endtDate
+- uid: MenuDLL.Promotion.endtDate*
+  name: endtDate
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_endtDate_
+  commentId: Overload:MenuDLL.Promotion.endtDate
+  isSpec: "True"
+  fullName: MenuDLL.Promotion.endtDate
+  nameWithType: Promotion.endtDate
+- uid: MenuDLL.Promotion.price
+  name: price
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_price
+  commentId: P:MenuDLL.Promotion.price
+  fullName: MenuDLL.Promotion.price
+  nameWithType: Promotion.price
+- uid: MenuDLL.Promotion.price*
+  name: price
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_price_
+  commentId: Overload:MenuDLL.Promotion.price
+  isSpec: "True"
+  fullName: MenuDLL.Promotion.price
+  nameWithType: Promotion.price
+- uid: MenuDLL.Promotion.startDate
+  name: startDate
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_startDate
+  commentId: P:MenuDLL.Promotion.startDate
+  fullName: MenuDLL.Promotion.startDate
+  nameWithType: Promotion.startDate
+- uid: MenuDLL.Promotion.startDate*
+  name: startDate
+  href: api/MenuDLL.Promotion.html#MenuDLL_Promotion_startDate_
+  commentId: Overload:MenuDLL.Promotion.startDate
+  isSpec: "True"
+  fullName: MenuDLL.Promotion.startDate
+  nameWithType: Promotion.startDate
+- uid: MenuDLL.Raf
+  name: Raf
+  href: api/MenuDLL.Raf.html
+  commentId: T:MenuDLL.Raf
+  fullName: MenuDLL.Raf
+  nameWithType: Raf
+- uid: MenuDLL.Raf.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_HotOrCold
+  commentId: P:MenuDLL.Raf.HotOrCold
+  fullName: MenuDLL.Raf.HotOrCold
+  nameWithType: Raf.HotOrCold
+- uid: MenuDLL.Raf.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_HotOrCold_
+  commentId: Overload:MenuDLL.Raf.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Raf.HotOrCold
+  nameWithType: Raf.HotOrCold
+- uid: MenuDLL.Raf.description
+  name: description
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_description
+  commentId: P:MenuDLL.Raf.description
+  fullName: MenuDLL.Raf.description
+  nameWithType: Raf.description
+- uid: MenuDLL.Raf.description*
+  name: description
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_description_
+  commentId: Overload:MenuDLL.Raf.description
+  isSpec: "True"
+  fullName: MenuDLL.Raf.description
+  nameWithType: Raf.description
+- uid: MenuDLL.Raf.price
+  name: price
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_price
+  commentId: P:MenuDLL.Raf.price
+  fullName: MenuDLL.Raf.price
+  nameWithType: Raf.price
+- uid: MenuDLL.Raf.price*
+  name: price
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_price_
+  commentId: Overload:MenuDLL.Raf.price
+  isSpec: "True"
+  fullName: MenuDLL.Raf.price
+  nameWithType: Raf.price
+- uid: MenuDLL.Raf.volume
+  name: volume
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_volume
+  commentId: P:MenuDLL.Raf.volume
+  fullName: MenuDLL.Raf.volume
+  nameWithType: Raf.volume
+- uid: MenuDLL.Raf.volume*
+  name: volume
+  href: api/MenuDLL.Raf.html#MenuDLL_Raf_volume_
+  commentId: Overload:MenuDLL.Raf.volume
+  isSpec: "True"
+  fullName: MenuDLL.Raf.volume
+  nameWithType: Raf.volume
+- uid: MenuDLL.RaspberrySyrupFactory
+  name: RaspberrySyrupFactory
+  href: api/MenuDLL.RaspberrySyrupFactory.html
+  commentId: T:MenuDLL.RaspberrySyrupFactory
+  fullName: MenuDLL.RaspberrySyrupFactory
+  nameWithType: RaspberrySyrupFactory
+- uid: MenuDLL.RaspberrySyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name: createAmericano(bool, double, double)
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.RaspberrySyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  fullName: MenuDLL.RaspberrySyrupFactory.createAmericano(bool, double, double)
+  fullName.vb: MenuDLL.RaspberrySyrupFactory.createAmericano(Boolean, Double, Double)
+  nameWithType: RaspberrySyrupFactory.createAmericano(bool, double, double)
+  nameWithType.vb: RaspberrySyrupFactory.createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.RaspberrySyrupFactory.createAmericano*
+  name: createAmericano
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createAmericano_
+  commentId: Overload:MenuDLL.RaspberrySyrupFactory.createAmericano
+  isSpec: "True"
+  fullName: MenuDLL.RaspberrySyrupFactory.createAmericano
+  nameWithType: RaspberrySyrupFactory.createAmericano
+- uid: MenuDLL.RaspberrySyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name: createCappuccino(bool, double, double)
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.RaspberrySyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  fullName: MenuDLL.RaspberrySyrupFactory.createCappuccino(bool, double, double)
+  fullName.vb: MenuDLL.RaspberrySyrupFactory.createCappuccino(Boolean, Double, Double)
+  nameWithType: RaspberrySyrupFactory.createCappuccino(bool, double, double)
+  nameWithType.vb: RaspberrySyrupFactory.createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.RaspberrySyrupFactory.createCappuccino*
+  name: createCappuccino
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createCappuccino_
+  commentId: Overload:MenuDLL.RaspberrySyrupFactory.createCappuccino
+  isSpec: "True"
+  fullName: MenuDLL.RaspberrySyrupFactory.createCappuccino
+  nameWithType: RaspberrySyrupFactory.createCappuccino
+- uid: MenuDLL.RaspberrySyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name: createFlatWhite(bool, double, double)
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.RaspberrySyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  fullName: MenuDLL.RaspberrySyrupFactory.createFlatWhite(bool, double, double)
+  fullName.vb: MenuDLL.RaspberrySyrupFactory.createFlatWhite(Boolean, Double, Double)
+  nameWithType: RaspberrySyrupFactory.createFlatWhite(bool, double, double)
+  nameWithType.vb: RaspberrySyrupFactory.createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.RaspberrySyrupFactory.createFlatWhite*
+  name: createFlatWhite
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createFlatWhite_
+  commentId: Overload:MenuDLL.RaspberrySyrupFactory.createFlatWhite
+  isSpec: "True"
+  fullName: MenuDLL.RaspberrySyrupFactory.createFlatWhite
+  nameWithType: RaspberrySyrupFactory.createFlatWhite
+- uid: MenuDLL.RaspberrySyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name: createLatte(bool, double, double)
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.RaspberrySyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  fullName: MenuDLL.RaspberrySyrupFactory.createLatte(bool, double, double)
+  fullName.vb: MenuDLL.RaspberrySyrupFactory.createLatte(Boolean, Double, Double)
+  nameWithType: RaspberrySyrupFactory.createLatte(bool, double, double)
+  nameWithType.vb: RaspberrySyrupFactory.createLatte(Boolean, Double, Double)
+- uid: MenuDLL.RaspberrySyrupFactory.createLatte*
+  name: createLatte
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createLatte_
+  commentId: Overload:MenuDLL.RaspberrySyrupFactory.createLatte
+  isSpec: "True"
+  fullName: MenuDLL.RaspberrySyrupFactory.createLatte
+  nameWithType: RaspberrySyrupFactory.createLatte
+- uid: MenuDLL.RaspberrySyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name: createRaf(bool, double, double)
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.RaspberrySyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  fullName: MenuDLL.RaspberrySyrupFactory.createRaf(bool, double, double)
+  fullName.vb: MenuDLL.RaspberrySyrupFactory.createRaf(Boolean, Double, Double)
+  nameWithType: RaspberrySyrupFactory.createRaf(bool, double, double)
+  nameWithType.vb: RaspberrySyrupFactory.createRaf(Boolean, Double, Double)
+- uid: MenuDLL.RaspberrySyrupFactory.createRaf*
+  name: createRaf
+  href: api/MenuDLL.RaspberrySyrupFactory.html#MenuDLL_RaspberrySyrupFactory_createRaf_
+  commentId: Overload:MenuDLL.RaspberrySyrupFactory.createRaf
+  isSpec: "True"
+  fullName: MenuDLL.RaspberrySyrupFactory.createRaf
+  nameWithType: RaspberrySyrupFactory.createRaf
+- uid: MenuDLL.Tea
+  name: Tea
+  href: api/MenuDLL.Tea.html
+  commentId: T:MenuDLL.Tea
+  fullName: MenuDLL.Tea
+  nameWithType: Tea
+- uid: MenuDLL.Tea.HotOrCold
+  name: HotOrCold
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_HotOrCold
+  commentId: P:MenuDLL.Tea.HotOrCold
+  fullName: MenuDLL.Tea.HotOrCold
+  nameWithType: Tea.HotOrCold
+- uid: MenuDLL.Tea.HotOrCold*
+  name: HotOrCold
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_HotOrCold_
+  commentId: Overload:MenuDLL.Tea.HotOrCold
+  isSpec: "True"
+  fullName: MenuDLL.Tea.HotOrCold
+  nameWithType: Tea.HotOrCold
+- uid: MenuDLL.Tea.description
+  name: description
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_description
+  commentId: P:MenuDLL.Tea.description
+  fullName: MenuDLL.Tea.description
+  nameWithType: Tea.description
+- uid: MenuDLL.Tea.description*
+  name: description
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_description_
+  commentId: Overload:MenuDLL.Tea.description
+  isSpec: "True"
+  fullName: MenuDLL.Tea.description
+  nameWithType: Tea.description
+- uid: MenuDLL.Tea.price
+  name: price
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_price
+  commentId: P:MenuDLL.Tea.price
+  fullName: MenuDLL.Tea.price
+  nameWithType: Tea.price
+- uid: MenuDLL.Tea.price*
+  name: price
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_price_
+  commentId: Overload:MenuDLL.Tea.price
+  isSpec: "True"
+  fullName: MenuDLL.Tea.price
+  nameWithType: Tea.price
+- uid: MenuDLL.Tea.volume
+  name: volume
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_volume
+  commentId: P:MenuDLL.Tea.volume
+  fullName: MenuDLL.Tea.volume
+  nameWithType: Tea.volume
+- uid: MenuDLL.Tea.volume*
+  name: volume
+  href: api/MenuDLL.Tea.html#MenuDLL_Tea_volume_
+  commentId: Overload:MenuDLL.Tea.volume
+  isSpec: "True"
+  fullName: MenuDLL.Tea.volume
+  nameWithType: Tea.volume
+- uid: MenuDLL.TeaWithBananaSyrup
+  name: TeaWithBananaSyrup
+  href: api/MenuDLL.TeaWithBananaSyrup.html
+  commentId: T:MenuDLL.TeaWithBananaSyrup
+  fullName: MenuDLL.TeaWithBananaSyrup
+  nameWithType: TeaWithBananaSyrup
+- uid: MenuDLL.TeaWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithBananaSyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithBananaSyrup.html#MenuDLL_TeaWithBananaSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithBananaSyrup.TeaWithBananaSyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithBananaSyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithBananaSyrup.TeaWithBananaSyrup(bool, double, double)
+  nameWithType.vb: TeaWithBananaSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithBananaSyrup.#ctor*
+  name: TeaWithBananaSyrup
+  href: api/MenuDLL.TeaWithBananaSyrup.html#MenuDLL_TeaWithBananaSyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithBananaSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithBananaSyrup.TeaWithBananaSyrup
+  fullName.vb: MenuDLL.TeaWithBananaSyrup.New
+  nameWithType: TeaWithBananaSyrup.TeaWithBananaSyrup
+  nameWithType.vb: TeaWithBananaSyrup.New
+- uid: MenuDLL.TeaWithCaramelSyrup
+  name: TeaWithCaramelSyrup
+  href: api/MenuDLL.TeaWithCaramelSyrup.html
+  commentId: T:MenuDLL.TeaWithCaramelSyrup
+  fullName: MenuDLL.TeaWithCaramelSyrup
+  nameWithType: TeaWithCaramelSyrup
+- uid: MenuDLL.TeaWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithCaramelSyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithCaramelSyrup.html#MenuDLL_TeaWithCaramelSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithCaramelSyrup.TeaWithCaramelSyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithCaramelSyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithCaramelSyrup.TeaWithCaramelSyrup(bool, double, double)
+  nameWithType.vb: TeaWithCaramelSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithCaramelSyrup.#ctor*
+  name: TeaWithCaramelSyrup
+  href: api/MenuDLL.TeaWithCaramelSyrup.html#MenuDLL_TeaWithCaramelSyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithCaramelSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithCaramelSyrup.TeaWithCaramelSyrup
+  fullName.vb: MenuDLL.TeaWithCaramelSyrup.New
+  nameWithType: TeaWithCaramelSyrup.TeaWithCaramelSyrup
+  nameWithType.vb: TeaWithCaramelSyrup.New
+- uid: MenuDLL.TeaWithChocolateSyrup
+  name: TeaWithChocolateSyrup
+  href: api/MenuDLL.TeaWithChocolateSyrup.html
+  commentId: T:MenuDLL.TeaWithChocolateSyrup
+  fullName: MenuDLL.TeaWithChocolateSyrup
+  nameWithType: TeaWithChocolateSyrup
+- uid: MenuDLL.TeaWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithChocolateSyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithChocolateSyrup.html#MenuDLL_TeaWithChocolateSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithChocolateSyrup.TeaWithChocolateSyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithChocolateSyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithChocolateSyrup.TeaWithChocolateSyrup(bool, double, double)
+  nameWithType.vb: TeaWithChocolateSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithChocolateSyrup.#ctor*
+  name: TeaWithChocolateSyrup
+  href: api/MenuDLL.TeaWithChocolateSyrup.html#MenuDLL_TeaWithChocolateSyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithChocolateSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithChocolateSyrup.TeaWithChocolateSyrup
+  fullName.vb: MenuDLL.TeaWithChocolateSyrup.New
+  nameWithType: TeaWithChocolateSyrup.TeaWithChocolateSyrup
+  nameWithType.vb: TeaWithChocolateSyrup.New
+- uid: MenuDLL.TeaWithLavenderSyrup
+  name: TeaWithLavenderSyrup
+  href: api/MenuDLL.TeaWithLavenderSyrup.html
+  commentId: T:MenuDLL.TeaWithLavenderSyrup
+  fullName: MenuDLL.TeaWithLavenderSyrup
+  nameWithType: TeaWithLavenderSyrup
+- uid: MenuDLL.TeaWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithLavenderSyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithLavenderSyrup.html#MenuDLL_TeaWithLavenderSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithLavenderSyrup.TeaWithLavenderSyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithLavenderSyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithLavenderSyrup.TeaWithLavenderSyrup(bool, double, double)
+  nameWithType.vb: TeaWithLavenderSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithLavenderSyrup.#ctor*
+  name: TeaWithLavenderSyrup
+  href: api/MenuDLL.TeaWithLavenderSyrup.html#MenuDLL_TeaWithLavenderSyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithLavenderSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithLavenderSyrup.TeaWithLavenderSyrup
+  fullName.vb: MenuDLL.TeaWithLavenderSyrup.New
+  nameWithType: TeaWithLavenderSyrup.TeaWithLavenderSyrup
+  nameWithType.vb: TeaWithLavenderSyrup.New
+- uid: MenuDLL.TeaWithRaspberrySyrup
+  name: TeaWithRaspberrySyrup
+  href: api/MenuDLL.TeaWithRaspberrySyrup.html
+  commentId: T:MenuDLL.TeaWithRaspberrySyrup
+  fullName: MenuDLL.TeaWithRaspberrySyrup
+  nameWithType: TeaWithRaspberrySyrup
+- uid: MenuDLL.TeaWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithRaspberrySyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithRaspberrySyrup.html#MenuDLL_TeaWithRaspberrySyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithRaspberrySyrup.TeaWithRaspberrySyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithRaspberrySyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithRaspberrySyrup.TeaWithRaspberrySyrup(bool, double, double)
+  nameWithType.vb: TeaWithRaspberrySyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithRaspberrySyrup.#ctor*
+  name: TeaWithRaspberrySyrup
+  href: api/MenuDLL.TeaWithRaspberrySyrup.html#MenuDLL_TeaWithRaspberrySyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithRaspberrySyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithRaspberrySyrup.TeaWithRaspberrySyrup
+  fullName.vb: MenuDLL.TeaWithRaspberrySyrup.New
+  nameWithType: TeaWithRaspberrySyrup.TeaWithRaspberrySyrup
+  nameWithType.vb: TeaWithRaspberrySyrup.New
+- uid: MenuDLL.TeaWithoutSyrup
+  name: TeaWithoutSyrup
+  href: api/MenuDLL.TeaWithoutSyrup.html
+  commentId: T:MenuDLL.TeaWithoutSyrup
+  fullName: MenuDLL.TeaWithoutSyrup
+  nameWithType: TeaWithoutSyrup
+- uid: MenuDLL.TeaWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name: TeaWithoutSyrup(bool, double, double)
+  href: api/MenuDLL.TeaWithoutSyrup.html#MenuDLL_TeaWithoutSyrup__ctor_System_Boolean_System_Double_System_Double_
+  commentId: M:MenuDLL.TeaWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)
+  name.vb: New(Boolean, Double, Double)
+  fullName: MenuDLL.TeaWithoutSyrup.TeaWithoutSyrup(bool, double, double)
+  fullName.vb: MenuDLL.TeaWithoutSyrup.New(Boolean, Double, Double)
+  nameWithType: TeaWithoutSyrup.TeaWithoutSyrup(bool, double, double)
+  nameWithType.vb: TeaWithoutSyrup.New(Boolean, Double, Double)
+- uid: MenuDLL.TeaWithoutSyrup.#ctor*
+  name: TeaWithoutSyrup
+  href: api/MenuDLL.TeaWithoutSyrup.html#MenuDLL_TeaWithoutSyrup__ctor_
+  commentId: Overload:MenuDLL.TeaWithoutSyrup.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MenuDLL.TeaWithoutSyrup.TeaWithoutSyrup
+  fullName.vb: MenuDLL.TeaWithoutSyrup.New
+  nameWithType: TeaWithoutSyrup.TeaWithoutSyrup
+  nameWithType.vb: TeaWithoutSyrup.New
+- uid: ServerCoffeeApp
+  name: ServerCoffeeApp
+  href: api/ServerCoffeeApp.html
+  commentId: N:ServerCoffeeApp
+  fullName: ServerCoffeeApp
+  nameWithType: ServerCoffeeApp
+- uid: ServerCoffeeApp.ExcelHandler
+  name: ExcelHandler
+  href: api/ServerCoffeeApp.ExcelHandler.html
+  commentId: T:ServerCoffeeApp.ExcelHandler
+  fullName: ServerCoffeeApp.ExcelHandler
+  nameWithType: ExcelHandler
+- uid: ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)
+  name: AddToArchive(string, string, double)
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AddToArchive_System_String_System_String_System_Double_
+  commentId: M:ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)
+  name.vb: AddToArchive(String, String, Double)
+  fullName: ServerCoffeeApp.ExcelHandler.AddToArchive(string, string, double)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.AddToArchive(String, String, Double)
+  nameWithType: ExcelHandler.AddToArchive(string, string, double)
+  nameWithType.vb: ExcelHandler.AddToArchive(String, String, Double)
+- uid: ServerCoffeeApp.ExcelHandler.AddToArchive*
+  name: AddToArchive
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AddToArchive_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.AddToArchive
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.AddToArchive
+  nameWithType: ExcelHandler.AddToArchive
+- uid: ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)
+  name: AuthenticateUser(string, string)
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AuthenticateUser_System_String_System_String_
+  commentId: M:ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)
+  name.vb: AuthenticateUser(String, String)
+  fullName: ServerCoffeeApp.ExcelHandler.AuthenticateUser(string, string)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.AuthenticateUser(String, String)
+  nameWithType: ExcelHandler.AuthenticateUser(string, string)
+  nameWithType.vb: ExcelHandler.AuthenticateUser(String, String)
+- uid: ServerCoffeeApp.ExcelHandler.AuthenticateUser*
+  name: AuthenticateUser
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_AuthenticateUser_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.AuthenticateUser
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.AuthenticateUser
+  nameWithType: ExcelHandler.AuthenticateUser
+- uid: ServerCoffeeApp.ExcelHandler.GetArchiveData
+  name: GetArchiveData()
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetArchiveData
+  commentId: M:ServerCoffeeApp.ExcelHandler.GetArchiveData
+  fullName: ServerCoffeeApp.ExcelHandler.GetArchiveData()
+  nameWithType: ExcelHandler.GetArchiveData()
+- uid: ServerCoffeeApp.ExcelHandler.GetArchiveData*
+  name: GetArchiveData
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetArchiveData_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.GetArchiveData
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.GetArchiveData
+  nameWithType: ExcelHandler.GetArchiveData
+- uid: ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)
+  name: GetUserDetails(string)
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetUserDetails_System_String_
+  commentId: M:ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)
+  name.vb: GetUserDetails(String)
+  fullName: ServerCoffeeApp.ExcelHandler.GetUserDetails(string)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.GetUserDetails(String)
+  nameWithType: ExcelHandler.GetUserDetails(string)
+  nameWithType.vb: ExcelHandler.GetUserDetails(String)
+- uid: ServerCoffeeApp.ExcelHandler.GetUserDetails*
+  name: GetUserDetails
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_GetUserDetails_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.GetUserDetails
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.GetUserDetails
+  nameWithType: ExcelHandler.GetUserDetails
+- uid: ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  name: RegisterUser(string, string, string, string, string, string)
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_RegisterUser_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: RegisterUser(String, String, String, String, String, String)
+  fullName: ServerCoffeeApp.ExcelHandler.RegisterUser(string, string, string, string, string, string)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.RegisterUser(String, String, String, String, String, String)
+  nameWithType: ExcelHandler.RegisterUser(string, string, string, string, string, string)
+  nameWithType.vb: ExcelHandler.RegisterUser(String, String, String, String, String, String)
+- uid: ServerCoffeeApp.ExcelHandler.RegisterUser*
+  name: RegisterUser
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_RegisterUser_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.RegisterUser
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.RegisterUser
+  nameWithType: ExcelHandler.RegisterUser
+- uid: ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)
+  name: checkAdmin(string)
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_checkAdmin_System_String_
+  commentId: M:ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)
+  name.vb: checkAdmin(String)
+  fullName: ServerCoffeeApp.ExcelHandler.checkAdmin(string)
+  fullName.vb: ServerCoffeeApp.ExcelHandler.checkAdmin(String)
+  nameWithType: ExcelHandler.checkAdmin(string)
+  nameWithType.vb: ExcelHandler.checkAdmin(String)
+- uid: ServerCoffeeApp.ExcelHandler.checkAdmin*
+  name: checkAdmin
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_checkAdmin_
+  commentId: Overload:ServerCoffeeApp.ExcelHandler.checkAdmin
+  isSpec: "True"
+  fullName: ServerCoffeeApp.ExcelHandler.checkAdmin
+  nameWithType: ExcelHandler.checkAdmin
+- uid: ServerCoffeeApp.ExcelHandler.filePath
+  name: filePath
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_filePath
+  commentId: F:ServerCoffeeApp.ExcelHandler.filePath
+  fullName: ServerCoffeeApp.ExcelHandler.filePath
+  nameWithType: ExcelHandler.filePath
+- uid: ServerCoffeeApp.ExcelHandler.filePathArchive
+  name: filePathArchive
+  href: api/ServerCoffeeApp.ExcelHandler.html#ServerCoffeeApp_ExcelHandler_filePathArchive
+  commentId: F:ServerCoffeeApp.ExcelHandler.filePathArchive
+  fullName: ServerCoffeeApp.ExcelHandler.filePathArchive
+  nameWithType: ExcelHandler.filePathArchive
+- uid: ServerCoffeeApp.UdpServer
+  name: UdpServer
+  href: api/ServerCoffeeApp.UdpServer.html
+  commentId: T:ServerCoffeeApp.UdpServer
+  fullName: ServerCoffeeApp.UdpServer
+  nameWithType: UdpServer
+- uid: ServerCoffeeApp.UdpServer.Order
+  name: UdpServer.Order
+  href: api/ServerCoffeeApp.UdpServer.Order.html
+  commentId: T:ServerCoffeeApp.UdpServer.Order
+  fullName: ServerCoffeeApp.UdpServer.Order
+  nameWithType: UdpServer.Order
+- uid: ServerCoffeeApp.UdpServer.Order.#ctor
+  name: Order()
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order__ctor
+  commentId: M:ServerCoffeeApp.UdpServer.Order.#ctor
+  name.vb: New()
+  fullName: ServerCoffeeApp.UdpServer.Order.Order()
+  fullName.vb: ServerCoffeeApp.UdpServer.Order.New()
+  nameWithType: UdpServer.Order.Order()
+  nameWithType.vb: UdpServer.Order.New()
+- uid: ServerCoffeeApp.UdpServer.Order.#ctor*
+  name: Order
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order__ctor_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ServerCoffeeApp.UdpServer.Order.Order
+  fullName.vb: ServerCoffeeApp.UdpServer.Order.New
+  nameWithType: UdpServer.Order.Order
+  nameWithType.vb: UdpServer.Order.New
+- uid: ServerCoffeeApp.UdpServer.Order.components
+  name: components
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_components
+  commentId: P:ServerCoffeeApp.UdpServer.Order.components
+  fullName: ServerCoffeeApp.UdpServer.Order.components
+  nameWithType: UdpServer.Order.components
+- uid: ServerCoffeeApp.UdpServer.Order.components*
+  name: components
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_components_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.components
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.components
+  nameWithType: UdpServer.Order.components
+- uid: ServerCoffeeApp.UdpServer.Order.nextStatus
+  name: nextStatus()
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_nextStatus
+  commentId: M:ServerCoffeeApp.UdpServer.Order.nextStatus
+  fullName: ServerCoffeeApp.UdpServer.Order.nextStatus()
+  nameWithType: UdpServer.Order.nextStatus()
+- uid: ServerCoffeeApp.UdpServer.Order.nextStatus*
+  name: nextStatus
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_nextStatus_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.nextStatus
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.nextStatus
+  nameWithType: UdpServer.Order.nextStatus
+- uid: ServerCoffeeApp.UdpServer.Order.pay
+  name: pay
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_pay
+  commentId: P:ServerCoffeeApp.UdpServer.Order.pay
+  fullName: ServerCoffeeApp.UdpServer.Order.pay
+  nameWithType: UdpServer.Order.pay
+- uid: ServerCoffeeApp.UdpServer.Order.pay*
+  name: pay
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_pay_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.pay
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.pay
+  nameWithType: UdpServer.Order.pay
+- uid: ServerCoffeeApp.UdpServer.Order.payment
+  name: payment()
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_payment
+  commentId: M:ServerCoffeeApp.UdpServer.Order.payment
+  fullName: ServerCoffeeApp.UdpServer.Order.payment()
+  nameWithType: UdpServer.Order.payment()
+- uid: ServerCoffeeApp.UdpServer.Order.payment*
+  name: payment
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_payment_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.payment
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.payment
+  nameWithType: UdpServer.Order.payment
+- uid: ServerCoffeeApp.UdpServer.Order.price
+  name: price
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_price
+  commentId: P:ServerCoffeeApp.UdpServer.Order.price
+  fullName: ServerCoffeeApp.UdpServer.Order.price
+  nameWithType: UdpServer.Order.price
+- uid: ServerCoffeeApp.UdpServer.Order.price*
+  name: price
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_price_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.price
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.price
+  nameWithType: UdpServer.Order.price
+- uid: ServerCoffeeApp.UdpServer.Order.status
+  name: status
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_status
+  commentId: P:ServerCoffeeApp.UdpServer.Order.status
+  fullName: ServerCoffeeApp.UdpServer.Order.status
+  nameWithType: UdpServer.Order.status
+- uid: ServerCoffeeApp.UdpServer.Order.status*
+  name: status
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_status_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.status
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.status
+  nameWithType: UdpServer.Order.status
+- uid: ServerCoffeeApp.UdpServer.Order.username
+  name: username
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_username
+  commentId: P:ServerCoffeeApp.UdpServer.Order.username
+  fullName: ServerCoffeeApp.UdpServer.Order.username
+  nameWithType: UdpServer.Order.username
+- uid: ServerCoffeeApp.UdpServer.Order.username*
+  name: username
+  href: api/ServerCoffeeApp.UdpServer.Order.html#ServerCoffeeApp_UdpServer_Order_username_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Order.username
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Order.username
+  nameWithType: UdpServer.Order.username
+- uid: ServerCoffeeApp.UdpServer.Start
+  name: Start()
+  href: api/ServerCoffeeApp.UdpServer.html#ServerCoffeeApp_UdpServer_Start
+  commentId: M:ServerCoffeeApp.UdpServer.Start
+  fullName: ServerCoffeeApp.UdpServer.Start()
+  nameWithType: UdpServer.Start()
+- uid: ServerCoffeeApp.UdpServer.Start*
+  name: Start
+  href: api/ServerCoffeeApp.UdpServer.html#ServerCoffeeApp_UdpServer_Start_
+  commentId: Overload:ServerCoffeeApp.UdpServer.Start
+  isSpec: "True"
+  fullName: ServerCoffeeApp.UdpServer.Start
+  nameWithType: UdpServer.Start
+- uid: ServerCoffeeApp.UdpServer.aktiveOrder
+  name: aktiveOrder
+  href: api/ServerCoffeeApp.UdpServer.html#ServerCoffeeApp_UdpServer_aktiveOrder
+  commentId: F:ServerCoffeeApp.UdpServer.aktiveOrder
+  fullName: ServerCoffeeApp.UdpServer.aktiveOrder
+  nameWithType: UdpServer.aktiveOrder
+- uid: ServerCoffeeApp.UdpServer.dnsAddress
+  name: dnsAddress
+  href: api/ServerCoffeeApp.UdpServer.html#ServerCoffeeApp_UdpServer_dnsAddress
+  commentId: F:ServerCoffeeApp.UdpServer.dnsAddress
+  fullName: ServerCoffeeApp.UdpServer.dnsAddress
+  nameWithType: UdpServer.dnsAddress
+- uid: coffe_app
+  name: coffe_app
+  href: api/coffe_app.html
+  commentId: N:coffe_app
+  fullName: coffe_app
+  nameWithType: coffe_app
+- uid: coffe_app.AddNewsWindow
+  name: AddNewsWindow
+  href: api/coffe_app.AddNewsWindow.html
+  commentId: T:coffe_app.AddNewsWindow
+  fullName: coffe_app.AddNewsWindow
+  nameWithType: AddNewsWindow
+- uid: coffe_app.AddNewsWindow.#ctor(System.String,coffe_app.News)
+  name: AddNewsWindow(string, News)
+  href: api/coffe_app.AddNewsWindow.html#coffe_app_AddNewsWindow__ctor_System_String_coffe_app_News_
+  commentId: M:coffe_app.AddNewsWindow.#ctor(System.String,coffe_app.News)
+  name.vb: New(String, News)
+  fullName: coffe_app.AddNewsWindow.AddNewsWindow(string, coffe_app.News)
+  fullName.vb: coffe_app.AddNewsWindow.New(String, coffe_app.News)
+  nameWithType: AddNewsWindow.AddNewsWindow(string, News)
+  nameWithType.vb: AddNewsWindow.New(String, News)
+- uid: coffe_app.AddNewsWindow.#ctor*
+  name: AddNewsWindow
+  href: api/coffe_app.AddNewsWindow.html#coffe_app_AddNewsWindow__ctor_
+  commentId: Overload:coffe_app.AddNewsWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.AddNewsWindow.AddNewsWindow
+  fullName.vb: coffe_app.AddNewsWindow.New
+  nameWithType: AddNewsWindow.AddNewsWindow
+  nameWithType.vb: AddNewsWindow.New
+- uid: coffe_app.AddNewsWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.AddNewsWindow.html#coffe_app_AddNewsWindow_InitializeComponent
+  commentId: M:coffe_app.AddNewsWindow.InitializeComponent
+  fullName: coffe_app.AddNewsWindow.InitializeComponent()
+  nameWithType: AddNewsWindow.InitializeComponent()
+- uid: coffe_app.AddNewsWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.AddNewsWindow.html#coffe_app_AddNewsWindow_InitializeComponent_
+  commentId: Overload:coffe_app.AddNewsWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.AddNewsWindow.InitializeComponent
+  nameWithType: AddNewsWindow.InitializeComponent
+- uid: coffe_app.App
+  name: App
+  href: api/coffe_app.App.html
+  commentId: T:coffe_app.App
+  fullName: coffe_app.App
+  nameWithType: App
+- uid: coffe_app.App.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.App.html#coffe_app_App_InitializeComponent
+  commentId: M:coffe_app.App.InitializeComponent
+  fullName: coffe_app.App.InitializeComponent()
+  nameWithType: App.InitializeComponent()
+- uid: coffe_app.App.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.App.html#coffe_app_App_InitializeComponent_
+  commentId: Overload:coffe_app.App.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.App.InitializeComponent
+  nameWithType: App.InitializeComponent
+- uid: coffe_app.App.Main
+  name: Main()
+  href: api/coffe_app.App.html#coffe_app_App_Main
+  commentId: M:coffe_app.App.Main
+  fullName: coffe_app.App.Main()
+  nameWithType: App.Main()
+- uid: coffe_app.App.Main*
+  name: Main
+  href: api/coffe_app.App.html#coffe_app_App_Main_
+  commentId: Overload:coffe_app.App.Main
+  isSpec: "True"
+  fullName: coffe_app.App.Main
+  nameWithType: App.Main
+- uid: coffe_app.ArchiveRecord
+  name: ArchiveRecord
+  href: api/coffe_app.ArchiveRecord.html
+  commentId: T:coffe_app.ArchiveRecord
+  fullName: coffe_app.ArchiveRecord
+  nameWithType: ArchiveRecord
+- uid: coffe_app.ArchiveRecord.Date
+  name: Date
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Date
+  commentId: P:coffe_app.ArchiveRecord.Date
+  fullName: coffe_app.ArchiveRecord.Date
+  nameWithType: ArchiveRecord.Date
+- uid: coffe_app.ArchiveRecord.Date*
+  name: Date
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Date_
+  commentId: Overload:coffe_app.ArchiveRecord.Date
+  isSpec: "True"
+  fullName: coffe_app.ArchiveRecord.Date
+  nameWithType: ArchiveRecord.Date
+- uid: coffe_app.ArchiveRecord.Price
+  name: Price
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Price
+  commentId: P:coffe_app.ArchiveRecord.Price
+  fullName: coffe_app.ArchiveRecord.Price
+  nameWithType: ArchiveRecord.Price
+- uid: coffe_app.ArchiveRecord.Price*
+  name: Price
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Price_
+  commentId: Overload:coffe_app.ArchiveRecord.Price
+  isSpec: "True"
+  fullName: coffe_app.ArchiveRecord.Price
+  nameWithType: ArchiveRecord.Price
+- uid: coffe_app.ArchiveRecord.Username
+  name: Username
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Username
+  commentId: P:coffe_app.ArchiveRecord.Username
+  fullName: coffe_app.ArchiveRecord.Username
+  nameWithType: ArchiveRecord.Username
+- uid: coffe_app.ArchiveRecord.Username*
+  name: Username
+  href: api/coffe_app.ArchiveRecord.html#coffe_app_ArchiveRecord_Username_
+  commentId: Overload:coffe_app.ArchiveRecord.Username
+  isSpec: "True"
+  fullName: coffe_app.ArchiveRecord.Username
+  nameWithType: ArchiveRecord.Username
+- uid: coffe_app.ChangeOrderStatusWindow
+  name: ChangeOrderStatusWindow
+  href: api/coffe_app.ChangeOrderStatusWindow.html
+  commentId: T:coffe_app.ChangeOrderStatusWindow
+  fullName: coffe_app.ChangeOrderStatusWindow
+  nameWithType: ChangeOrderStatusWindow
+- uid: coffe_app.ChangeOrderStatusWindow.#ctor(System.Collections.Generic.List{MenuDLL.Order},coffe_app.MainWindow,System.String,System.String)
+  name: ChangeOrderStatusWindow(List<Order>, MainWindow, string, string)
+  href: api/coffe_app.ChangeOrderStatusWindow.html#coffe_app_ChangeOrderStatusWindow__ctor_System_Collections_Generic_List_MenuDLL_Order__coffe_app_MainWindow_System_String_System_String_
+  commentId: M:coffe_app.ChangeOrderStatusWindow.#ctor(System.Collections.Generic.List{MenuDLL.Order},coffe_app.MainWindow,System.String,System.String)
+  name.vb: New(List(Of Order), MainWindow, String, String)
+  fullName: coffe_app.ChangeOrderStatusWindow.ChangeOrderStatusWindow(System.Collections.Generic.List<MenuDLL.Order>, coffe_app.MainWindow, string, string)
+  fullName.vb: coffe_app.ChangeOrderStatusWindow.New(System.Collections.Generic.List(Of MenuDLL.Order), coffe_app.MainWindow, String, String)
+  nameWithType: ChangeOrderStatusWindow.ChangeOrderStatusWindow(List<Order>, MainWindow, string, string)
+  nameWithType.vb: ChangeOrderStatusWindow.New(List(Of Order), MainWindow, String, String)
+- uid: coffe_app.ChangeOrderStatusWindow.#ctor*
+  name: ChangeOrderStatusWindow
+  href: api/coffe_app.ChangeOrderStatusWindow.html#coffe_app_ChangeOrderStatusWindow__ctor_
+  commentId: Overload:coffe_app.ChangeOrderStatusWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.ChangeOrderStatusWindow.ChangeOrderStatusWindow
+  fullName.vb: coffe_app.ChangeOrderStatusWindow.New
+  nameWithType: ChangeOrderStatusWindow.ChangeOrderStatusWindow
+  nameWithType.vb: ChangeOrderStatusWindow.New
+- uid: coffe_app.ChangeOrderStatusWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.ChangeOrderStatusWindow.html#coffe_app_ChangeOrderStatusWindow_InitializeComponent
+  commentId: M:coffe_app.ChangeOrderStatusWindow.InitializeComponent
+  fullName: coffe_app.ChangeOrderStatusWindow.InitializeComponent()
+  nameWithType: ChangeOrderStatusWindow.InitializeComponent()
+- uid: coffe_app.ChangeOrderStatusWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.ChangeOrderStatusWindow.html#coffe_app_ChangeOrderStatusWindow_InitializeComponent_
+  commentId: Overload:coffe_app.ChangeOrderStatusWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.ChangeOrderStatusWindow.InitializeComponent
+  nameWithType: ChangeOrderStatusWindow.InitializeComponent
+- uid: coffe_app.MainWindow
+  name: MainWindow
+  href: api/coffe_app.MainWindow.html
+  commentId: T:coffe_app.MainWindow
+  fullName: coffe_app.MainWindow
+  nameWithType: MainWindow
+- uid: coffe_app.MainWindow.#ctor(System.String,System.String,System.Boolean)
+  name: MainWindow(string, string, bool)
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow__ctor_System_String_System_String_System_Boolean_
+  commentId: M:coffe_app.MainWindow.#ctor(System.String,System.String,System.Boolean)
+  name.vb: New(String, String, Boolean)
+  fullName: coffe_app.MainWindow.MainWindow(string, string, bool)
+  fullName.vb: coffe_app.MainWindow.New(String, String, Boolean)
+  nameWithType: MainWindow.MainWindow(string, string, bool)
+  nameWithType.vb: MainWindow.New(String, String, Boolean)
+- uid: coffe_app.MainWindow.#ctor*
+  name: MainWindow
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow__ctor_
+  commentId: Overload:coffe_app.MainWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.MainWindow.MainWindow
+  fullName.vb: coffe_app.MainWindow.New
+  nameWithType: MainWindow.MainWindow
+  nameWithType.vb: MainWindow.New
+- uid: coffe_app.MainWindow.CurrentOrder
+  name: CurrentOrder
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow_CurrentOrder
+  commentId: P:coffe_app.MainWindow.CurrentOrder
+  fullName: coffe_app.MainWindow.CurrentOrder
+  nameWithType: MainWindow.CurrentOrder
+- uid: coffe_app.MainWindow.CurrentOrder*
+  name: CurrentOrder
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow_CurrentOrder_
+  commentId: Overload:coffe_app.MainWindow.CurrentOrder
+  isSpec: "True"
+  fullName: coffe_app.MainWindow.CurrentOrder
+  nameWithType: MainWindow.CurrentOrder
+- uid: coffe_app.MainWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow_InitializeComponent
+  commentId: M:coffe_app.MainWindow.InitializeComponent
+  fullName: coffe_app.MainWindow.InitializeComponent()
+  nameWithType: MainWindow.InitializeComponent()
+- uid: coffe_app.MainWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.MainWindow.html#coffe_app_MainWindow_InitializeComponent_
+  commentId: Overload:coffe_app.MainWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.MainWindow.InitializeComponent
+  nameWithType: MainWindow.InitializeComponent
+- uid: coffe_app.Menu
+  name: Menu
+  href: api/coffe_app.Menu.html
+  commentId: T:coffe_app.Menu
+  fullName: coffe_app.Menu
+  nameWithType: Menu
+- uid: coffe_app.Menu.#ctor(System.String,coffe_app.MainWindow)
+  name: Menu(string, MainWindow)
+  href: api/coffe_app.Menu.html#coffe_app_Menu__ctor_System_String_coffe_app_MainWindow_
+  commentId: M:coffe_app.Menu.#ctor(System.String,coffe_app.MainWindow)
+  name.vb: New(String, MainWindow)
+  fullName: coffe_app.Menu.Menu(string, coffe_app.MainWindow)
+  fullName.vb: coffe_app.Menu.New(String, coffe_app.MainWindow)
+  nameWithType: Menu.Menu(string, MainWindow)
+  nameWithType.vb: Menu.New(String, MainWindow)
+- uid: coffe_app.Menu.#ctor*
+  name: Menu
+  href: api/coffe_app.Menu.html#coffe_app_Menu__ctor_
+  commentId: Overload:coffe_app.Menu.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.Menu.Menu
+  fullName.vb: coffe_app.Menu.New
+  nameWithType: Menu.Menu
+  nameWithType.vb: Menu.New
+- uid: coffe_app.Menu.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.Menu.html#coffe_app_Menu_InitializeComponent
+  commentId: M:coffe_app.Menu.InitializeComponent
+  fullName: coffe_app.Menu.InitializeComponent()
+  nameWithType: Menu.InitializeComponent()
+- uid: coffe_app.Menu.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.Menu.html#coffe_app_Menu_InitializeComponent_
+  commentId: Overload:coffe_app.Menu.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.Menu.InitializeComponent
+  nameWithType: Menu.InitializeComponent
+- uid: coffe_app.News
+  name: News
+  href: api/coffe_app.News.html
+  commentId: T:coffe_app.News
+  fullName: coffe_app.News
+  nameWithType: News
+- uid: coffe_app.News.#ctor(System.String,coffe_app.MainWindow,System.Boolean)
+  name: News(string, MainWindow, bool)
+  href: api/coffe_app.News.html#coffe_app_News__ctor_System_String_coffe_app_MainWindow_System_Boolean_
+  commentId: M:coffe_app.News.#ctor(System.String,coffe_app.MainWindow,System.Boolean)
+  name.vb: New(String, MainWindow, Boolean)
+  fullName: coffe_app.News.News(string, coffe_app.MainWindow, bool)
+  fullName.vb: coffe_app.News.New(String, coffe_app.MainWindow, Boolean)
+  nameWithType: News.News(string, MainWindow, bool)
+  nameWithType.vb: News.New(String, MainWindow, Boolean)
+- uid: coffe_app.News.#ctor*
+  name: News
+  href: api/coffe_app.News.html#coffe_app_News__ctor_
+  commentId: Overload:coffe_app.News.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.News.News
+  fullName.vb: coffe_app.News.New
+  nameWithType: News.News
+  nameWithType.vb: News.New
+- uid: coffe_app.News.CreateNewsItem(coffe_app.NewsItem)
+  name: CreateNewsItem(NewsItem)
+  href: api/coffe_app.News.html#coffe_app_News_CreateNewsItem_coffe_app_NewsItem_
+  commentId: M:coffe_app.News.CreateNewsItem(coffe_app.NewsItem)
+  fullName: coffe_app.News.CreateNewsItem(coffe_app.NewsItem)
+  nameWithType: News.CreateNewsItem(NewsItem)
+- uid: coffe_app.News.CreateNewsItem*
+  name: CreateNewsItem
+  href: api/coffe_app.News.html#coffe_app_News_CreateNewsItem_
+  commentId: Overload:coffe_app.News.CreateNewsItem
+  isSpec: "True"
+  fullName: coffe_app.News.CreateNewsItem
+  nameWithType: News.CreateNewsItem
+- uid: coffe_app.News.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.News.html#coffe_app_News_InitializeComponent
+  commentId: M:coffe_app.News.InitializeComponent
+  fullName: coffe_app.News.InitializeComponent()
+  nameWithType: News.InitializeComponent()
+- uid: coffe_app.News.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.News.html#coffe_app_News_InitializeComponent_
+  commentId: Overload:coffe_app.News.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.News.InitializeComponent
+  nameWithType: News.InitializeComponent
+- uid: coffe_app.News.LoadNews
+  name: LoadNews()
+  href: api/coffe_app.News.html#coffe_app_News_LoadNews
+  commentId: M:coffe_app.News.LoadNews
+  fullName: coffe_app.News.LoadNews()
+  nameWithType: News.LoadNews()
+- uid: coffe_app.News.LoadNews*
+  name: LoadNews
+  href: api/coffe_app.News.html#coffe_app_News_LoadNews_
+  commentId: Overload:coffe_app.News.LoadNews
+  isSpec: "True"
+  fullName: coffe_app.News.LoadNews
+  nameWithType: News.LoadNews
+- uid: coffe_app.News.OpenAddNewsWindow_Click(System.Object,System.Windows.RoutedEventArgs)
+  name: OpenAddNewsWindow_Click(object, RoutedEventArgs)
+  href: api/coffe_app.News.html#coffe_app_News_OpenAddNewsWindow_Click_System_Object_System_Windows_RoutedEventArgs_
+  commentId: M:coffe_app.News.OpenAddNewsWindow_Click(System.Object,System.Windows.RoutedEventArgs)
+  name.vb: OpenAddNewsWindow_Click(Object, RoutedEventArgs)
+  fullName: coffe_app.News.OpenAddNewsWindow_Click(object, System.Windows.RoutedEventArgs)
+  fullName.vb: coffe_app.News.OpenAddNewsWindow_Click(Object, System.Windows.RoutedEventArgs)
+  nameWithType: News.OpenAddNewsWindow_Click(object, RoutedEventArgs)
+  nameWithType.vb: News.OpenAddNewsWindow_Click(Object, RoutedEventArgs)
+- uid: coffe_app.News.OpenAddNewsWindow_Click*
+  name: OpenAddNewsWindow_Click
+  href: api/coffe_app.News.html#coffe_app_News_OpenAddNewsWindow_Click_
+  commentId: Overload:coffe_app.News.OpenAddNewsWindow_Click
+  isSpec: "True"
+  fullName: coffe_app.News.OpenAddNewsWindow_Click
+  nameWithType: News.OpenAddNewsWindow_Click
+- uid: coffe_app.NewsItem
+  name: NewsItem
+  href: api/coffe_app.NewsItem.html
+  commentId: T:coffe_app.NewsItem
+  fullName: coffe_app.NewsItem
+  nameWithType: NewsItem
+- uid: coffe_app.NewsItem.Date
+  name: Date
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Date
+  commentId: P:coffe_app.NewsItem.Date
+  fullName: coffe_app.NewsItem.Date
+  nameWithType: NewsItem.Date
+- uid: coffe_app.NewsItem.Date*
+  name: Date
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Date_
+  commentId: Overload:coffe_app.NewsItem.Date
+  isSpec: "True"
+  fullName: coffe_app.NewsItem.Date
+  nameWithType: NewsItem.Date
+- uid: coffe_app.NewsItem.Description
+  name: Description
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Description
+  commentId: P:coffe_app.NewsItem.Description
+  fullName: coffe_app.NewsItem.Description
+  nameWithType: NewsItem.Description
+- uid: coffe_app.NewsItem.Description*
+  name: Description
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Description_
+  commentId: Overload:coffe_app.NewsItem.Description
+  isSpec: "True"
+  fullName: coffe_app.NewsItem.Description
+  nameWithType: NewsItem.Description
+- uid: coffe_app.NewsItem.Title
+  name: Title
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Title
+  commentId: P:coffe_app.NewsItem.Title
+  fullName: coffe_app.NewsItem.Title
+  nameWithType: NewsItem.Title
+- uid: coffe_app.NewsItem.Title*
+  name: Title
+  href: api/coffe_app.NewsItem.html#coffe_app_NewsItem_Title_
+  commentId: Overload:coffe_app.NewsItem.Title
+  isSpec: "True"
+  fullName: coffe_app.NewsItem.Title
+  nameWithType: NewsItem.Title
+- uid: coffe_app.OrderWindow
+  name: OrderWindow
+  href: api/coffe_app.OrderWindow.html
+  commentId: T:coffe_app.OrderWindow
+  fullName: coffe_app.OrderWindow
+  nameWithType: OrderWindow
+- uid: coffe_app.OrderWindow.#ctor(MenuDLL.Order,System.Collections.Generic.List{MenuDLL.Order},coffe_app.MainWindow,System.String,System.String)
+  name: OrderWindow(Order, List<Order>, MainWindow, string, string)
+  href: api/coffe_app.OrderWindow.html#coffe_app_OrderWindow__ctor_MenuDLL_Order_System_Collections_Generic_List_MenuDLL_Order__coffe_app_MainWindow_System_String_System_String_
+  commentId: M:coffe_app.OrderWindow.#ctor(MenuDLL.Order,System.Collections.Generic.List{MenuDLL.Order},coffe_app.MainWindow,System.String,System.String)
+  name.vb: New(Order, List(Of Order), MainWindow, String, String)
+  fullName: coffe_app.OrderWindow.OrderWindow(MenuDLL.Order, System.Collections.Generic.List<MenuDLL.Order>, coffe_app.MainWindow, string, string)
+  fullName.vb: coffe_app.OrderWindow.New(MenuDLL.Order, System.Collections.Generic.List(Of MenuDLL.Order), coffe_app.MainWindow, String, String)
+  nameWithType: OrderWindow.OrderWindow(Order, List<Order>, MainWindow, string, string)
+  nameWithType.vb: OrderWindow.New(Order, List(Of Order), MainWindow, String, String)
+- uid: coffe_app.OrderWindow.#ctor*
+  name: OrderWindow
+  href: api/coffe_app.OrderWindow.html#coffe_app_OrderWindow__ctor_
+  commentId: Overload:coffe_app.OrderWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.OrderWindow.OrderWindow
+  fullName.vb: coffe_app.OrderWindow.New
+  nameWithType: OrderWindow.OrderWindow
+  nameWithType.vb: OrderWindow.New
+- uid: coffe_app.OrderWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.OrderWindow.html#coffe_app_OrderWindow_InitializeComponent
+  commentId: M:coffe_app.OrderWindow.InitializeComponent
+  fullName: coffe_app.OrderWindow.InitializeComponent()
+  nameWithType: OrderWindow.InitializeComponent()
+- uid: coffe_app.OrderWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.OrderWindow.html#coffe_app_OrderWindow_InitializeComponent_
+  commentId: Overload:coffe_app.OrderWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.OrderWindow.InitializeComponent
+  nameWithType: OrderWindow.InitializeComponent
+- uid: coffe_app.Profile
+  name: Profile
+  href: api/coffe_app.Profile.html
+  commentId: T:coffe_app.Profile
+  fullName: coffe_app.Profile
+  nameWithType: Profile
+- uid: coffe_app.Profile.#ctor(System.String,coffe_app.MainWindow,System.String)
+  name: Profile(string, MainWindow, string)
+  href: api/coffe_app.Profile.html#coffe_app_Profile__ctor_System_String_coffe_app_MainWindow_System_String_
+  commentId: M:coffe_app.Profile.#ctor(System.String,coffe_app.MainWindow,System.String)
+  name.vb: New(String, MainWindow, String)
+  fullName: coffe_app.Profile.Profile(string, coffe_app.MainWindow, string)
+  fullName.vb: coffe_app.Profile.New(String, coffe_app.MainWindow, String)
+  nameWithType: Profile.Profile(string, MainWindow, string)
+  nameWithType.vb: Profile.New(String, MainWindow, String)
+- uid: coffe_app.Profile.#ctor*
+  name: Profile
+  href: api/coffe_app.Profile.html#coffe_app_Profile__ctor_
+  commentId: Overload:coffe_app.Profile.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.Profile.Profile
+  fullName.vb: coffe_app.Profile.New
+  nameWithType: Profile.Profile
+  nameWithType.vb: Profile.New
+- uid: coffe_app.Profile.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.Profile.html#coffe_app_Profile_InitializeComponent
+  commentId: M:coffe_app.Profile.InitializeComponent
+  fullName: coffe_app.Profile.InitializeComponent()
+  nameWithType: Profile.InitializeComponent()
+- uid: coffe_app.Profile.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.Profile.html#coffe_app_Profile_InitializeComponent_
+  commentId: Overload:coffe_app.Profile.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.Profile.InitializeComponent
+  nameWithType: Profile.InitializeComponent
+- uid: coffe_app.Promotions
+  name: Promotions
+  href: api/coffe_app.Promotions.html
+  commentId: T:coffe_app.Promotions
+  fullName: coffe_app.Promotions
+  nameWithType: Promotions
+- uid: coffe_app.Promotions.#ctor(System.String,coffe_app.MainWindow)
+  name: Promotions(string, MainWindow)
+  href: api/coffe_app.Promotions.html#coffe_app_Promotions__ctor_System_String_coffe_app_MainWindow_
+  commentId: M:coffe_app.Promotions.#ctor(System.String,coffe_app.MainWindow)
+  name.vb: New(String, MainWindow)
+  fullName: coffe_app.Promotions.Promotions(string, coffe_app.MainWindow)
+  fullName.vb: coffe_app.Promotions.New(String, coffe_app.MainWindow)
+  nameWithType: Promotions.Promotions(string, MainWindow)
+  nameWithType.vb: Promotions.New(String, MainWindow)
+- uid: coffe_app.Promotions.#ctor*
+  name: Promotions
+  href: api/coffe_app.Promotions.html#coffe_app_Promotions__ctor_
+  commentId: Overload:coffe_app.Promotions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.Promotions.Promotions
+  fullName.vb: coffe_app.Promotions.New
+  nameWithType: Promotions.Promotions
+  nameWithType.vb: Promotions.New
+- uid: coffe_app.Promotions.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.Promotions.html#coffe_app_Promotions_InitializeComponent
+  commentId: M:coffe_app.Promotions.InitializeComponent
+  fullName: coffe_app.Promotions.InitializeComponent()
+  nameWithType: Promotions.InitializeComponent()
+- uid: coffe_app.Promotions.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.Promotions.html#coffe_app_Promotions_InitializeComponent_
+  commentId: Overload:coffe_app.Promotions.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.Promotions.InitializeComponent
+  nameWithType: Promotions.InitializeComponent
+- uid: coffe_app.StartWindow
+  name: StartWindow
+  href: api/coffe_app.StartWindow.html
+  commentId: T:coffe_app.StartWindow
+  fullName: coffe_app.StartWindow
+  nameWithType: StartWindow
+- uid: coffe_app.StartWindow.#ctor
+  name: StartWindow()
+  href: api/coffe_app.StartWindow.html#coffe_app_StartWindow__ctor
+  commentId: M:coffe_app.StartWindow.#ctor
+  name.vb: New()
+  fullName: coffe_app.StartWindow.StartWindow()
+  fullName.vb: coffe_app.StartWindow.New()
+  nameWithType: StartWindow.StartWindow()
+  nameWithType.vb: StartWindow.New()
+- uid: coffe_app.StartWindow.#ctor*
+  name: StartWindow
+  href: api/coffe_app.StartWindow.html#coffe_app_StartWindow__ctor_
+  commentId: Overload:coffe_app.StartWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.StartWindow.StartWindow
+  fullName.vb: coffe_app.StartWindow.New
+  nameWithType: StartWindow.StartWindow
+  nameWithType.vb: StartWindow.New
+- uid: coffe_app.StartWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.StartWindow.html#coffe_app_StartWindow_InitializeComponent
+  commentId: M:coffe_app.StartWindow.InitializeComponent
+  fullName: coffe_app.StartWindow.InitializeComponent()
+  nameWithType: StartWindow.InitializeComponent()
+- uid: coffe_app.StartWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.StartWindow.html#coffe_app_StartWindow_InitializeComponent_
+  commentId: Overload:coffe_app.StartWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.StartWindow.InitializeComponent
+  nameWithType: StartWindow.InitializeComponent
+- uid: coffe_app.StatisticsWindow
+  name: StatisticsWindow
+  href: api/coffe_app.StatisticsWindow.html
+  commentId: T:coffe_app.StatisticsWindow
+  fullName: coffe_app.StatisticsWindow
+  nameWithType: StatisticsWindow
+- uid: coffe_app.StatisticsWindow.#ctor(coffe_app.MainWindow,System.String)
+  name: StatisticsWindow(MainWindow, string)
+  href: api/coffe_app.StatisticsWindow.html#coffe_app_StatisticsWindow__ctor_coffe_app_MainWindow_System_String_
+  commentId: M:coffe_app.StatisticsWindow.#ctor(coffe_app.MainWindow,System.String)
+  name.vb: New(MainWindow, String)
+  fullName: coffe_app.StatisticsWindow.StatisticsWindow(coffe_app.MainWindow, string)
+  fullName.vb: coffe_app.StatisticsWindow.New(coffe_app.MainWindow, String)
+  nameWithType: StatisticsWindow.StatisticsWindow(MainWindow, string)
+  nameWithType.vb: StatisticsWindow.New(MainWindow, String)
+- uid: coffe_app.StatisticsWindow.#ctor*
+  name: StatisticsWindow
+  href: api/coffe_app.StatisticsWindow.html#coffe_app_StatisticsWindow__ctor_
+  commentId: Overload:coffe_app.StatisticsWindow.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: coffe_app.StatisticsWindow.StatisticsWindow
+  fullName.vb: coffe_app.StatisticsWindow.New
+  nameWithType: StatisticsWindow.StatisticsWindow
+  nameWithType.vb: StatisticsWindow.New
+- uid: coffe_app.StatisticsWindow.InitializeComponent
+  name: InitializeComponent()
+  href: api/coffe_app.StatisticsWindow.html#coffe_app_StatisticsWindow_InitializeComponent
+  commentId: M:coffe_app.StatisticsWindow.InitializeComponent
+  fullName: coffe_app.StatisticsWindow.InitializeComponent()
+  nameWithType: StatisticsWindow.InitializeComponent()
+- uid: coffe_app.StatisticsWindow.InitializeComponent*
+  name: InitializeComponent
+  href: api/coffe_app.StatisticsWindow.html#coffe_app_StatisticsWindow_InitializeComponent_
+  commentId: Overload:coffe_app.StatisticsWindow.InitializeComponent
+  isSpec: "True"
+  fullName: coffe_app.StatisticsWindow.InitializeComponent
+  nameWithType: StatisticsWindow.InitializeComponent

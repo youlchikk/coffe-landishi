@@ -1,0 +1,150 @@
+### YamlMime:TableOfContent
+items:
+- uid: MenuDLL
+  name: MenuDLL
+  type: Namespace
+  items:
+  - uid: MenuDLL.Americano
+    name: Americano
+    type: Class
+  - uid: MenuDLL.BananaSyrupFactory
+    name: BananaSyrupFactory
+    type: Class
+  - uid: MenuDLL.Cappuccino
+    name: Cappuccino
+    type: Class
+  - uid: MenuDLL.CaramelSyrupFactory
+    name: CaramelSyrupFactory
+    type: Class
+  - uid: MenuDLL.ChocolateSyrupFactory
+    name: ChocolateSyrupFactory
+    type: Class
+  - uid: MenuDLL.Coffee
+    name: Coffee
+    type: Class
+  - uid: MenuDLL.Dessert
+    name: Dessert
+    type: Class
+  - uid: MenuDLL.FlatWhite
+    name: FlatWhite
+    type: Class
+  - uid: MenuDLL.Latte
+    name: Latte
+    type: Class
+  - uid: MenuDLL.LavenderSyrupFactory
+    name: LavenderSyrupFactory
+    type: Class
+  - uid: MenuDLL.Lemonade
+    name: Lemonade
+    type: Class
+  - uid: MenuDLL.LemonadeWithBananaSyrup
+    name: LemonadeWithBananaSyrup
+    type: Class
+  - uid: MenuDLL.LemonadeWithCaramelSyrup
+    name: LemonadeWithCaramelSyrup
+    type: Class
+  - uid: MenuDLL.LemonadeWithChocolateSyrup
+    name: LemonadeWithChocolateSyrup
+    type: Class
+  - uid: MenuDLL.LemonadeWithLavenderSyrup
+    name: LemonadeWithLavenderSyrup
+    type: Class
+  - uid: MenuDLL.LemonadeWithRaspberrySyrup
+    name: LemonadeWithRaspberrySyrup
+    type: Class
+  - uid: MenuDLL.LemonadeWithoutSyrup
+    name: LemonadeWithoutSyrup
+    type: Class
+  - uid: MenuDLL.Menu
+    name: Menu
+    type: Class
+  - uid: MenuDLL.Order
+    name: Order
+    type: Class
+  - uid: MenuDLL.Promotion
+    name: Promotion
+    type: Class
+  - uid: MenuDLL.Raf
+    name: Raf
+    type: Class
+  - uid: MenuDLL.RaspberrySyrupFactory
+    name: RaspberrySyrupFactory
+    type: Class
+  - uid: MenuDLL.Tea
+    name: Tea
+    type: Class
+  - uid: MenuDLL.TeaWithBananaSyrup
+    name: TeaWithBananaSyrup
+    type: Class
+  - uid: MenuDLL.TeaWithCaramelSyrup
+    name: TeaWithCaramelSyrup
+    type: Class
+  - uid: MenuDLL.TeaWithChocolateSyrup
+    name: TeaWithChocolateSyrup
+    type: Class
+  - uid: MenuDLL.TeaWithLavenderSyrup
+    name: TeaWithLavenderSyrup
+    type: Class
+  - uid: MenuDLL.TeaWithRaspberrySyrup
+    name: TeaWithRaspberrySyrup
+    type: Class
+  - uid: MenuDLL.TeaWithoutSyrup
+    name: TeaWithoutSyrup
+    type: Class
+- uid: ServerCoffeeApp
+  name: ServerCoffeeApp
+  type: Namespace
+  items:
+  - uid: ServerCoffeeApp.ExcelHandler
+    name: ExcelHandler
+    type: Class
+  - uid: ServerCoffeeApp.UdpServer
+    name: UdpServer
+    type: Class
+  - uid: ServerCoffeeApp.UdpServer.Order
+    name: UdpServer.Order
+    type: Class
+- uid: coffe_app
+  name: coffe_app
+  type: Namespace
+  items:
+  - uid: coffe_app.AddNewsWindow
+    name: AddNewsWindow
+    type: Class
+  - uid: coffe_app.App
+    name: App
+    type: Class
+  - uid: coffe_app.ArchiveRecord
+    name: ArchiveRecord
+    type: Class
+  - uid: coffe_app.ChangeOrderStatusWindow
+    name: ChangeOrderStatusWindow
+    type: Class
+  - uid: coffe_app.MainWindow
+    name: MainWindow
+    type: Class
+  - uid: coffe_app.Menu
+    name: Menu
+    type: Class
+  - uid: coffe_app.News
+    name: News
+    type: Class
+  - uid: coffe_app.NewsItem
+    name: NewsItem
+    type: Class
+  - uid: coffe_app.OrderWindow
+    name: OrderWindow
+    type: Class
+  - uid: coffe_app.Profile
+    name: Profile
+    type: Class
+  - uid: coffe_app.Promotions
+    name: Promotions
+    type: Class
+  - uid: coffe_app.StartWindow
+    name: StartWindow
+    type: Class
+  - uid: coffe_app.StatisticsWindow
+    name: StatisticsWindow
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,568 @@
+{
+  "source_base_path": "C:/KP_KPO/coffe-landishi/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Americano.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Americano.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.BananaSyrupFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.BananaSyrupFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Cappuccino.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Cappuccino.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.CaramelSyrupFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.CaramelSyrupFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.ChocolateSyrupFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.ChocolateSyrupFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Coffee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Coffee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Dessert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Dessert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.FlatWhite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.FlatWhite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Latte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Latte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LavenderSyrupFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LavenderSyrupFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Lemonade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Lemonade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithBananaSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithBananaSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithCaramelSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithCaramelSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithChocolateSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithChocolateSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithLavenderSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithLavenderSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithRaspberrySyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithRaspberrySyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.LemonadeWithoutSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.LemonadeWithoutSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Promotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Promotion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Raf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Raf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.RaspberrySyrupFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.RaspberrySyrupFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.Tea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.Tea.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithBananaSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithBananaSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithCaramelSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithCaramelSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithChocolateSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithChocolateSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithLavenderSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithLavenderSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithRaspberrySyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithRaspberrySyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.TeaWithoutSyrup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.TeaWithoutSyrup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MenuDLL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MenuDLL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServerCoffeeApp.ExcelHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServerCoffeeApp.ExcelHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServerCoffeeApp.UdpServer.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServerCoffeeApp.UdpServer.Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServerCoffeeApp.UdpServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServerCoffeeApp.UdpServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ServerCoffeeApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ServerCoffeeApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.AddNewsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.AddNewsWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.ArchiveRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.ArchiveRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.ChangeOrderStatusWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.ChangeOrderStatusWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.Menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.News.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.News.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.NewsItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.NewsItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.OrderWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.OrderWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.Profile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.Profile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.Promotions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.Promotions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.StartWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.StartWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.StatisticsWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.StatisticsWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/coffe_app.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/coffe_app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

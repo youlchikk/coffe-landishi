@@ -1,0 +1,829 @@
+### YamlMime:ManagedReference
+items:
+- uid: MenuDLL.BananaSyrupFactory
+  commentId: T:MenuDLL.BananaSyrupFactory
+  id: BananaSyrupFactory
+  parent: MenuDLL
+  children:
+  - MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  - MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  - MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  - MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  - MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: BananaSyrupFactory
+  nameWithType: BananaSyrupFactory
+  fullName: MenuDLL.BananaSyrupFactory
+  type: Class
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: BananaSyrupFactory
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 75
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  syntax:
+    content: 'public class BananaSyrupFactory : Coffee'
+    content.vb: Public Class BananaSyrupFactory Inherits Coffee
+  inheritance:
+  - System.Object
+  - MenuDLL.Coffee
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)
+  id: createAmericano(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.BananaSyrupFactory
+  langs:
+  - csharp
+  - vb
+  name: createAmericano(bool, double, double)
+  nameWithType: BananaSyrupFactory.createAmericano(bool, double, double)
+  fullName: MenuDLL.BananaSyrupFactory.createAmericano(bool, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: createAmericano
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 77
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  example: []
+  syntax:
+    content: public override Menu createAmericano(bool HotOrCold, double price, double volume)
+    parameters:
+    - id: HotOrCold
+      type: System.Boolean
+    - id: price
+      type: System.Double
+    - id: volume
+      type: System.Double
+    return:
+      type: MenuDLL.Menu
+    content.vb: Public Overrides Function createAmericano(HotOrCold As Boolean, price As Double, volume As Double) As Menu
+  overridden: MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+  overload: MenuDLL.BananaSyrupFactory.createAmericano*
+  nameWithType.vb: BananaSyrupFactory.createAmericano(Boolean, Double, Double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createAmericano(Boolean, Double, Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)
+  id: createCappuccino(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.BananaSyrupFactory
+  langs:
+  - csharp
+  - vb
+  name: createCappuccino(bool, double, double)
+  nameWithType: BananaSyrupFactory.createCappuccino(bool, double, double)
+  fullName: MenuDLL.BananaSyrupFactory.createCappuccino(bool, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: createCappuccino
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 81
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  example: []
+  syntax:
+    content: public override Menu createCappuccino(bool HotOrCold, double price, double volume)
+    parameters:
+    - id: HotOrCold
+      type: System.Boolean
+    - id: price
+      type: System.Double
+    - id: volume
+      type: System.Double
+    return:
+      type: MenuDLL.Menu
+    content.vb: Public Overrides Function createCappuccino(HotOrCold As Boolean, price As Double, volume As Double) As Menu
+  overridden: MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+  overload: MenuDLL.BananaSyrupFactory.createCappuccino*
+  nameWithType.vb: BananaSyrupFactory.createCappuccino(Boolean, Double, Double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createCappuccino(Boolean, Double, Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)
+  id: createFlatWhite(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.BananaSyrupFactory
+  langs:
+  - csharp
+  - vb
+  name: createFlatWhite(bool, double, double)
+  nameWithType: BananaSyrupFactory.createFlatWhite(bool, double, double)
+  fullName: MenuDLL.BananaSyrupFactory.createFlatWhite(bool, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: createFlatWhite
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 85
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  example: []
+  syntax:
+    content: public override Menu createFlatWhite(bool HotOrCold, double price, double volume)
+    parameters:
+    - id: HotOrCold
+      type: System.Boolean
+    - id: price
+      type: System.Double
+    - id: volume
+      type: System.Double
+    return:
+      type: MenuDLL.Menu
+    content.vb: Public Overrides Function createFlatWhite(HotOrCold As Boolean, price As Double, volume As Double) As Menu
+  overridden: MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+  overload: MenuDLL.BananaSyrupFactory.createFlatWhite*
+  nameWithType.vb: BananaSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createFlatWhite(Boolean, Double, Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)
+  id: createLatte(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.BananaSyrupFactory
+  langs:
+  - csharp
+  - vb
+  name: createLatte(bool, double, double)
+  nameWithType: BananaSyrupFactory.createLatte(bool, double, double)
+  fullName: MenuDLL.BananaSyrupFactory.createLatte(bool, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: createLatte
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 89
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  example: []
+  syntax:
+    content: public override Menu createLatte(bool HotOrCold, double price, double volume)
+    parameters:
+    - id: HotOrCold
+      type: System.Boolean
+    - id: price
+      type: System.Double
+    - id: volume
+      type: System.Double
+    return:
+      type: MenuDLL.Menu
+    content.vb: Public Overrides Function createLatte(HotOrCold As Boolean, price As Double, volume As Double) As Menu
+  overridden: MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+  overload: MenuDLL.BananaSyrupFactory.createLatte*
+  nameWithType.vb: BananaSyrupFactory.createLatte(Boolean, Double, Double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createLatte(Boolean, Double, Double)
+  name.vb: createLatte(Boolean, Double, Double)
+- uid: MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)
+  id: createRaf(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.BananaSyrupFactory
+  langs:
+  - csharp
+  - vb
+  name: createRaf(bool, double, double)
+  nameWithType: BananaSyrupFactory.createRaf(bool, double, double)
+  fullName: MenuDLL.BananaSyrupFactory.createRaf(bool, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/MenuDLL/Coffee.cs
+      branch: master
+      repo: git@github.com:youlchikk/coffe-landishi.git
+    id: createRaf
+    path: ../src/MenuDLL/Coffee.cs
+    startLine: 93
+  assemblies:
+  - MenuDLL
+  namespace: MenuDLL
+  example: []
+  syntax:
+    content: public override Menu createRaf(bool HotOrCold, double price, double volume)
+    parameters:
+    - id: HotOrCold
+      type: System.Boolean
+    - id: price
+      type: System.Double
+    - id: volume
+      type: System.Double
+    return:
+      type: MenuDLL.Menu
+    content.vb: Public Overrides Function createRaf(HotOrCold As Boolean, price As Double, volume As Double) As Menu
+  overridden: MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+  overload: MenuDLL.BananaSyrupFactory.createRaf*
+  nameWithType.vb: BananaSyrupFactory.createRaf(Boolean, Double, Double)
+  fullName.vb: MenuDLL.BananaSyrupFactory.createRaf(Boolean, Double, Double)
+  name.vb: createRaf(Boolean, Double, Double)
+references:
+- uid: MenuDLL
+  commentId: N:MenuDLL
+  href: MenuDLL.html
+  name: MenuDLL
+  nameWithType: MenuDLL
+  fullName: MenuDLL
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: MenuDLL.Coffee
+  commentId: T:MenuDLL.Coffee
+  parent: MenuDLL
+  href: MenuDLL.Coffee.html
+  name: Coffee
+  nameWithType: Coffee
+  fullName: MenuDLL.Coffee
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.Coffee
+  isExternal: true
+  href: MenuDLL.Coffee.html#MenuDLL_Coffee_createAmericano_System_Boolean_System_Double_System_Double_
+  name: createAmericano(bool, double, double)
+  nameWithType: Coffee.createAmericano(bool, double, double)
+  fullName: MenuDLL.Coffee.createAmericano(bool, double, double)
+  nameWithType.vb: Coffee.createAmericano(Boolean, Double, Double)
+  fullName.vb: MenuDLL.Coffee.createAmericano(Boolean, Double, Double)
+  name.vb: createAmericano(Boolean, Double, Double)
+  spec.csharp:
+  - uid: MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+    name: createAmericano
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createAmericano_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)
+    name: createAmericano
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createAmericano_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: MenuDLL.BananaSyrupFactory.createAmericano*
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createAmericano
+  href: MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createAmericano_System_Boolean_System_Double_System_Double_
+  name: createAmericano
+  nameWithType: BananaSyrupFactory.createAmericano
+  fullName: MenuDLL.BananaSyrupFactory.createAmericano
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: MenuDLL.Menu
+  commentId: T:MenuDLL.Menu
+  parent: MenuDLL
+  href: MenuDLL.Menu.html
+  name: Menu
+  nameWithType: Menu
+  fullName: MenuDLL.Menu
+- uid: MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.Coffee
+  isExternal: true
+  href: MenuDLL.Coffee.html#MenuDLL_Coffee_createCappuccino_System_Boolean_System_Double_System_Double_
+  name: createCappuccino(bool, double, double)
+  nameWithType: Coffee.createCappuccino(bool, double, double)
+  fullName: MenuDLL.Coffee.createCappuccino(bool, double, double)
+  nameWithType.vb: Coffee.createCappuccino(Boolean, Double, Double)
+  fullName.vb: MenuDLL.Coffee.createCappuccino(Boolean, Double, Double)
+  name.vb: createCappuccino(Boolean, Double, Double)
+  spec.csharp:
+  - uid: MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+    name: createCappuccino
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createCappuccino_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)
+    name: createCappuccino
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createCappuccino_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: MenuDLL.BananaSyrupFactory.createCappuccino*
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createCappuccino
+  href: MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createCappuccino_System_Boolean_System_Double_System_Double_
+  name: createCappuccino
+  nameWithType: BananaSyrupFactory.createCappuccino
+  fullName: MenuDLL.BananaSyrupFactory.createCappuccino
+- uid: MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.Coffee
+  isExternal: true
+  href: MenuDLL.Coffee.html#MenuDLL_Coffee_createFlatWhite_System_Boolean_System_Double_System_Double_
+  name: createFlatWhite(bool, double, double)
+  nameWithType: Coffee.createFlatWhite(bool, double, double)
+  fullName: MenuDLL.Coffee.createFlatWhite(bool, double, double)
+  nameWithType.vb: Coffee.createFlatWhite(Boolean, Double, Double)
+  fullName.vb: MenuDLL.Coffee.createFlatWhite(Boolean, Double, Double)
+  name.vb: createFlatWhite(Boolean, Double, Double)
+  spec.csharp:
+  - uid: MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+    name: createFlatWhite
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createFlatWhite_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)
+    name: createFlatWhite
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createFlatWhite_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: MenuDLL.BananaSyrupFactory.createFlatWhite*
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createFlatWhite
+  href: MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createFlatWhite_System_Boolean_System_Double_System_Double_
+  name: createFlatWhite
+  nameWithType: BananaSyrupFactory.createFlatWhite
+  fullName: MenuDLL.BananaSyrupFactory.createFlatWhite
+- uid: MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.Coffee
+  isExternal: true
+  href: MenuDLL.Coffee.html#MenuDLL_Coffee_createLatte_System_Boolean_System_Double_System_Double_
+  name: createLatte(bool, double, double)
+  nameWithType: Coffee.createLatte(bool, double, double)
+  fullName: MenuDLL.Coffee.createLatte(bool, double, double)
+  nameWithType.vb: Coffee.createLatte(Boolean, Double, Double)
+  fullName.vb: MenuDLL.Coffee.createLatte(Boolean, Double, Double)
+  name.vb: createLatte(Boolean, Double, Double)
+  spec.csharp:
+  - uid: MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+    name: createLatte
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createLatte_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)
+    name: createLatte
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createLatte_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: MenuDLL.BananaSyrupFactory.createLatte*
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createLatte
+  href: MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createLatte_System_Boolean_System_Double_System_Double_
+  name: createLatte
+  nameWithType: BananaSyrupFactory.createLatte
+  fullName: MenuDLL.BananaSyrupFactory.createLatte
+- uid: MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+  commentId: M:MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+  parent: MenuDLL.Coffee
+  isExternal: true
+  href: MenuDLL.Coffee.html#MenuDLL_Coffee_createRaf_System_Boolean_System_Double_System_Double_
+  name: createRaf(bool, double, double)
+  nameWithType: Coffee.createRaf(bool, double, double)
+  fullName: MenuDLL.Coffee.createRaf(bool, double, double)
+  nameWithType.vb: Coffee.createRaf(Boolean, Double, Double)
+  fullName.vb: MenuDLL.Coffee.createRaf(Boolean, Double, Double)
+  name.vb: createRaf(Boolean, Double, Double)
+  spec.csharp:
+  - uid: MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+    name: createRaf
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createRaf_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  spec.vb:
+  - uid: MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)
+    name: createRaf
+    href: MenuDLL.Coffee.html#MenuDLL_Coffee_createRaf_System_Boolean_System_Double_System_Double_
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: MenuDLL.BananaSyrupFactory.createRaf*
+  commentId: Overload:MenuDLL.BananaSyrupFactory.createRaf
+  href: MenuDLL.BananaSyrupFactory.html#MenuDLL_BananaSyrupFactory_createRaf_System_Boolean_System_Double_System_Double_
+  name: createRaf
+  nameWithType: BananaSyrupFactory.createRaf
+  fullName: MenuDLL.BananaSyrupFactory.createRaf

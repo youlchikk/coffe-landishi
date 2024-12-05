@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "coffe-app/1.0.0": {
+        "dependencies": {
+          "MenuDLL": "1.0.0",
+          "ServerCoffeeApp": "1.0.0"
+        },
+        "runtime": {
+          "coffe-app.dll": {}
+        }
+      },
+      "MenuDLL/1.0.0": {
+        "runtime": {
+          "MenuDLL.dll": {}
+        }
+      },
+      "ServerCoffeeApp/1.0.0": {
+        "dependencies": {
+          "MenuDLL": "1.0.0"
+        },
+        "runtime": {
+          "ServerCoffeeApp.exe": {}
+        }
+      },
+      "EPPlus/7.5.1.0": {
+        "runtime": {
+          "EPPlus.dll": {
+            "assemblyVersion": "7.5.1.0",
+            "fileVersion": "7.5.1.0"
+          }
+        }
+      },
+      "EPPlus.Interfaces/7.5.0.0": {
+        "runtime": {
+          "EPPlus.Interfaces.dll": {
+            "assemblyVersion": "7.5.0.0",
+            "fileVersion": "7.5.0.0"
+          }
+        }
+      },
+      "EPPlus.System.Drawing/7.5.0.0": {
+        "runtime": {
+          "EPPlus.System.Drawing.dll": {
+            "assemblyVersion": "7.5.0.0",
+            "fileVersion": "7.5.0.0"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1.0": {
+        "runtime": {
+          "Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "coffe-app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MenuDLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerCoffeeApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus/7.5.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus.Interfaces/7.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus.System.Drawing/7.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: ServerCoffeeApp
+  commentId: N:ServerCoffeeApp
+  id: ServerCoffeeApp
+  children:
+  - ServerCoffeeApp.ExcelHandler
+  - ServerCoffeeApp.UdpServer
+  - ServerCoffeeApp.UdpServer.Order
+  langs:
+  - csharp
+  - vb
+  name: ServerCoffeeApp
+  nameWithType: ServerCoffeeApp
+  fullName: ServerCoffeeApp
+  type: Namespace
+  assemblies:
+  - ServerCoffeeApp
+references:
+- uid: ServerCoffeeApp.ExcelHandler
+  commentId: T:ServerCoffeeApp.ExcelHandler
+  href: ServerCoffeeApp.ExcelHandler.html
+  name: ExcelHandler
+  nameWithType: ExcelHandler
+  fullName: ServerCoffeeApp.ExcelHandler
+- uid: ServerCoffeeApp.UdpServer
+  commentId: T:ServerCoffeeApp.UdpServer
+  href: ServerCoffeeApp.UdpServer.html
+  name: UdpServer
+  nameWithType: UdpServer
+  fullName: ServerCoffeeApp.UdpServer
+- uid: ServerCoffeeApp.UdpServer.Order
+  commentId: T:ServerCoffeeApp.UdpServer.Order
+  href: ServerCoffeeApp.UdpServer.html
+  name: UdpServer.Order
+  nameWithType: UdpServer.Order
+  fullName: ServerCoffeeApp.UdpServer.Order
+  spec.csharp:
+  - uid: ServerCoffeeApp.UdpServer
+    name: UdpServer
+    href: ServerCoffeeApp.UdpServer.html
+  - name: .
+  - uid: ServerCoffeeApp.UdpServer.Order
+    name: Order
+    href: ServerCoffeeApp.UdpServer.Order.html
+  spec.vb:
+  - uid: ServerCoffeeApp.UdpServer
+    name: UdpServer
+    href: ServerCoffeeApp.UdpServer.html
+  - name: .
+  - uid: ServerCoffeeApp.UdpServer.Order
+    name: Order
+    href: ServerCoffeeApp.UdpServer.Order.html
