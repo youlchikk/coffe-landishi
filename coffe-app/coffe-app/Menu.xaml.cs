@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
-using MenuDLL; // Используем класс Menu из MenuDLL
+using MenuDLL;
 using coffe_app.logic;
 using System.Windows.Markup;
 
@@ -13,16 +13,14 @@ namespace coffe_app
     {
         private string selectedCulture;
         private MainWindow mainWindow;
-        private List<Order> orders = new List<Order>();
         private Order currentOrder;
-        private string username; // добавляем поле для имени пользователя
 
-        public Menu(string culture, MainWindow mainWindow, string username) // добавляем username в конструктор
+        public Menu(string culture, MainWindow mainWindow)
         {
             InitializeComponent();
             selectedCulture = culture;
             this.mainWindow = mainWindow;
-            this.username = username; // сохраняем имя пользователя
+            this.currentOrder = MainWindow.CurrentOrder; // Получаем текущий заказ из главного окна
             this.Language = XmlLanguage.GetLanguage(selectedCulture);
             ApplyLanguageResources();
             LoadMenuItems();
@@ -100,11 +98,6 @@ namespace coffe_app
 
         private void AddToOrder(MenuDLL.Menu menuItem)
         {
-            if (currentOrder == null)
-            {
-                currentOrder = new Order(username, 0, new List<MenuDLL.Menu>()); // используем username
-            }
-
             currentOrder.components.Add(menuItem);
             currentOrder.price += menuItem.price;
 
@@ -113,13 +106,9 @@ namespace coffe_app
 
         private void OrderWindow_Click(object sender, RoutedEventArgs e)
         {
-            if (currentOrder != null)
-            {
-                orders.Add(currentOrder);
-                currentOrder = null; // Создаем новый заказ после добавления текущего
-            }
+            MainWindow.CurrentOrder = currentOrder; // Обновляем текущий заказ в главном окне
 
-            var orderWindow = new OrderWindow(orders, mainWindow, selectedCulture, username);
+            var orderWindow = new OrderWindow(currentOrder, new List<Order>(), mainWindow, selectedCulture, currentOrder.username);
             orderWindow.Show();
             this.Close();
         }

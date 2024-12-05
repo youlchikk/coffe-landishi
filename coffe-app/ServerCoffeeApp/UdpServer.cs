@@ -20,7 +20,7 @@ namespace ServerCoffeeApp
 
         public static string dnsAddress;
         private static int PORT = 11000; // Порт для прослушивания
-        private static int SIZE = 51200; // Размер буфера для сообщений
+        private static int SIZE = 51200000; // Размер буфера для сообщений
         private UdpClient udpClient;
         public class Order
         {
@@ -128,10 +128,26 @@ namespace ServerCoffeeApp
             {
                 return checkUser(parts[1]);
             }
-            else if(parts[0] == "createOrder")                      // команда для создания заказа       username + json
+            else if (parts[0] == "createOrder") // команда для создания заказа
             {
-                return AddNewOrder(parts[1], parts[2]);
+                string username = parts[1];
+                string jsonOrder = parts[2];
+                var order = JsonSerializer.Deserialize<Order>(jsonOrder);
+
+                // Логируем получение заказа
+                Console.WriteLine("Получен заказ:");
+                Console.WriteLine(jsonOrder);
+
+                // Обработка заказа
+                string response = AddNewOrder(username, jsonOrder);
+
+                // Логируем ответ сервера
+                Console.WriteLine("Ответ сервера:");
+                Console.WriteLine(response);
+
+                return response;
             }
+
             else if (parts[0] == "PaymentOrder")                    // команда для подтверждения оплаты заказа      username
             {
                 return paymentOrder(parts[1]);

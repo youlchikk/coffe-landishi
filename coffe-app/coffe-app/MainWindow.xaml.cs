@@ -12,6 +12,7 @@ namespace coffe_app
 {
     public partial class MainWindow : Window
     {
+        public static Order CurrentOrder { get; set; }
         private string selectedCulture;
         private string username;
         private bool isAdmin;
@@ -21,8 +22,9 @@ namespace coffe_app
             selectedCulture = culture;
             this.Language = XmlLanguage.GetLanguage(selectedCulture);
             ApplyLanguageResources();
-            this.username=username;
-            this.isAdmin=isAdmin;
+            this.username = username;
+            CurrentOrder = new Order(username, 0, new List<MenuDLL.Menu>());
+            this.isAdmin = isAdmin;
             SetupAdminButtons();
         }
 
@@ -51,39 +53,36 @@ namespace coffe_app
             NewsButton.Content = FindResource("News").ToString();
             ExitButton.Content = FindResource("Exit").ToString();
         }
+
         private void SetupAdminButtons()
-        { 
-            AdminButtonsPanel.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed; 
+        {
+            AdminButtonsPanel.Visibility = isAdmin ? Visibility.Visible : Visibility.Collapsed;
         }
+
         private void StatusOrder_Click(object sender, RoutedEventArgs e)
         {
-            // Предполагается, что у вас есть список заказов и текущая культура
-            List<Order> orders = GetOrdersFromServer(); // Метод для получения списка заказов с сервера
-            string selectedCulture = "ru-RU"; // Пример значения, замените на актуальное значение
-
+            List<Order> orders = GetOrdersFromServer();
             var changeOrderStatusWindow = new ChangeOrderStatusWindow(orders, this, selectedCulture, username);
             changeOrderStatusWindow.Show();
-            this.Hide(); // Закрываем текущее окно
+            this.Hide(); // Скрываем текущее окно
         }
+
         private void Statistics_Click(object sender, RoutedEventArgs e)
         {
-            // Предполагается, что текущая культура уже определена
-            string selectedCulture = "ru-RU"; // Пример значения, замените на актуальное значение
-
             var statisticsWindow = new StatisticsWindow(this, selectedCulture);
             statisticsWindow.Show();
-            this.Hide(); // Закрываем текущее окно
+            this.Hide(); // Скрываем текущее окно
         }
+
         private List<Order> GetOrdersFromServer()
         {
             try
             {
                 using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-
                     IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 11000); // Замените на IP-адрес и порт вашего сервера
 
-                    string message = "getOrders|all"; // Команда для получения всех заказов
+                    string message = "getOrders|all";
                     byte[] data = Encoding.UTF8.GetBytes(message);
                     s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);
 
@@ -95,8 +94,8 @@ namespace coffe_app
 
                     string[] parts = response.Split('|');
 
-                    List <Order> orders = new List<Order>();
-                    for(int i = 0; i < parts.Length; i++)
+                    List<Order> orders = new List<Order>();
+                    for (int i = 0; i < parts.Length; i++)
                     {
                         orders.Add(JsonSerializer.Deserialize<Order>(parts[i]));
                     }
@@ -113,14 +112,14 @@ namespace coffe_app
 
         private void OpenProfile_Click(object sender, RoutedEventArgs e)
         {
-            Profile profileWindow = new Profile(selectedCulture, this, username);
+            var profileWindow = new Profile(selectedCulture, this, username);
             profileWindow.Show();
             this.Hide();
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            Menu menuWindow = new Menu(selectedCulture, this, username);
+            var menuWindow = new Menu(selectedCulture, this);
             menuWindow.Show();
             this.Hide();
         }
@@ -129,24 +128,31 @@ namespace coffe_app
         {
             Application.Current.Shutdown();
         }
+
         private void Deals_Click(object sender, RoutedEventArgs e)
         {
-            Promotions promotionsWindow = new Promotions(selectedCulture, this);
+            var promotionsWindow = new Promotions(selectedCulture, this);
             promotionsWindow.Show();
             this.Hide();
         }
-        private void News_Click(object sender, RoutedEventArgs e) 
-        { 
-            News newsWindow = new News(selectedCulture, this, isAdmin); 
-            newsWindow.Show(); 
-            this.Hide(); 
+
+        private void News_Click(object sender, RoutedEventArgs e)
+        {
+            var newsWindow = new News(selectedCulture, this, isAdmin);
+            newsWindow.Show();
+            this.Hide();
         }
+
         private void OrderWindow_Click(object sender, RoutedEventArgs e)
         {
-            Order orderWindow = new Order();
+            var orderWindow = new OrderWindow(MainWindow.CurrentOrder, new List<Order>(), this, selectedCulture, MainWindow.CurrentOrder.username);
+            orderWindow.Show();
+            this.Hide();
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Пустой метод для обработки событий
         }
     }
 }

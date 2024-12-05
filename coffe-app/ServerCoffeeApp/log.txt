@@ -167,3 +167,97 @@ login: Ошибка аутентификации
 login: Аутентификация успешна
 admin?: пользователь
 checkUser: +375-29-860-35-79|user@mail.ru|20.07.2000|False
+Сервер активен: 05.12.2024 19:30:29
+
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: администратор
+getOrders: 
+login: Аутентификация успешна
+admin?: администратор
+getOrders: 
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: администратор
+Сервер активен: 05.12.2024 21:10:28
+
+login: Аутентификация успешна
+admin?: администратор
+createOrder: заказ успешно добавлен
+login: Аутентификация успешна
+admin?: администратор
+getOrders: {"username":"youlchikk","price":6.5,"status":1,"pay":false,"components":[{"price":3,"volume":200,"HotOrCold":true,"description":"\u0410\u043C\u0435\u0440\u0438\u043A\u0430\u043D\u043E \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+Сервер активен: 05.12.2024 21:23:40
+
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":9,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+nextStatusOrder: статус успешно обновлен
+PaymentOrder: оплата успешно подтверждена
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":9,"status":4,"pay":true,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":14,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":9,"status":2,"pay":true,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":14,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":7.5,"status":1,"pay":false,"components":[{"price":4,"volume":500,"HotOrCold":true,"description":"\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+PaymentOrder: оплата успешно подтверждена
+getOrders: {"username":"user1","price":9,"status":2,"pay":true,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":14,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":7.5,"status":1,"pay":false,"components":[{"price":4,"volume":500,"HotOrCold":true,"description":"\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+nextStatusOrder: статус успешно обновлен
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":9,"status":2,"pay":true,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":14,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":7.5,"status":1,"pay":false,"components":[{"price":4,"volume":500,"HotOrCold":true,"description":"\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}|{"username":"user1","price":7.5,"status":1,"pay":false,"components":[{"price":4,"volume":400,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u0431\u0430\u043D\u0430\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+Сервер активен: 05.12.2024 21:38:27
+
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":8.5,"status":1,"pay":false,"components":[{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":8.5,"status":2,"pay":false,"components":[{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":8.5,"status":3,"pay":false,"components":[{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+PaymentOrder: оплата успешно подтверждена
+detailsOrder: {"username":"user1","price":8.5,"status":3,"pay":true,"components":[{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":8.5,"status":4,"pay":true,"components":[{"price":3.5,"volume":300,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043B\u0430\u0432\u0430\u043D\u0434\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+Сервер активен: 05.12.2024 21:53:25
+
+login: Аутентификация успешна
+admin?: администратор
+login: Аутентификация успешна
+admin?: пользователь
+createOrder: заказ успешно добавлен
+getOrders: {"username":"user1","price":9.9000000000000004,"status":1,"pay":false,"components":[{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+detailsOrder: {"username":"user1","price":9.9000000000000004,"status":2,"pay":false,"components":[{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+nextStatusOrder: статус успешно обновлен
+PaymentOrder: оплата успешно подтверждена
+detailsOrder: {"username":"user1","price":9.9000000000000004,"status":4,"pay":true,"components":[{"price":5,"volume":600,"HotOrCold":true,"description":"\u0420\u0430\u0444 \u0441 \u0448\u043E\u043A\u043E\u043B\u0430\u0434\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+deleteOrder: заказ удален, данные занесены в архив
+login: Аутентификация успешна
+admin?: пользователь
+login: Аутентификация успешна
+admin?: пользователь

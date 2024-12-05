@@ -1,11 +1,10 @@
-﻿using System;
+﻿using MenuDLL;
+using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
 using coffe_app.logic; // Подключаем ваше пространство имен
-using MenuDLL;
 
 namespace coffe_app
 {
@@ -13,7 +12,7 @@ namespace coffe_app
     {
         private string selectedCulture;
         private MainWindow mainWindow;
-       // private List<Promotion> promotions; // Список акций
+        private List<Promotion> promotions; // Список акций
 
         public Promotions(string culture, MainWindow mainWindow)
         {
@@ -49,16 +48,13 @@ namespace coffe_app
 
         private void LoadPromotions()
         {
-            // Пример создания объектов Promotion и их добавления в список
-          //  promotions = new List<Promotion>
-            {
-              //  new Promotion { conditions = "Скидка 10% Скидка на все напитки до конца месяца!", price = 9.9, startDate = "01.01.2025", endtDate = "31.01.2025" },
-               // new Promotion { conditions = "2 по цене 1  Купите один кофе и получите второй бесплатно!", price = 5, startDate = "01.02.2025", endtDate = "28.02.2025" },
-            };
+            // Загружаем акции из UserPromotions
+            UserPromotions userPromotions = new UserPromotions();
+            promotions = userPromotions.components;
 
-          //  foreach (var promotion in promotions)
+            foreach (var promotion in promotions)
             {
-          //      PromotionsListBox.Items.Add(CreatePromotionItem(promotion));
+                PromotionsListBox.Items.Add(CreatePromotionItem(promotion));
             }
         }
 
@@ -76,7 +72,7 @@ namespace coffe_app
 
             var descriptionBlock = new TextBlock
             {
-              //  Text = promotion.price,
+                Text = $"{promotion.price} рублей",
                 FontSize = 14,
                 VerticalAlignment = VerticalAlignment.Center,
                 Margin = new Thickness(0, 5, 0, 0)
@@ -104,12 +100,14 @@ namespace coffe_app
                 var selectedPromotion = selectedItem.Tag as Promotion;
                 // Логика добавления акции в заказ
                 MessageBox.Show($"Акция \"{selectedPromotion.conditions}\" добавлена в заказ.");
+                MainWindow.CurrentOrder.addPromotion(selectedPromotion); // Добавляем акцию в текущий заказ
             }
             else
             {
                 MessageBox.Show("Пожалуйста, выберите акцию.");
             }
         }
+
 
         private void BackToMain_Click(object sender, RoutedEventArgs e)
         {
