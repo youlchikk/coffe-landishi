@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 444,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -99,6 +99,10 @@
               "WhenOpened": "2024-12-01T11:03:47.909Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -149,7 +153,7 @@
               "RelativeDocumentMoniker": "coffe-app\\StatisticsWindow.xaml.cs",
               "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\StatisticsWindow.xaml.cs",
               "RelativeToolTip": "coffe-app\\StatisticsWindow.xaml.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAHUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T14:07:29.178Z",
               "EditorCaption": ""
