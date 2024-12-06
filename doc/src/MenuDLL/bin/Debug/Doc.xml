@@ -1,0 +1,957 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MenuDLL</name>
+    </assembly>
+    <members>
+        <member name="T:MenuDLL.Coffee">
+            <summary>
+            Абстрактный класс, представляющий абстрактную фабрику по созданию кофе.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Coffee.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.Coffee.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.Coffee.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.Coffee.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.Coffee.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="T:MenuDLL.Americano">
+            <summary>
+            Абстрактный класс, представляющий американо.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.Cappuccino">
+            <summary>
+            Абстрактный класс, представляющий капучино.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.FlatWhite">
+            <summary>
+            Абстрактный класс, представляющий флэт уайт.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.Latte">
+            <summary>
+            Абстрактный класс, представляющий латте.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.Raf">
+            <summary>
+            Абстрактный класс, представляющий раф.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.ChocolateSyrupFactory">
+            <summary>
+            Класс, представляющий фабрику по созданию кофе с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.ChocolateSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо с шоколадным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.ChocolateSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино с шоколадным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.ChocolateSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт с шоколадным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.ChocolateSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте с шоколадным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.ChocolateSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф с шоколадным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="T:MenuDLL.BananaSyrupFactory">
+            <summary>
+            Класс, представляющий фабрику по созданию кофе с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.BananaSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо с банановым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.BananaSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино с банановым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.BananaSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт с банановым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.BananaSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте с банановым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.BananaSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф с банановым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="T:MenuDLL.LavenderSyrupFactory">
+            <summary>
+            Класс, представляющий фабрику по созданию кофе с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LavenderSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо с лавандовым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.LavenderSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино с лавандовым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.LavenderSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт с лавандовым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.LavenderSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте с лавандовым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.LavenderSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф с лавандовым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="T:MenuDLL.RaspberrySyrupFactory">
+            <summary>
+            Класс, представляющий фабрику по созданию кофе с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RaspberrySyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо с малиновым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.RaspberrySyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино с малиновым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.RaspberrySyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт с малиновым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.RaspberrySyrupFactory.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте с малиновым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.RaspberrySyrupFactory.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф с малиновым сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.CaramelSyrupFactory.createAmericano(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает американо с карамельным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.CaramelSyrupFactory.createCappuccino(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает капучино с карамельным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.CaramelSyrupFactory.createFlatWhite(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает флэт уайт с карамельным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.CaramelSyrupFactory.createLatte(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает латте с карамельным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="M:MenuDLL.CaramelSyrupFactory.createRaf(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Создает раф с карамельным сиропом.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <returns>Объект типа <see cref="T:MenuDLL.Menu"/>.</returns>
+        </member>
+        <member name="T:MenuDLL.AmericanoWithChocolateSyrup">
+            <summary>
+            Класс, представляющий американо с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.AmericanoWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.AmericanoWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.AmericanoWithBananaSyrup">
+            <summary>
+            Класс, представляющий американо с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.AmericanoWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.AmericanoWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.AmericanoWithLavenderSyrup">
+            <summary>
+            Класс, представляющий американо с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.AmericanoWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.AmericanoWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.AmericanoWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий американо с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.AmericanoWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.AmericanoWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.AmericanoWithCaramelSyrup">
+            <summary>
+            Класс, представляющий американо с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.AmericanoWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.AmericanoWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.CappuccinoWithChocolateSyrup">
+            <summary>
+            Класс, представляющий капучино с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.CappuccinoWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.CappuccinoWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.CappuccinoWithBananaSyrup">
+            <summary>
+            Класс, представляющий капучино с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.CappuccinoWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.CappuccinoWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.CappuccinoWithLavenderSyrup">
+            <summary>
+            Класс, представляющий капучино с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.CappuccinoWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.CappuccinoWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.CappuccinoWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий капучино с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.CappuccinoWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.CappuccinoWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.CappuccinoWithCaramelSyrup">
+            <summary>
+            Класс, представляющий капучино с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.CappuccinoWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.CappuccinoWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.FlatWhiteWithChocolateSyrup">
+            <summary>
+            Класс, представляющий флэт уайт с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.FlatWhiteWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.FlatWhiteWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.FlatWhiteWithBananaSyrup">
+            <summary>
+            Класс, представляющий флэт уайт с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.FlatWhiteWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.FlatWhiteWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.FlatWhiteWithLavenderSyrup">
+            <summary>
+            Класс, представляющий флэт уайт с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.FlatWhiteWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.FlatWhiteWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.FlatWhiteWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий флэт уайт с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.FlatWhiteWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.FlatWhiteWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.FlatWhiteWithCaramelSyrup">
+            <summary>
+            Класс, представляющий флэт уайт с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.FlatWhiteWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.FlatWhiteWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LatteWithChocolateSyrup">
+            <summary>
+            Класс, представляющий латте с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LatteWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LatteWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LatteWithBananaSyrup">
+            <summary>
+            Класс, представляющий латте с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LatteWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LatteWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LatteWithLavenderSyrup">
+            <summary>
+            Класс, представляющий латте с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LatteWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LatteWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LatteWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий латте с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LatteWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LatteWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LatteWithCaramelSyrup">
+            <summary>
+            Класс, представляющий латте с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LatteWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LatteWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.RafWithChocolateSyrup">
+            <summary>
+            Класс, представляющий раф с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RafWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.RafWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.RafWithBananaSyrup">
+            <summary>
+            Класс, представляющий раф с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RafWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.RafWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.RafWithLavenderSyrup">
+            <summary>
+            Класс, представляющий раф с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RafWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.RafWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.RafWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий раф с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RafWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.RafWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.RafWithCaramelSyrup">
+            <summary>
+            Класс, представляющий раф с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.RafWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.RafWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.Dessert">
+            <summary>
+            Класс, представляющий десерт.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Dessert.#ctor(System.Double,System.Double,System.String)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.Dessert"/>.
+            </summary>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+            <param name="description">Описание.</param>
+        </member>
+        <member name="T:MenuDLL.Lemonade">
+            <summary>
+            Абстрактный класс, представляющий лимонад.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithoutSyrup">
+            <summary>
+            Класс, представляющий лимонад без сиропа.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithoutSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithChocolateSyrup">
+            <summary>
+            Класс, представляющий лимонад с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithBananaSyrup">
+            <summary>
+            Класс, представляющий банановый лимонад.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithLavenderSyrup">
+            <summary>
+            Класс, представляющий лавандовый лимонад.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий лимонад с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.LemonadeWithCaramelSyrup">
+            <summary>
+            Класс, представляющий лимонад с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.LemonadeWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.LemonadeWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.Menu">
+            <summary>
+            Класс, представляющий меню.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Menu.price">
+            <summary>
+            Цена.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Menu.volume">
+            <summary>
+            Объем.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Menu.HotOrCold">
+            <summary>
+            Горячий или холодный напиток.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Menu.description">
+            <summary>
+            Описание.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.Order">
+            <summary>
+            Класс, представляющий заказ.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Order.username">
+            <summary>
+            Имя пользователя, сделавшего заказ.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Order.price">
+            <summary>
+            Цена заказа.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Order.status">
+            <summary>
+            Статус заказа (1 - принят, 2 - готовится, 3 - готов, 4 - выдан).
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Order.pay">
+            <summary>
+            Оплачен ли заказ (true - оплачен, false - не оплачен).
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Order.components">
+            <summary>
+            Список компонентов заказа.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Order.#ctor">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.Order"/> без параметров.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Order.#ctor(System.String,System.Double,System.Collections.Generic.List{MenuDLL.Menu})">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.Order"/> с заданными параметрами.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="price">Цена заказа.</param>
+            <param name="components">Список компонентов заказа.</param>
+        </member>
+        <member name="M:MenuDLL.Order.payment">
+            <summary>
+            Помечает заказ как оплаченный.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Order.nextStatus(System.Int32)">
+            <summary>
+            Обновляет статус заказа.
+            </summary>
+            <param name="t">Новый статус заказа.</param>
+        </member>
+        <member name="M:MenuDLL.Order.addPromotion(MenuDLL.Promotion)">
+            <summary>
+            Добавляет промоакцию к заказу.
+            </summary>
+            <param name="promotion">Промоакция для добавления.</param>
+        </member>
+        <member name="T:MenuDLL.Promotion">
+            <summary>
+            Класс, представляющий промоакцию.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Promotion.conditions">
+            <summary>
+            Условия промоакции.
+            </summary>
+        </member>
+        <member name="F:MenuDLL.Promotion.components">
+            <summary>
+            Список компонентов промоакции.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Promotion.price">
+            <summary>
+            Цена промоакции.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Promotion.startDate">
+            <summary>
+            Дата начала промоакции.
+            </summary>
+        </member>
+        <member name="P:MenuDLL.Promotion.endtDate">
+            <summary>
+            Дата окончания промоакции.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.Promotion.#ctor(System.String,System.Collections.Generic.List{MenuDLL.Menu},System.Double,System.String,System.String)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.Promotion"/> с заданными параметрами.
+            </summary>
+            <param name="conditions">Условия промоакции.</param>
+            <param name="structure">Список компонентов промоакции.</param>
+            <param name="price">Цена промоакции.</param>
+            <param name="startDate">Дата начала промоакции.</param>
+            <param name="endDate">Дата окончания промоакции.</param>
+        </member>
+        <member name="T:MenuDLL.Tea">
+            <summary>
+            Абстрактный класс, представляющий чай.
+            </summary>
+        </member>
+        <member name="T:MenuDLL.TeaWithoutSyrup">
+            <summary>
+            Класс, представляющий чай без сиропа.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithoutSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithoutSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.TeaWithChocolateSyrup">
+            <summary>
+            Класс, представляющий чай с шоколадным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithChocolateSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithChocolateSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.TeaWithBananaSyrup">
+            <summary>
+            Класс, представляющий чай с банановым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithBananaSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithBananaSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.TeaWithLavenderSyrup">
+            <summary>
+            Класс, представляющий чай с лавандовым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithLavenderSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithLavenderSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.TeaWithRaspberrySyrup">
+            <summary>
+            Класс, представляющий чай с малиновым сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithRaspberrySyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithRaspberrySyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+        <member name="T:MenuDLL.TeaWithCaramelSyrup">
+            <summary>
+            Класс, представляющий чай с карамельным сиропом.
+            </summary>
+        </member>
+        <member name="M:MenuDLL.TeaWithCaramelSyrup.#ctor(System.Boolean,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:MenuDLL.TeaWithCaramelSyrup"/>.
+            </summary>
+            <param name="HotOrCold">Горячий или холодный напиток.</param>
+            <param name="price">Цена.</param>
+            <param name="volume">Объем.</param>
+        </member>
+    </members>
+</doc>

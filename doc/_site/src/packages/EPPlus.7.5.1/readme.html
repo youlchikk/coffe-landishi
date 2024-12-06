@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>EPPlus 7 | coffe-landishi </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="EPPlus 7 | coffe-landishi ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/youlchikk/coffe-landishi/blob/master/doc/src/packages/EPPlus.7.5.1/readme.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="coffe-landishi">
+            coffe-landishi
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="epplus-7">EPPlus 7</h1>
+
+<h2 id="announcement-new-license-model-from-version-5">Announcement: new license model from version 5</h2>
+<p>EPPlus has from this new major version changed license from LGPL to <a href="https://polyformproject.org/licenses/noncommercial/1.0.0/">Polyform Noncommercial 1.0.0</a>.</p>
+<p>With the new license EPPlus is still free to use in some cases, but will require a commercial license to be used in a commercial business.</p>
+<p>This is explained in more detail <a href="https://www.epplussoftware.com/Home/LgplToPolyform">here</a>.</p>
+<p>Commercial licenses, which includes support, can be purchased at (<a href="https://www.epplussoftware.com/">https://www.epplussoftware.com/</a>).</p>
+<p>The source code of EPPlus has moved to a <a href="https://github.com/EPPlusSoftware/EPPlus">new github repository</a></p>
+<h2 id="licensecontext-parameter-must-be-set">LicenseContext parameter must be set</h2>
+<p>With the license change EPPlus has a new parameter that needs to be configured. If the LicenseContext is not set, EPPlus will throw a LicenseException (only in debug mode).</p>
+<p>This is a simple configuration that can be set in a few alternative ways:</p>
+<h3 id="1-via-code">1. Via code</h3>
+<pre><code class="lang-csharp">// If you are a commercial business and have
+// purchased commercial licenses use the static property
+// LicenseContext of the ExcelPackage class :
+ExcelPackage.LicenseContext = LicenseContext.Commercial;
+
+// If you use EPPlus in a noncommercial context
+// according to the Polyform Noncommercial license:
+ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+    
+using(var package = new ExcelPackage(new FileInfo(&quot;MyWorkbook.xlsx&quot;)))
+{
+
+}
+</code></pre>
+<h3 id="2-via-appsettingsjson">2. Via appSettings.json</h3>
+<pre><code class="lang-json">{
+    {
+    &quot;EPPlus&quot;: {
+        &quot;ExcelPackage&quot;: {
+            &quot;LicenseContext&quot;: &quot;Commercial&quot; //The license context used
+            }
+        }
+    }
+}
+</code></pre>
+<h3 id="3-via-appwebconfig">3. Via app/web.config</h3>
+<pre><code class="lang-xml">&lt;appSettings&gt;
+    &lt;!--The license context used--&gt;
+    &lt;add key=&quot;EPPlus:ExcelPackage.LicenseContext&quot; value=&quot;NonCommercial&quot; /&gt;
+&lt;/appSettings&gt;
+</code></pre>
+<h3 id="4-set-the-environment-variable-eppluslicensecontext">4. Set the environment variable 'EPPlusLicenseContext'</h3>
+<p>This might be the easiest way of configuring this. Just as above, set the variable to Commercial or NonCommercial depending on your usage.</p>
+<p><strong>Important!</strong> The environment variable should be set at the user or process level.</p>
+<h2 id="new-features-in-epplus-7">New features in EPPlus 7</h2>
+<pre><code>* Calculation engine update to support array formulas. https://epplussoftware.com/en/Developers/EPPlus7
+	* Support for calculating legacy / dynamic array formulas.
+	* Support for intersect operator.
+	* Support for implicit intersection.
+	* Support for array parameters in functions.
+	* Better support for using the colon operator with functions.
+	* Better handling of circular references
+	* 90 new functions
+	* Faster optimized calculation engine with configurable expression caching.
+	* Breaking changes: Updated calculation engine, See [Breaking Changes in EPPlus 7](https://github.com/EPPlusSoftware/EPPlus/wiki/Breaking-Changes-in-EPPlus-7) for more information.
+	* Conditional Formatting improvements
+	* Improved performance, xml is now read and written on load and save.
+	* Cross worksheet support formula support.
+	* Extended styling options for color scales, data bars and icon sets.
+</code></pre>
+<h2 id="breaking-changes">Breaking Changes</h2>
+<p>See <a href="https://github.com/EPPlusSoftware/EPPlus/wiki/Breaking-Changes-in-EPPlus-7">https://github.com/EPPlusSoftware/EPPlus/wiki/Breaking-Changes-in-EPPlus-7</a></p>
+<h2 id="improved-documentation">Improved documentation</h2>
+<p>EPPlus 6 has a new web sample site available here: (<a href="https://samples.epplussoftware.com/">https://samples.epplussoftware.com/</a>) ,  Source code is available here: <a href="https://github.com/EPPlusSoftware/EPPlus.WebSamples">EPPlus.WebSamples</a>
+There is also a new sample project for four different docker images, <a href="https://github.com/EPPlusSoftware/EPPlus.DockerSample">EPPlus.DockerSample</a>
+EPPlus also has two separate sample projects for <a href="https://github.com/EPPlusSoftware/EPPlus.Sample.NetCore/tree/version/EPPlus6.0">.NET Core</a> and <a href="https://github.com/EPPlusSoftware/EPPlus.Sample.NetFramework/tree/version/EPPlus6.0">.NET Framework</a> respectively.
+There is also an updated <a href="https://github.com/EPPlusSoftware/EPPlus/wiki">developer wiki</a>.
+The work with improving the documentation will continue, feedback is highly appreciated!</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/youlchikk/coffe-landishi/blob/master/doc/src/packages/EPPlus.7.5.1/readme.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

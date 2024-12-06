@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>coffe-app</name>
+    </assembly>
+    <members>
+        <member name="T:coffe_app.AddNewsWindow">
+            <summary>
+            AddNewsWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.AddNewsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:coffe_app.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:coffe_app.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:coffe_app.ChangeOrderStatusWindow">
+            <summary>
+            ChangeOrderStatusWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.ChangeOrderStatusWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.logic.UserMenu">
+            <summary>
+            Класс, представляющий пользовательское меню.
+            </summary>
+        </member>
+        <member name="F:coffe_app.logic.UserMenu.components">
+            <summary>
+            Список компонентов меню.
+            </summary>
+        </member>
+        <member name="M:coffe_app.logic.UserMenu.#ctor">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:coffe_app.logic.UserMenu"/>.
+            </summary>
+        </member>
+        <member name="T:coffe_app.logic.UserPromotions">
+            <summary>
+            Класс, представляющий пользовательские промоакции.
+            </summary>
+        </member>
+        <member name="F:coffe_app.logic.UserPromotions.components">
+            <summary>
+            Список промоакций.
+            </summary>
+        </member>
+        <member name="M:coffe_app.logic.UserPromotions.#ctor">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:coffe_app.logic.UserPromotions"/>.
+            </summary>
+        </member>
+        <member name="T:coffe_app.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.Menu">
+            <summary>
+            Menu
+            </summary>
+        </member>
+        <member name="M:coffe_app.Menu.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.News">
+            <summary>
+            News
+            </summary>
+        </member>
+        <member name="M:coffe_app.News.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.OrderWindow">
+            <summary>
+            OrderWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.OrderWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.Profile">
+            <summary>
+            Profile
+            </summary>
+        </member>
+        <member name="M:coffe_app.Profile.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.Promotions">
+            <summary>
+            Promotions
+            </summary>
+        </member>
+        <member name="M:coffe_app.Promotions.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.StartWindow">
+            <summary>
+            StartWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.StartWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:coffe_app.StatisticsWindow">
+            <summary>
+            StatisticsWindow
+            </summary>
+        </member>
+        <member name="M:coffe_app.StatisticsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

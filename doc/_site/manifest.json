@@ -547,6 +547,116 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.7.5.1/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.7.5.1/license.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.7.5.1/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.7.5.1/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.Interfaces.7.5.0/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.Interfaces.7.5.0/license.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.Interfaces.7.5.0/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.Interfaces.7.5.0/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.System.Drawing.7.5.0/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.System.Drawing.7.5.0/license.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/EPPlus.System.Drawing.7.5.0/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/EPPlus.System.Drawing.7.5.0/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/Microsoft.IO.RecyclableMemoryStream.3.0.1/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/Microsoft.IO.RecyclableMemoryStream.3.0.1/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/System.IO.Pipelines.9.0.0/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/System.IO.Pipelines.9.0.0/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/System.Text.Encodings.Web.9.0.0/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/System.Text.Encodings.Web.9.0.0/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/packages/System.Text.Json.9.0.0/PACKAGE.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/packages/System.Text.Json.9.0.0/PACKAGE.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {

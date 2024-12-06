@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServerCoffeeApp</name>
+    </assembly>
+    <members>
+        <member name="T:ServerCoffeeApp.ExcelHandler">
+            <summary>
+            Класс для взаимодействия с Excel-файлами.
+            </summary>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.RegisterUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Регистрирует нового пользователя в Excel-файле.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="phone">Номер телефона пользователя.</param>
+            <param name="email">Электронная почта пользователя.</param>
+            <param name="birthdate">Дата рождения пользователя.</param>
+            <param name="password">Пароль пользователя.</param>
+            <param name="admin">Роль пользователя (по умолчанию "user").</param>
+            <returns>true, если регистрация успешна; false, если пользователь уже существует.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.AuthenticateUser(System.String,System.String)">
+            <summary>
+            Аутентифицирует пользователя по имени и паролю.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="password">Пароль пользователя.</param>
+            <returns>true, если аутентификация успешна; false, если имя пользователя или пароль неверны.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.checkAdmin(System.String)">
+            <summary>
+            Проверяет, является ли пользователь администратором.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>true, если пользователь является администратором; false, если нет.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.GetUserDetails(System.String)">
+            <summary>
+            Получает детали пользователя по имени.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Строка с деталями пользователя, разделенными символом '|', или null, если пользователь не найден.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.AddToArchive(System.String,System.String,System.Double)">
+            <summary>
+            Метод для добавления данных в файл Archive.xlsx.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="date">Дата завершенного заказа</param>
+            <param name="price">Сумма заказа</param>
+        </member>
+        <member name="M:ServerCoffeeApp.ExcelHandler.GetArchiveData">
+            <summary>
+            Получает данные из файла Archive.xlsx.
+            </summary>
+            <returns>Строка с данными из архива, разделенными символом '|', или пустая строка в случае ошибки.</returns>
+        </member>
+        <member name="T:ServerCoffeeApp.Program">
+            <summary>
+            Главный класс программы.
+            </summary>
+        </member>
+        <member name="M:ServerCoffeeApp.Program.Main(System.String[])">
+            <summary>
+            Главный метод программы.
+            </summary>
+            <param name="args">Аргументы командной строки.</param>
+        </member>
+        <member name="T:ServerCoffeeApp.UdpServer">
+            <summary>
+            Класс, представляющий UDP сервер.
+            </summary>
+        </member>
+        <member name="F:ServerCoffeeApp.UdpServer.dnsAddress">
+            <summary>
+            DNS адрес сервера.
+            </summary>
+        </member>
+        <member name="F:ServerCoffeeApp.UdpServer.PORT">
+            <summary>
+            Порт для прослушивания.
+            </summary>
+        </member>
+        <member name="F:ServerCoffeeApp.UdpServer.SIZE">
+            <summary>
+            Размер буфера для сообщений.
+            </summary>
+        </member>
+        <member name="F:ServerCoffeeApp.UdpServer.udpClient">
+            <summary>
+            UDP клиент.
+            </summary>
+        </member>
+        <member name="F:ServerCoffeeApp.UdpServer.aktiveOrder">
+            <summary>
+            Список активных заказов.
+            </summary>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.Start">
+            <summary>
+            Запускает сервер.
+            </summary>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.HandleClient(System.Byte[],System.Int32,System.Net.EndPoint,System.Net.Sockets.Socket)">
+            <summary>
+            Метод для обработки сообщения клиента в отдельном потоке.
+            </summary>
+            <param name="byteRec">Массив байтов, полученных от клиента.</param>
+            <param name="lenBytesReceived">Длина полученного сообщения в байтах.</param>
+            <param name="clientEndPoint">Конечная точка клиента.</param>
+            <param name="s1">Сокет для отправки ответа.</param>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.HandleRequest(System.String)">
+            <summary>
+            Метод для обработки запроса.
+            </summary>
+            <param name="message">Сообщение от клиента.</param>
+            <returns>Ответ на запрос клиента.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.checkRegister(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Метод для проверки регистрации.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="phone">Телефон.</param>
+            <param name="email">Email.</param>
+            <param name="birthdate">Дата рождения.</param>
+            <param name="password">Пароль.</param>
+            <param name="admin">Администратор.</param>
+            <returns>Сообщение о результате регистрации.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.checkAuthenticate(System.String,System.String)">
+            <summary>
+            Метод для проверки аутентификации.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="password">Пароль.</param>
+            <returns>Сообщение о результате аутентификации.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.checkAdminOrUser(System.String)">
+            <summary>
+            Метод для проверки на администратора.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Статус пользователя (администратор или пользователь).</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.checkUser(System.String)">
+            <summary>
+            Метод для проверки данных пользователя.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Детали пользователя или сообщение о том, что пользователь не найден.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.AddNewOrder(System.String,System.String)">
+            <summary>
+            Метод для добавления нового заказа.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="dataRec">Данные заказа в формате JSON.</param>
+            <returns>Сообщение о результате добавления заказа.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.paymentOrder(System.String)">
+            <summary>
+            Метод для подтверждения оплаты заказа.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Сообщение о результате подтверждения оплаты.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.nextStatusOrder(System.String,System.String)">
+            <summary>
+            Метод для обновления статуса заказа.
+            </summary>
+            <param name="t">Новый статус заказа.</param>
+            <param name="username">Имя пользователя.</param>
+            <returns>Сообщение о результате обновления статуса.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.detailsOrder(System.String)">
+            <summary>
+            Метод для получения деталей заказа.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Детали заказа в формате JSON или сообщение о том, что заказ не найден.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.deleteOrder(System.String)">
+            <summary>
+            Метод для удаления заказа и добавления его в архив.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <returns>Сообщение о результате удаления заказа.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.getOrders">
+            <summary>
+            Метод для получения всех заказов.
+            </summary>
+            <returns>Данные о заказах в формате JSON или сообщение об ошибке.</returns>
+        </member>
+        <member name="M:ServerCoffeeApp.UdpServer.getArchive">
+            <summary>
+            Метод для получения архива.
+            </summary>
+            <returns>Данные архива.</returns>
+        </member>
+    </members>
+</doc>
