@@ -10,7 +10,7 @@ namespace coffe_app
 {
     public partial class Profile : Window
     {
-        private const string ServerIp = "127.0.0.1"; 
+        private string ServerIp = MainWindow.myIP; 
         private static int PORT = 11000; 
         private string selectedCulture; 
         private MainWindow mainWindow; 

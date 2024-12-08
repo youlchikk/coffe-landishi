@@ -13,6 +13,7 @@ namespace coffe_app
     public partial class MainWindow : Window
     {
         public static Order CurrentOrder { get; set; }
+        public static string myIP = "";
         private string selectedCulture;
         private string username;
         private bool isAdmin;
@@ -80,7 +81,7 @@ namespace coffe_app
             {
                 using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 11000); // Замените на IP-адрес и порт вашего сервера
+                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(MainWindow.myIP), 11000); // Замените на IP-адрес и порт вашего сервера
 
                     string message = "getOrders|all";
                     byte[] data = Encoding.UTF8.GetBytes(message);

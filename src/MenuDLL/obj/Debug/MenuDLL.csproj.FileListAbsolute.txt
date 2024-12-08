@@ -23,3 +23,4 @@ C:\KP_KPO\coffe-landishi\doc\src\MenuDLL\obj\Debug\MenuDLL.csproj.AssemblyRefere
 C:\KP_KPO\coffe-landishi\doc\src\MenuDLL\obj\Debug\MenuDLL.csproj.CoreCompileInputs.cache
 C:\KP_KPO\coffe-landishi\doc\src\MenuDLL\obj\Debug\MenuDLL.dll
 C:\KP_KPO\coffe-landishi\doc\src\MenuDLL\obj\Debug\MenuDLL.pdb
+C:\KP_KPO\coffe-landishi\src\MenuDLL\bin\Debug\Doc.xml

@@ -93,7 +93,7 @@ namespace coffe_app {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/coffe-app;V1.0.0.0;component/news.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/coffe-app;component/news.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\News.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

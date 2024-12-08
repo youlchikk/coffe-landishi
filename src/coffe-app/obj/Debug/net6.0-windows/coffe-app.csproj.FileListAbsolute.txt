@@ -172,7 +172,6 @@ C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.deps.j
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.runtimeconfig.json
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.dll
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.pdb
-C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.xml
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\MenuDLL.dll
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\ServerCoffeeApp.exe
 C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\EPPlus.dll
@@ -219,7 +218,6 @@ C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.csproj
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.csproj.CopyComplete
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.dll
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\refint\coffe-app.dll
-C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.xml
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.pdb
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.genruntimeconfig.cache
 C:\KP_KPO\coffe-landishi\src\coffe-app\obj\Debug\net6.0-windows\ref\coffe-app.dll
@@ -278,3 +276,4 @@ C:\KP_KPO\coffe-landishi\doc\src\coffe-app\obj\Debug\net6.0-windows\refint\coffe
 C:\KP_KPO\coffe-landishi\doc\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.pdb
 C:\KP_KPO\coffe-landishi\doc\src\coffe-app\obj\Debug\net6.0-windows\coffe-app.genruntimeconfig.cache
 C:\KP_KPO\coffe-landishi\doc\src\coffe-app\obj\Debug\net6.0-windows\ref\coffe-app.dll
+C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\Doc.xml

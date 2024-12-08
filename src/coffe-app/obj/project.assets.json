@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\coffe-app\\coffe-app.csproj",
+      "projectUniqueName": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj",
       "projectName": "coffe-app",
-      "projectPath": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\coffe-app\\coffe-app.csproj",
+      "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj",
       "packagesPath": "C:\\Users\\yulya\\.nuget\\packages\\",
-      "outputPath": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\coffe-app\\obj\\",
+      "outputPath": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,11 +76,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\KP_KPO\\coffe-landishi\\doc\\src\\MenuDLL\\MenuDLL.csproj": {
-              "projectPath": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\MenuDLL\\MenuDLL.csproj"
+            "C:\\KP_KPO\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj": {
+              "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj"
             },
-            "C:\\KP_KPO\\coffe-landishi\\doc\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj": {
-              "projectPath": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj"
+            "C:\\KP_KPO\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj": {
+              "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj"
             }
           }
         }

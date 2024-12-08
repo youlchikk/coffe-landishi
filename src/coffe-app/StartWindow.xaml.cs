@@ -14,15 +14,31 @@ namespace coffe_app
 {
     public partial class StartWindow : Window
     {
-        private const string ServerIp = "127.0.0.1"; // Замените на IP-адрес вашего сервера
+        private string ServerIp = ""; // Замените на IP-адрес вашего сервера
         private static int PORT = 11000;
         private string selectedCulture = "ru-RU";
         private bool isAdmin;
         public StartWindow()
         {
+            FindIp();
             InitializeComponent();
             this.Language = XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag);
             SetLanguageResources();
+        }
+        public void FindIp()
+        {
+            IPHostEntry ipHostEntry = Dns.GetHostEntry("youlchikk");
+            string myHost = System.Net.Dns.GetHostName();
+            for (int i = 0; i <= System.Net.Dns.GetHostEntry("youlchikk").AddressList.Length -
+1; i++)
+            {
+                if (System.Net.Dns.GetHostEntry(myHost).AddressList[i].IsIPv6LinkLocal == false)
+                {
+                    MainWindow.myIP = System.Net.Dns.GetHostEntry(myHost).AddressList[i].ToString();
+                    ServerIp = MainWindow.myIP;
+                }
+            }
+
         }
 
         private void LanguageComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

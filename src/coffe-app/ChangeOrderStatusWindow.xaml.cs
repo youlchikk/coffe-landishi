@@ -16,7 +16,7 @@ namespace coffe_app
     {
         private List<Order> orders;
         private MainWindow mainWindow;
-        private const string ServerIp = "127.0.0.1"; // Замените на IP-адрес вашего сервера
+        private string ServerIp = MainWindow.myIP; // Замените на IP-адрес вашего сервера
         private static int PORT = 11000;
         private string selectedCulture;
         private string username;

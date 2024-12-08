@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YSXnjFFWk9q41VS3QdHFbnf/jKjeWBC1Bc1WnmyW1leQH5tyyazJ/WJhrCBct4n2gWA0/lB5/lIRQstHzNgsZg==",
+  "dgSpecHash": "Jnc4UvvUDPqdKmB5t3OsxOT0bM1/P2LnBtAhWqU7RepoEQgUKFXKymWTefR0xs4krzn2SkQZdtgB5s3U2vrCUg==",
   "success": true,
-  "projectFilePath": "C:\\KP_KPO\\coffe-landishi\\doc\\src\\coffe-app\\coffe-app.csproj",
+  "projectFilePath": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

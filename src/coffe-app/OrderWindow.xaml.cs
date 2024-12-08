@@ -17,7 +17,7 @@ namespace coffe_app
         private Order currentOrder;
         private List<Order> orders;
         private MainWindow mainWindow;
-        private const string ServerIp = "127.0.0.1";
+        private string ServerIp = MainWindow.myIP;
         private static int PORT = 11000;
         private string selectedCulture;
         private string username;

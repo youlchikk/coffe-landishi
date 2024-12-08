@@ -20,6 +20,6 @@
   <files>
     <file src="C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.runtimeconfig.json" target="lib\net6.0-windows7.0\coffe-app.runtimeconfig.json" />
     <file src="C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.dll" target="lib\net6.0-windows7.0\coffe-app.dll" />
-    <file src="C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\coffe-app.xml" target="lib\net6.0-windows7.0\coffe-app.xml" />
+    <file src="C:\KP_KPO\coffe-landishi\src\coffe-app\bin\Debug\net6.0-windows\Doc.xml" target="lib\net6.0-windows7.0\Doc.xml" />
   </files>
 </package>

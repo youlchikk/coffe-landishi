@@ -14,7 +14,7 @@ namespace coffe_app
     {
         private MainWindow mainWindow;
         private string selectedCulture;
-        private const string ServerIp = "127.0.0.1"; // Замените на IP-адрес вашего сервера
+        private string ServerIp = MainWindow.myIP; // Замените на IP-адрес вашего сервера
         private static int PORT = 11000;
 
         public StatisticsWindow(MainWindow mainWindow, string culture)
@@ -57,6 +57,7 @@ namespace coffe_app
                     int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
 
                     string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
+                    MessageBox.Show(response);
                     return response;
                 }
             }
@@ -74,11 +75,12 @@ namespace coffe_app
             var entries = archiveData.Split('|');
             foreach (var entry in entries)
             {
+                MessageBox.Show(entry);
                 var parts = entry.Split(' ');
                 if (parts.Length == 3)
                 {
-                    if (DateTime.TryParseExact(parts[1], "dd.MM.yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out var date)
-                        && double.TryParse(parts[2], out var price))
+                    if (DateTime.TryParseExact(parts[1], "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out var date)
+                        && double.TryParse(parts[2], NumberStyles.Any, new CultureInfo("fr-FR"), out var price))
                     {
                         records.Add(new ArchiveRecord
                         {
@@ -89,6 +91,7 @@ namespace coffe_app
                     }
                 }
             }
+
             return records;
         }
 
