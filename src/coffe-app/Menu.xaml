@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:coffe_app"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Меню Кофейни"
+    Icon="Resources/ico.ico"
     Width="800"
     Height="450"
     Background="#FFF3D9F2"

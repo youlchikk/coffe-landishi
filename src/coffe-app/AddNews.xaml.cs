@@ -34,10 +34,9 @@ namespace coffe_app
             }
             this.Resources.MergedDictionaries.Clear();
             this.Resources.MergedDictionaries.Add(dict);
-
-            // Обновляем текстовые метки для всех элементов
-            AddButton.Content = FindResource("Add").ToString();
-            CancelButton.Content = FindResource("Cancel").ToString();
+            // Обновляем текстовые метки для всех элементов 
+            AddButton.Content = FindResource("AddNews").ToString();                               
+            CancelButton.Content = FindResource("Exit").ToString();                        
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)

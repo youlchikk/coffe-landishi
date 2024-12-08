@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\ico.ico" />
     <ProjectReference Include="..\MenuDLL\MenuDLL.csproj" />
     <ProjectReference Include="..\ServerCoffeeApp\ServerCoffeeApp.csproj" />
   </ItemGroup>

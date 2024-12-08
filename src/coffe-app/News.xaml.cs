@@ -11,7 +11,7 @@ namespace coffe_app
     {
         private string selectedCulture;
         private MainWindow mainWindow;
-        private bool isAdmin; // Добавим переменную для проверки прав администратора
+        private bool isAdmin = true; // Добавим переменную для проверки прав администратора
 
         public News(string culture, MainWindow mainWindow, bool isAdmin)
         {

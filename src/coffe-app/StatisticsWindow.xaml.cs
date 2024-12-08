@@ -57,7 +57,6 @@ namespace coffe_app
                     int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
 
                     string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
-                    MessageBox.Show(response);
                     return response;
                 }
             }
@@ -75,7 +74,6 @@ namespace coffe_app
             var entries = archiveData.Split('|');
             foreach (var entry in entries)
             {
-                MessageBox.Show(entry);
                 var parts = entry.Split(' ');
                 if (parts.Length == 3)
                 {

@@ -124,8 +124,6 @@ namespace coffe_app
             Console.WriteLine(message);
             Console.WriteLine("Ответ сервера:");
             Console.WriteLine(response);
-
-            MessageBox.Show(response);
         }
 
 
