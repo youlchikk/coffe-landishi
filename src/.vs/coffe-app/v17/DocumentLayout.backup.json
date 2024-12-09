@@ -1,66 +1,128 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\coffe-app\\coffe-landishi\\coffe-app\\",
+  "WorkspaceRootPath": "C:\\coffe-app\\coffe-landishi\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|C:\\coffe-app\\coffe-landishi\\coffe-app\\servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\promotions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\promotions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\logic\\userpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\logic\\userpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D565E1EC-C9E6-454C-9AD8-B6563D211C2F}|MenuDLL\\MenuDLL.csproj|C:\\coffe-app\\coffe-landishi\\coffe-app\\menudll\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D565E1EC-C9E6-454C-9AD8-B6563D211C2F}|MenuDLL\\MenuDLL.csproj|solutionrelative:menudll\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\changeorderstatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\changeorderstatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|C:\\coffe-app\\coffe-landishi\\coffe-app\\servercoffeeapp\\excelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\orderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\changeorderstatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\changeorderstatuswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\statisticswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\statisticswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|C:\\coffe-app\\coffe-landishi\\src\\servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\udpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffetest\\exceltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|solutionrelative:coffetest\\exceltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|C:\\coffe-app\\coffe-landishi\\src\\servercoffeeapp\\excelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F204D46-5FB1-4B52-93FB-81430D13129C}|ServerCoffeeApp\\ServerCoffeeApp.csproj|solutionrelative:servercoffeeapp\\excelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffetest\\starttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|solutionrelative:coffetest\\starttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffetest\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|solutionrelative:coffetest\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D565E1EC-C9E6-454C-9AD8-B6563D211C2F}|MenuDLL\\MenuDLL.csproj|C:\\coffe-app\\coffe-landishi\\src\\menudll\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D565E1EC-C9E6-454C-9AD8-B6563D211C2F}|MenuDLL\\MenuDLL.csproj|solutionrelative:menudll\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffetest\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1851BCF9-3BE0-424F-AE24-0CAA4E6A5878}|CoffeTest\\CoffeTest.csproj|solutionrelative:coffetest\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\news.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\news.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\news.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\news.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\addnews.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\addnews.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\addnews.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\addnews.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\promotions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\promotions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|c:\\coffe-app\\coffe-landishi\\src\\coffe-app\\logic\\userpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B91CA791-543B-4E91-BC9A-BF215AF3DB01}|coffe-app\\coffe-app.csproj|solutionrelative:coffe-app\\logic\\userpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 444,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 199,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 199,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "UdpServer.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\UdpServer.cs",
               "RelativeDocumentMoniker": "ServerCoffeeApp\\UdpServer.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\UdpServer.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\UdpServer.cs",
               "RelativeToolTip": "ServerCoffeeApp\\UdpServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T08:15:31.208Z",
               "IsPinned": true,
@@ -68,16 +130,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\MainWindow.xaml.cs",
               "RelativeToolTip": "coffe-app\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAlwFYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T11:03:47.909Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatisticsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\StatisticsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "coffe-app\\StatisticsWindow.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\StatisticsWindow.xaml.cs",
+              "RelativeToolTip": "coffe-app\\StatisticsWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAlwCAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:13:57.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "coffe-app\\Profile.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Profile.xaml.cs",
+              "RelativeToolTip": "coffe-app\\Profile.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:13:19.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeOrderStatusWindow.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\ChangeOrderStatusWindow.xaml.cs",
+              "RelativeDocumentMoniker": "coffe-app\\ChangeOrderStatusWindow.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\ChangeOrderStatusWindow.xaml.cs",
+              "RelativeToolTip": "coffe-app\\ChangeOrderStatusWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:13:02.541Z",
               "EditorCaption": ""
             },
             {
@@ -90,44 +191,176 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "coffe-app\\MainWindow.xaml",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\MainWindow.xaml",
+              "RelativeToolTip": "coffe-app\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T08:47:15.468Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ExcelTest.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\ExcelTest.cs",
+              "RelativeDocumentMoniker": "CoffeTest\\ExcelTest.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\ExcelTest.cs",
+              "RelativeToolTip": "CoffeTest\\ExcelTest.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:33:13.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Validation.cs",
+              "RelativeDocumentMoniker": "coffe-app\\Validation.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Validation.cs",
+              "RelativeToolTip": "coffe-app\\Validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:23:28.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartTest.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\StartTest.cs",
+              "RelativeDocumentMoniker": "CoffeTest\\StartTest.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\StartTest.cs",
+              "RelativeToolTip": "CoffeTest\\StartTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:12:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "StartWindow.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\StartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\StartWindow.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\StartWindow.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\StartWindow.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\StartWindow.xaml.cs",
               "RelativeToolTip": "coffe-app\\StartWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T14:48:25.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CoffeTest\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CoffeTest\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:31:44.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CoffeTest.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs",
+              "RelativeToolTip": "CoffeTest\\obj\\Debug\\net6.0-windows\\CoffeTest.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:00:45.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\Order.cs",
+              "RelativeDocumentMoniker": "CoffeTest\\Order.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\Order.cs",
+              "RelativeToolTip": "CoffeTest\\Order.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwBQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:45:00.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "News.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\News.xaml.cs",
+              "RelativeDocumentMoniker": "coffe-app\\News.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\News.xaml.cs",
+              "RelativeToolTip": "coffe-app\\News.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:05:38.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddNews.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\AddNews.xaml.cs",
+              "RelativeDocumentMoniker": "coffe-app\\AddNews.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\AddNews.xaml.cs",
+              "RelativeToolTip": "coffe-app\\AddNews.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:05:25.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "News.xaml",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\News.xaml",
+              "RelativeDocumentMoniker": "coffe-app\\News.xaml",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\News.xaml",
+              "RelativeToolTip": "coffe-app\\News.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T07:58:29.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddNews.xaml",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\AddNews.xaml",
+              "RelativeDocumentMoniker": "coffe-app\\AddNews.xaml",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\AddNews.xaml",
+              "RelativeToolTip": "coffe-app\\AddNews.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T07:58:26.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UserPromotions.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\logic\\UserPromotions.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\logic\\UserPromotions.cs",
               "RelativeDocumentMoniker": "coffe-app\\logic\\UserPromotions.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\logic\\UserPromotions.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\logic\\UserPromotions.cs",
               "RelativeToolTip": "coffe-app\\logic\\UserPromotions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,37 +369,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChangeOrderStatusWindow.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\ChangeOrderStatusWindow.xaml.cs",
-              "RelativeDocumentMoniker": "coffe-app\\ChangeOrderStatusWindow.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\ChangeOrderStatusWindow.xaml.cs",
-              "RelativeToolTip": "coffe-app\\ChangeOrderStatusWindow.xaml.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAwwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:45:57.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderWindow.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\OrderWindow.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\OrderWindow.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\OrderWindow.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\OrderWindow.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\OrderWindow.xaml.cs",
               "RelativeToolTip": "coffe-app\\OrderWindow.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwEkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T08:53:49.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "Promotions.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Promotions.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Promotions.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\Promotions.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Promotions.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Promotions.xaml.cs",
               "RelativeToolTip": "coffe-app\\Promotions.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,13 +395,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Menu.xaml.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Menu.xaml.cs",
               "RelativeDocumentMoniker": "coffe-app\\Menu.xaml.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\coffe-app\\Menu.xaml.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\Menu.xaml.cs",
               "RelativeToolTip": "coffe-app\\Menu.xaml.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwHsAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T11:12:31.816Z",
               "EditorCaption": ""
@@ -190,23 +410,24 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ExcelHandler.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ExcelHandler.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\ExcelHandler.cs",
               "RelativeDocumentMoniker": "ServerCoffeeApp\\ExcelHandler.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\ServerCoffeeApp\\ExcelHandler.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\ExcelHandler.cs",
               "RelativeToolTip": "ServerCoffeeApp\\ExcelHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:45:27.224Z"
+              "WhenOpened": "2024-12-03T08:45:27.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\coffe-app\\MenuDLL\\Order.cs",
+              "DocumentMoniker": "C:\\coffe-app\\coffe-landishi\\src\\MenuDLL\\Order.cs",
               "RelativeDocumentMoniker": "MenuDLL\\Order.cs",
-              "ToolTip": "C:\\coffe-app\\coffe-landishi\\coffe-app\\MenuDLL\\Order.cs",
+              "ToolTip": "C:\\coffe-app\\coffe-landishi\\src\\MenuDLL\\Order.cs",
               "RelativeToolTip": "MenuDLL\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwFMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T08:54:28.264Z",
               "EditorCaption": ""

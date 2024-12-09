@@ -22,4 +22,6 @@
     <System:String x:Key="Promotions">Акции</System:String>
     <System:String x:Key="AddToOrder">Добавить в заказ</System:String>
     <System:String x:Key="AddNews">Добавить новость</System:String>
+    <System:String x:Key="StatusOrder">Изменение статуса заказа</System:String>
+    <System:String x:Key="Statistics">Статистика</System:String>
 </ResourceDictionary>

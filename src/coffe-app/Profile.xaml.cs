@@ -10,7 +10,6 @@ namespace coffe_app
 {
     public partial class Profile : Window
     {
-        private string ServerIp = MainWindow.myIP; 
         private static int PORT = 11000; 
         private string selectedCulture; 
         private MainWindow mainWindow; 
@@ -69,7 +68,7 @@ namespace coffe_app
             try
             {
                 Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-                IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
+                IPEndPoint serverEndpoint = new IPEndPoint(MainWindow.myIP, PORT);
                 string message = $"checkUser|{username}";
                 byte[] data = Encoding.UTF8.GetBytes(message);
                 s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);

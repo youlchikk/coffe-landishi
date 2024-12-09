@@ -22,4 +22,6 @@
     <System:String x:Key="Promotions">Promotions</System:String>
     <System:String x:Key="AddToOrder">Add To Order</System:String>
     <System:String x:Key="AddNews">Add News</System:String>
+    <System:String x:Key="StatusOrder">Change Order Status</System:String>
+    <System:String x:Key="Statistics">Statistics</System:String>
 </ResourceDictionary>

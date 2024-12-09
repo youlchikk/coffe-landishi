@@ -12,6 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Resources\ico.ico" />
     <ProjectReference Include="..\MenuDLL\MenuDLL.csproj" />
     <ProjectReference Include="..\ServerCoffeeApp\ServerCoffeeApp.csproj" />

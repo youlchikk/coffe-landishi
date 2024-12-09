@@ -13,7 +13,7 @@ namespace coffe_app
     public partial class MainWindow : Window
     {
         public static Order CurrentOrder { get; set; }
-        public static string myIP = "";
+        public static IPAddress myIP;
         private string selectedCulture;
         private string username;
         private bool isAdmin;
@@ -53,6 +53,9 @@ namespace coffe_app
             ProfileButton.Content = FindResource("Profile").ToString();
             NewsButton.Content = FindResource("News").ToString();
             ExitButton.Content = FindResource("Exit").ToString();
+            //Обновляем текст для кнопок администратора 
+            StatusOrderButton.Content = FindResource("StatusOrder").ToString(); 
+            StatisticsButton.Content = FindResource("Statistics").ToString();
         }
 
         private void SetupAdminButtons()
@@ -81,7 +84,7 @@ namespace coffe_app
             {
                 using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(MainWindow.myIP), 11000); // Замените на IP-адрес и порт вашего сервера
+                    IPEndPoint serverEndpoint = new IPEndPoint(MainWindow.myIP, 11000); // Замените на IP-адрес и порт вашего сервера
 
                     string message = "getOrders|all";
                     byte[] data = Encoding.UTF8.GetBytes(message);

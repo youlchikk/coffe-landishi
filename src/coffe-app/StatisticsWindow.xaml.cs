@@ -14,7 +14,6 @@ namespace coffe_app
     {
         private MainWindow mainWindow;
         private string selectedCulture;
-        private string ServerIp = MainWindow.myIP; // Замените на IP-адрес вашего сервера
         private static int PORT = 11000;
 
         public StatisticsWindow(MainWindow mainWindow, string culture)
@@ -46,7 +45,7 @@ namespace coffe_app
             {
                 using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
+                    IPEndPoint serverEndpoint = new IPEndPoint(MainWindow.myIP, PORT);
 
                     string message = "getArchive"; // Команда для получения данных архива
                     byte[] data = Encoding.UTF8.GetBytes(message);

@@ -14,10 +14,9 @@ namespace coffe_app
 {
     public partial class StartWindow : Window
     {
-        private string ServerIp = ""; // Замените на IP-адрес вашего сервера
-        private static int PORT = 11000;
-        private string selectedCulture = "ru-RU";
-        private bool isAdmin;
+        public static int PORT = 11000;
+        public string selectedCulture = "ru-RU";
+        public bool isAdmin;
         public StartWindow()
         {
             FindIp();
@@ -27,21 +26,19 @@ namespace coffe_app
         }
         public void FindIp()
         {
-            IPHostEntry ipHostEntry = Dns.GetHostEntry("youlchikk");
-            string myHost = System.Net.Dns.GetHostName();
-            for (int i = 0; i <= System.Net.Dns.GetHostEntry("youlchikk").AddressList.Length -
-1; i++)
+            IPHostEntry ipHostEntry = Dns.Resolve("youlchikk");
+            IPAddress ip = ipHostEntry.AddressList[0];
+            for (int i = 0; i < ipHostEntry.AddressList.Length; i++)
             {
-                if (System.Net.Dns.GetHostEntry(myHost).AddressList[i].IsIPv6LinkLocal == false)
+                if (ipHostEntry.AddressList[i].IsIPv6LinkLocal == false)
                 {
-                    MainWindow.myIP = System.Net.Dns.GetHostEntry(myHost).AddressList[i].ToString();
-                    ServerIp = MainWindow.myIP;
+                    MainWindow.myIP = ipHostEntry.AddressList[i];
                 }
             }
 
         }
 
-        private void LanguageComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        public void LanguageComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ComboBoxItem selectedItem = (ComboBoxItem)LanguageComboBox.SelectedItem;
             if (selectedItem != null)
@@ -53,7 +50,7 @@ namespace coffe_app
             }
         }
 
-        private void ChangeLanguageDictionary(string culture)
+        public void ChangeLanguageDictionary(string culture)
         {
             ResourceDictionary dict = new ResourceDictionary();
             switch (culture)
@@ -70,7 +67,7 @@ namespace coffe_app
             this.Resources.MergedDictionaries.Add(dict);
         }
 
-        private void SetLanguageResources()
+        public void SetLanguageResources()
         {
             LoginButton.Content = FindResource("Next").ToString();
             RegisterButton.Content = FindResource("Next").ToString();
@@ -88,12 +85,12 @@ namespace coffe_app
             RegisterPasswordPlaceholder.Content = FindResource("Password").ToString();
         }
 
-        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        public void ExitButton_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
         }
 
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        public void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             string username = LoginUsername.Text;
             string password = LoginPassword.Password;
@@ -118,7 +115,7 @@ namespace coffe_app
             }
         }
 
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        public void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             string username = RegisterUsername.Text;
             string phone = RegisterPhone.Text;
@@ -161,16 +158,15 @@ namespace coffe_app
             }
         }
 
-        private string SendMessageToServer(string message)
+        public string SendMessageToServer(string message)
         {
             try
             {
                 Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-                IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
+                IPEndPoint serverEndpoint = new IPEndPoint(MainWindow.myIP, PORT);
 
                 byte[] data = Encoding.UTF8.GetBytes(message);
                 s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);
-
                 byte[] byteRec = new byte[512];
                 EndPoint serverEndPoint = new IPEndPoint(IPAddress.Any, 0);
                 int responseLength = s1.ReceiveFrom(byteRec, ref serverEndPoint);
@@ -183,15 +179,15 @@ namespace coffe_app
             }
         }
 
-        private bool IsValidEmail(string email)
+        public bool IsValidEmail(string email)
         {
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
         }
 
-        private bool IsValidPhone(string phone)
+        public bool IsValidPhone(string phone)
         {
-            string pattern = @"^\+?[1-9]\d{1,14}$";
+            string pattern = @"^\+?[1-9]\d{6,14}$";
             return Regex.IsMatch(phone, pattern);
         }
     }

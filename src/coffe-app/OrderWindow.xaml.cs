@@ -17,7 +17,6 @@ namespace coffe_app
         private Order currentOrder;
         private List<Order> orders;
         private MainWindow mainWindow;
-        private string ServerIp = MainWindow.myIP;
         private static int PORT = 11000;
         private string selectedCulture;
         private string username;
@@ -160,7 +159,7 @@ namespace coffe_app
             {
                 using (Socket s1 = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp))
                 {
-                    IPEndPoint serverEndpoint = new IPEndPoint(IPAddress.Parse(ServerIp), PORT);
+                    IPEndPoint serverEndpoint = new IPEndPoint(MainWindow.myIP, PORT);
 
                     byte[] data = Encoding.UTF8.GetBytes(message);
                     s1.SendTo(data, data.Length, SocketFlags.None, serverEndpoint);

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+<PackageReference Include="DocumentFormat.OpenXml" Version="3.2.0" />
+<PackageReference Include="EPPlus" Version="7.5.1" />
+<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="OfficeOpenXml.Core.ExcelPackage" Version="1.0.0" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ExcelTest.cs" />
+    <Compile Include="StartTest.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\coffe-app\coffe-app.csproj" />
+    <ProjectReference Include="..\MenuDLL\MenuDLL.csproj" />
+    <ProjectReference Include="..\ServerCoffeeApp\ServerCoffeeApp.csproj" />
+  </ItemGroup>
+
+</Project>
