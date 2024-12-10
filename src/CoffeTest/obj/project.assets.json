@@ -4790,23 +4790,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asus\\.nuget\\packages\\": {},
+    "C:\\Users\\yulya\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\CoffeTest.csproj",
+      "projectUniqueName": "C:\\KP_KPO\\coffe-landishi\\src\\CoffeTest\\CoffeTest.csproj",
       "projectName": "CoffeTest",
-      "projectPath": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\CoffeTest.csproj",
-      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\coffe-app\\coffe-landishi\\src\\CoffeTest\\obj\\",
+      "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\CoffeTest\\CoffeTest.csproj",
+      "packagesPath": "C:\\Users\\yulya\\.nuget\\packages\\",
+      "outputPath": "C:\\KP_KPO\\coffe-landishi\\src\\CoffeTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yulya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4815,20 +4815,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj": {
-              "projectPath": "C:\\coffe-app\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj"
+            "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj": {
+              "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\coffe-app\\coffe-app.csproj"
             },
-            "C:\\coffe-app\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj": {
-              "projectPath": "C:\\coffe-app\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj"
+            "C:\\KP_KPO\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj": {
+              "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\MenuDLL\\MenuDLL.csproj"
             },
-            "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj": {
-              "projectPath": "C:\\coffe-app\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj"
+            "C:\\KP_KPO\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj": {
+              "projectPath": "C:\\KP_KPO\\coffe-landishi\\src\\ServerCoffeeApp\\ServerCoffeeApp.csproj"
             }
           }
         }
@@ -4837,13 +4838,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -4897,20 +4892,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "У пакета \"System.Text.RegularExpressions\" 4.3.0 есть известная уязвимость https://github.com/advisories/GHSA-cmhx-cq75-c4mj (уровень серьезности: высокий)",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -467,10 +467,7 @@
       },
       "MenuDLL/1.0.0": {
         "runtime": {
-          "MenuDLL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "MenuDLL.dll": {}
         }
       },
       "ServerCoffeeApp/1.0.0": {
@@ -478,10 +475,7 @@
           "MenuDLL": "1.0.0"
         },
         "runtime": {
-          "ServerCoffeeApp.exe": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "ServerCoffeeApp.exe": {}
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {

@@ -109,7 +109,7 @@ namespace coffe_app
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при получении заказов: {ex.Message}");
+               // MessageBox.Show($"Ошибка при получении заказов: {ex.Message}");
                 return new List<Order>();
             }
         }
