@@ -488,3 +488,14 @@ createOrder: заказ успешно добавлен
 
 login: Аутентификация успешна
 admin?: администратор
+Сервер активен: 09.12.2024 21:43:50
+
+login: Аутентификация успешна
+admin?: администратор
+checkUser: +375-29-356-12-49|yulia@mail.ru|06-05-2004|admin
+login: Аутентификация успешна
+admin?: администратор
+checkUser: +375-29-356-12-49|yulia@mail.ru|06-05-2004|admin
+createOrder: заказ успешно добавлен
+getOrders: {"username":"youlchikk","price":9.4000000000000004,"status":1,"pay":false,"components":[{"price":3.5,"volume":400,"HotOrCold":true,"description":"\u041B\u0430\u0442\u0442\u0435 \u0441 \u043C\u0430\u043B\u0438\u043D\u043E\u0432\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"},{"price":4,"volume":75,"HotOrCold":false,"description":"\u041A\u0440\u0443\u0430\u0441\u0430\u043D"},{"price":4.5,"volume":500,"HotOrCold":true,"description":"\u0424\u043B\u044D\u0442 \u0423\u0430\u0439\u0442 \u0441 \u043A\u0430\u0440\u0430\u043C\u0435\u043B\u044C\u043D\u044B\u043C \u0441\u0438\u0440\u043E\u043F\u043E\u043C"}]}
+getArchive: username date price|user1 2024-11-25 11,00|youlchikk 2024-11-25 4,00|user1 2024-12-05 9,9|user1 2024-12-06 12|youlchikk 2024-12-08 15|youlchikk 2024-12-08 5

@@ -104,13 +104,6 @@ namespace coffe_app
             string message = $"{statusCommand}|{username}";
             string response = SendMessageToServer(message);
 
-            // Логирование отправляемого сообщения и ответа сервера
-            Console.WriteLine("Отправляемое сообщение:");
-            Console.WriteLine(message);
-            Console.WriteLine("Ответ сервера:");
-            Console.WriteLine(response);
-
-            MessageBox.Show(response);
         }
 
         private void ChangeOrderPayment(string username, bool payment)
@@ -118,11 +111,6 @@ namespace coffe_app
             string message = payment ? $"PaymentOrder|{username}" : $"UnpaymentOrder|{username}"; // Обновите на корректную команду, если требуется
             string response = SendMessageToServer(message);
 
-            // Логирование отправляемого сообщения и ответа сервера
-            Console.WriteLine("Отправляемое сообщение:");
-            Console.WriteLine(message);
-            Console.WriteLine("Ответ сервера:");
-            Console.WriteLine(response);
         }
 
 

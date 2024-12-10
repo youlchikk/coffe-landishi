@@ -98,7 +98,6 @@ namespace coffe_app
             if (PromotionsListBox.SelectedItem is ListBoxItem selectedItem)
             {
                 var selectedPromotion = selectedItem.Tag as Promotion;
-                MessageBox.Show(promotions[0].components.Count.ToString());
                 for (int i = 0; i < promotions.Count; i++)
                 {
                     if (promotions[i].conditions == selectedPromotion.conditions)

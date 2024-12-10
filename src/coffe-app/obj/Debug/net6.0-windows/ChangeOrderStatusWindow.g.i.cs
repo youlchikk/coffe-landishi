@@ -60,7 +60,7 @@ namespace coffe_app {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/coffe-app;component/changeorderstatuswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/coffe-app;V1.0.0.0;component/changeorderstatuswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ChangeOrderStatusWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

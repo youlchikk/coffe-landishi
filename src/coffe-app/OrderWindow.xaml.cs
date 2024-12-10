@@ -133,15 +133,9 @@ namespace coffe_app
 
             string message = $"createOrder|{currentOrder.username}|{jsonOrder}";
 
-            // Логируем отправляемое сообщение
-            Console.WriteLine("Отправляемое сообщение:");
-            Console.WriteLine(message);
 
             string response = SendMessageToServer(message);
 
-            // Логируем ответ сервера
-            Console.WriteLine("Ответ сервера:");
-            Console.WriteLine(response);
 
             if (response.Contains("успешно"))
             {
@@ -170,10 +164,6 @@ namespace coffe_app
 
                     string response = Encoding.UTF8.GetString(byteRec, 0, responseLength);
 
-                    // Логируем ответ
-                    Console.WriteLine("Получен ответ от сервера:");
-                    Console.WriteLine(response);
-
                     return response;
                 }
             }
@@ -187,13 +177,6 @@ namespace coffe_app
             string message = $"deleteOrder|{username}";
             string response = SendMessageToServer(message);
 
-            // Логируем отправляемое сообщение и ответ сервера
-            Console.WriteLine("Отправляемое сообщение для удаления заказа:");
-            Console.WriteLine(message);
-            Console.WriteLine("Ответ сервера:");
-            Console.WriteLine(response);
-
-            MessageBox.Show(response);
         }
 
         private void BackToMain_Click(object sender, RoutedEventArgs e)

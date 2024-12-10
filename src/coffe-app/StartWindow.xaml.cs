@@ -26,7 +26,7 @@ namespace coffe_app
         }
         public void FindIp()
         {
-            IPHostEntry ipHostEntry = Dns.Resolve("youlchikk");
+            IPHostEntry ipHostEntry = Dns.Resolve("tori");
             IPAddress ip = ipHostEntry.AddressList[0];
             for (int i = 0; i < ipHostEntry.AddressList.Length; i++)
             {

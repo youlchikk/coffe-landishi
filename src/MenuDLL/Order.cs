@@ -77,10 +77,8 @@ namespace MenuDLL
         public void addPromotion(Promotion promotion)
         {
             this.price += promotion.price;
-            MessageBox.Show("addPromotion");
             foreach (var item in promotion.components)
             {
-                MessageBox.Show("1");
                 this.components.Add(item);
             }
         }
